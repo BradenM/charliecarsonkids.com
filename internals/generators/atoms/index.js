@@ -57,7 +57,7 @@ module.exports = {
 
     actions.push({
       type: 'prettify',
-      path: '/components/',
+      path: '/components/atoms/',
     });
 
     return actions;

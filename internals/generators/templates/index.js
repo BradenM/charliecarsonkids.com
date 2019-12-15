@@ -68,7 +68,7 @@ module.exports = {
 
     actions.push({
       type: 'prettify',
-      path: '/components/',
+      path: '/components/templates/',
     });
 
     return actions;
