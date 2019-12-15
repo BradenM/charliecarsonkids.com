@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots A default 1`] = `
+<a
+  className="A-br8h0y-0 dwVNvo"
+  href="https://www.google.com"
+>
+  A Link
+</a>
+`;
+
+exports[`Storyshots Img default 1`] = `
+<img
+  alt="placeholder - 200x200"
+  src="https://via.placeholder.com/200"
+/>
+`;
