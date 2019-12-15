@@ -9,6 +9,11 @@ const path = require('path');
 const { execSync } = require('child_process');
 const componentGenerator = require('./component/index.js');
 const containerGenerator = require('./container/index.js');
+const atomGenerator = require('./atoms/index.js');
+const moleculeGenerator = require('./molecules/index.js');
+const organismGenerator = require('./organisms/index.js');
+const templateGenerator = require('./templates/index.js');
+const pageGenerator = require('./pages/index.js');
 const languageGenerator = require('./language/index.js');
 
 /**
@@ -20,6 +25,11 @@ const BACKUPFILE_EXTENSION = 'rbgen';
 module.exports = plop => {
   plop.setGenerator('component', componentGenerator);
   plop.setGenerator('container', containerGenerator);
+  plop.setGenerator('atom', atomGenerator);
+  plop.setGenerator('molecule', moleculeGenerator);
+  plop.setGenerator('organism', organismGenerator);
+  plop.setGenerator('template', templateGenerator);
+  plop.setGenerator('page', pageGenerator);
   plop.setGenerator('language', languageGenerator);
   plop.addHelper('directory', comp => {
     try {
