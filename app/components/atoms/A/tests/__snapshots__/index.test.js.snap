@@ -2,6 +2,6 @@
 
 exports[`<A /> Should render and match the snapshot 1`] = `
 <a
-  class="A-br8h0y-0 dwVNvo"
+  class="A-sc-1a8cdcp-0 jDjlTp"
 />
 `;

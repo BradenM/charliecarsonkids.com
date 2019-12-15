@@ -6,13 +6,11 @@
 // When you add this file, we won't add the default configurations which is similar
 // to "React Create App". This only has babel loader to load JavaScript.
 
-module.exports = {
-  plugins: [
-    // your custom plugins
-  ],
-  module: {
-    rules: [
-      // add your custom rules.
-    ],
-  },
+const custom = require('../internals/webpack/webpack.dev.babel');
+
+module.exports = async ({ config, mode }) => {
+  return {
+    ...config,
+    resolve: { ...config.resolve, ...custom.resolve },
+  };
 };

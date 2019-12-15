@@ -116,7 +116,14 @@ module.exports = options => ({
     }),
   ]),
   resolve: {
-    modules: ['node_modules', 'app', 'app/components'],
+    modules: ['node_modules', 'app'],
+    alias: {
+      atoms: path.resolve('app/components/atoms/'),
+      molecules: path.resolve('app/components/molecules/'),
+      organisms: path.resolve('app/components/organisms/'),
+      templates: path.resolve('app/components/templates/'),
+      pages: path.resolve('app/components/pages/'),
+    },
     extensions: ['.js', '.jsx', '.react.js'],
     mainFields: ['browser', 'jsnext:main', 'main'],
   },
