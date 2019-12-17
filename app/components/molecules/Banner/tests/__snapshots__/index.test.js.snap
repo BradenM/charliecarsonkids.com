@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> Should render and match the snapshot 1`] = `
+<div
+  class="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+>
+  <div
+    class="align-items-center row"
+  >
+    <div
+      class="text-center col"
+    >
+      <h2
+        class="lead Subtitle-u7sjxt-0 dpMNPi"
+        color="white"
+      >
+        Banner Content
+      </h2>
+    </div>
+  </div>
+</div>
+`;
