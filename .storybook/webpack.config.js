@@ -12,5 +12,15 @@ module.exports = async ({ config, mode }) => {
   return {
     ...config,
     resolve: { ...config.resolve, ...custom.resolve },
+    module: {
+      rules: [
+        ...config.module.rules,
+        {
+          test: /\.stories\.jsx?$/,
+          loaders: [require.resolve('@storybook/source-loader')],
+          enforce: 'pre',
+        },
+      ],
+    },
   };
 };
