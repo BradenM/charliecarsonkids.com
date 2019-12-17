@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> Should render and match the snapshot 1`] = `
+<nav
+  class="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+>
+  <button
+    aria-controls="responsive-navbar-nav"
+    aria-label="Toggle navigation"
+    class="navbar-toggler collapsed"
+    type="button"
+  >
+    <span
+      class="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    class="navbar-collapse collapse"
+    id="responsive-navbar-nav"
+  >
+    <div
+      class="m-auto justify-content-around navbar-nav"
+    >
+      <a
+        class="nav-link"
+        data-rb-event-key="new"
+        href="new"
+      >
+        new
+      </a>
+      <a
+        class="nav-link"
+        data-rb-event-key="boys"
+        href="boys"
+      >
+        boys
+      </a>
+      <a
+        class="nav-link"
+        data-rb-event-key="girls"
+        href="girls"
+      >
+        girls
+      </a>
+      <a
+        class="nav-link"
+        data-rb-event-key="baby"
+        href="baby"
+      >
+        baby
+      </a>
+      <a
+        class="nav-link"
+        data-rb-event-key="collections"
+        href="collections"
+      >
+        collections
+      </a>
+      <a
+        class="nav-link"
+        data-rb-event-key="about"
+        href="about"
+      >
+        about
+      </a>
+    </div>
+  </div>
+</nav>
+`;
