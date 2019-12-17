@@ -61,6 +61,11 @@
       "git add --force"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
+    }
+  },
   "pre-commit": "lint:staged",
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
@@ -121,10 +126,12 @@
     "babel-plugin-styled-components": "1.10.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "circular-dependency-plugin": "5.0.2",
+    "commitizen": "^4.0.3",
     "compare-versions": "3.4.0",
     "compression-webpack-plugin": "2.0.0",
     "coveralls": "3.0.3",
     "css-loader": "2.1.1",
+    "cz-emoji": "^1.1.2",
     "eslint": "5.16.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "13.1.0",
