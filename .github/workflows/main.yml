@@ -16,7 +16,7 @@ jobs:
           node-version: '12'
 
       - name: Install Project
-        run: yarn install
+        run: yarn install --frozen-lockfile
 
       - name: Generate Templates
         run: node ./internals/scripts/generate-templates-for-linting
