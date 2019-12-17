@@ -14,10 +14,10 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
         class="border-0  list-group list-group-horizontal"
       >
         <div
-          class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
         >
           <div
-            class="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div>
               <div>
@@ -30,10 +30,10 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
         >
           <div
-            class="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div>
               <div>
@@ -46,10 +46,10 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
         >
           <div
-            class="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div>
               <div>
@@ -70,13 +70,13 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
         class="border-0  list-group list-group-horizontal"
       >
         <div
-          class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
         >
           <div
-            class="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div
-              class="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+              class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
             >
               <div
                 style="width: 40px; height: 100%; transform: rotate(90deg); cursor: pointer;"
@@ -85,13 +85,13 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
         >
           <div
-            class="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div
-              class="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+              class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
             >
               <div
                 style="width: 40px; height: 100%; transform: rotate(0deg); cursor: pointer;"
@@ -125,7 +125,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
       class="col"
     >
       <nav
-        class="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+        class="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
       >
         <button
           aria-controls="responsive-navbar-nav"

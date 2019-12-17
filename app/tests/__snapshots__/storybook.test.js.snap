@@ -33,7 +33,7 @@ exports[`Storyshots Design|Atoms/A Default Link 1`] = `
         }
       >
         <a
-          className="A-sc-1a8cdcp-0 jDjlTp"
+          className="A-ml9y9l-0 gDIWOl"
           href="https://www.google.com"
         >
           A Link
@@ -100,7 +100,7 @@ exports[`Storyshots Design|Atoms/Anicon Search Anicon 1`] = `
         }
       >
         <div
-          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+          className="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
         >
@@ -177,7 +177,7 @@ exports[`Storyshots Design|Atoms/Anicon With Dynamic Variables 1`] = `
         }
       >
         <div
-          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+          className="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
         >
@@ -316,7 +316,7 @@ exports[`Storyshots Design|Atoms/IconButton Facebook Icon Button 1`] = `
         }
       >
         <div
-          className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+          className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
         >
           <div
             onClick={[Function]}
@@ -449,7 +449,7 @@ exports[`Storyshots Design|Atoms/Subtitle Blue Subtitle 1`] = `
         }
       >
         <h2
-          className="Subtitle-u7sjxt-0 dahTqR"
+          className="Subtitle-yqye76-0 iMMeuJ"
           color="blue"
           size="large"
         >
@@ -517,7 +517,7 @@ exports[`Storyshots Design|Atoms/Subtitle Default Size 1`] = `
         }
       >
         <h2
-          className="Subtitle-u7sjxt-0 kzmaqG"
+          className="Subtitle-yqye76-0 bCUwuB"
           color="inherit"
           size="large"
         >
@@ -585,7 +585,7 @@ exports[`Storyshots Design|Atoms/Subtitle Medium Size 1`] = `
         }
       >
         <h2
-          className="Subtitle-u7sjxt-0 kMQzTS"
+          className="Subtitle-yqye76-0 hyLxBF"
           color="inherit"
           size="medium"
         >
@@ -653,7 +653,7 @@ exports[`Storyshots Design|Atoms/Subtitle Small Size 1`] = `
         }
       >
         <h2
-          className="Subtitle-u7sjxt-0 breSlT"
+          className="Subtitle-yqye76-0 zJRux"
           color="inherit"
           size="small"
         >
@@ -721,7 +721,7 @@ exports[`Storyshots Design|Atoms/Title Blue Title 1`] = `
         }
       >
         <h1
-          className="Title-rsln9a-0 hlsiLW"
+          className="Title-sc-3abvrr-0 dgDAKb"
           color="blue"
           size="large"
         >
@@ -789,7 +789,7 @@ exports[`Storyshots Design|Atoms/Title Default Size 1`] = `
         }
       >
         <h1
-          className="Title-rsln9a-0 rEGLt"
+          className="Title-sc-3abvrr-0 bMsmFf"
           color="inherit"
           size="large"
         >
@@ -857,7 +857,7 @@ exports[`Storyshots Design|Atoms/Title Medium Size 1`] = `
         }
       >
         <h1
-          className="Title-rsln9a-0 dZmWGk"
+          className="Title-sc-3abvrr-0 OfKlD"
           color="inherit"
           size="medium"
         >
@@ -925,7 +925,7 @@ exports[`Storyshots Design|Atoms/Title Small Size 1`] = `
         }
       >
         <h1
-          className="Title-rsln9a-0 fQFVrY"
+          className="Title-sc-3abvrr-0 jusmTI"
           color="inherit"
           size="small"
         >
@@ -993,7 +993,7 @@ exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
         }
       >
         <div
-          className="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+          className="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
         >
           <div
             className="align-items-center row"
@@ -1002,7 +1002,7 @@ exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
               className="text-center col"
             >
               <h2
-                className="lead Subtitle-u7sjxt-0 dpMNPi"
+                className="lead Subtitle-yqye76-0 dNdqhE"
                 color="white"
                 size="small"
               >
@@ -1073,7 +1073,7 @@ exports[`Storyshots Design|Molecules/Banner With Dynamic Variables 1`] = `
         }
       >
         <div
-          className="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+          className="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
         >
           <div
             className="align-items-center row"
@@ -1082,7 +1082,7 @@ exports[`Storyshots Design|Molecules/Banner With Dynamic Variables 1`] = `
               className="text-center col"
             >
               <h2
-                className="lead Subtitle-u7sjxt-0 dpMNPi"
+                className="lead Subtitle-yqye76-0 dNdqhE"
                 color="white"
                 size="small"
               >
@@ -1153,7 +1153,7 @@ exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
         }
       >
         <div
-          className="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+          className="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
         >
           <div
             className="align-items-center row"
@@ -1162,7 +1162,7 @@ exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
               className="text-center col"
             >
               <h2
-                className="lead Subtitle-u7sjxt-0 dpMNPi"
+                className="lead Subtitle-yqye76-0 dNdqhE"
                 color="white"
                 size="small"
               >
@@ -1237,13 +1237,13 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
             >
               <div
                 onClick={[Function]}
@@ -1251,13 +1251,13 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
             >
               <div
                 onClick={[Function]}
@@ -1265,13 +1265,13 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
             >
               <div
                 onClick={[Function]}
@@ -1345,7 +1345,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -1353,7 +1353,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
             <div />
           </div>
           <div
-            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -1361,7 +1361,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
             <div />
           </div>
           <div
-            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -1496,10 +1496,10 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
         }
       >
         <div
-          className="indexstories__NavBackground-yfcqfj-0 cBFDnr"
+          className="indexstories__NavBackground-sc-1dii5sm-0 hBeNan"
         >
           <nav
-            className="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+            className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
           >
             <button
               aria-controls="responsive-navbar-nav"
@@ -1653,13 +1653,13 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                     onKeyDown={[Function]}
                   >
                     <div
-                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                       >
                         <div
                           onClick={[Function]}
@@ -1667,13 +1667,13 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                       >
                         <div
                           onClick={[Function]}
@@ -1681,13 +1681,13 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                       >
                         <div
                           onClick={[Function]}
@@ -1704,16 +1704,16 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                     onKeyDown={[Function]}
                   >
                     <div
-                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                       >
                         <div
-                          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+                          className="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
                           onMouseEnter={[Function]}
                           onMouseLeave={[Function]}
                         >
@@ -1731,16 +1731,16 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                       >
                         <div
-                          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+                          className="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
                           onMouseEnter={[Function]}
                           onMouseLeave={[Function]}
                         >
@@ -1783,7 +1783,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                   className="col"
                 >
                   <nav
-                    className="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+                    className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
                   >
                     <button
                       aria-controls="responsive-navbar-nav"

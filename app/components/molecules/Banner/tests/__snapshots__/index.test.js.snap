@@ -2,7 +2,7 @@
 
 exports[`<Banner /> Should render and match the snapshot 1`] = `
 <div
-  class="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+  class="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
 >
   <div
     class="align-items-center row"
@@ -11,7 +11,7 @@ exports[`<Banner /> Should render and match the snapshot 1`] = `
       class="text-center col"
     >
       <h2
-        class="lead Subtitle-u7sjxt-0 dpMNPi"
+        class="lead Subtitle-yqye76-0 dNdqhE"
         color="white"
       >
         Banner Content

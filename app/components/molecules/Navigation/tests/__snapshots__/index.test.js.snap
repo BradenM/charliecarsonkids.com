@@ -2,7 +2,7 @@
 
 exports[`<Navigation /> Should render and match the snapshot 1`] = `
 <nav
-  class="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+  class="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
 >
   <button
     aria-controls="responsive-navbar-nav"
