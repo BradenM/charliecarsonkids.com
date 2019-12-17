@@ -5,10 +5,12 @@
  *
  */
 
-import { storiesOf } from '@storybook/react';
 import React from 'react';
 import A from '.';
 
-storiesOf('A', module).add('default', () => (
-  <A href="https://www.google.com">A Link</A>
-));
+export default {
+  title: 'Design|Atoms/A',
+  component: A,
+};
+
+export const defaultLink = () => <A href="https://www.google.com">A Link</A>;

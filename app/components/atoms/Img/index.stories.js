@@ -5,7 +5,6 @@
  *
  */
 
-import { storiesOf } from '@storybook/react';
 import React from 'react';
 import Img from '.';
 
@@ -14,4 +13,9 @@ const image = {
   alt: 'placeholder - 200x200',
 };
 
-storiesOf('Img', module).add('default', () => <Img {...image} />);
+export default {
+  title: 'Design|Atoms/Img',
+  component: Img,
+};
+
+export const defaultImage = () => <Img {...image} />;
