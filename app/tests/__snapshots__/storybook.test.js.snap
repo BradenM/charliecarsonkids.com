@@ -1,17 +1,1939 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots A default 1`] = `
-<a
-  className="A-br8h0y-0 dwVNvo"
-  href="https://www.google.com"
->
-  A Link
-</a>
+exports[`Storyshots Design|Atoms/A Default Link 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <a
+          className="A-sc-1a8cdcp-0 jDjlTp"
+          href="https://www.google.com"
+        >
+          A Link
+        </a>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
 `;
 
-exports[`Storyshots Img default 1`] = `
-<img
-  alt="placeholder - 200x200"
-  src="https://via.placeholder.com/200"
-/>
+exports[`Storyshots Design|Atoms/Anicon Search Anicon 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "cursor": "pointer",
+                "height": "100%",
+                "transform": "rotate(0deg)",
+                "width": "100px",
+              }
+            }
+          />
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Anicon With Dynamic Variables 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "cursor": "pointer",
+                "height": "100%",
+                "transform": "rotate(0deg)",
+                "width": "100px",
+              }
+            }
+          />
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Icon Facebook Icon 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div />
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/IconButton Facebook Icon Button 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+        >
+          <div
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Img Default Image 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <img
+          alt="placeholder - 200x200"
+          src="https://via.placeholder.com/200"
+        />
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Subtitle Blue Subtitle 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h2
+          className="Subtitle-u7sjxt-0 dahTqR"
+          color="blue"
+          size="large"
+        >
+          Blue Subtitle
+        </h2>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Subtitle Default Size 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h2
+          className="Subtitle-u7sjxt-0 kzmaqG"
+          color="inherit"
+          size="large"
+        >
+          Large Subtitle
+        </h2>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Subtitle Medium Size 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h2
+          className="Subtitle-u7sjxt-0 kMQzTS"
+          color="inherit"
+          size="medium"
+        >
+          Medium Subtitle
+        </h2>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Subtitle Small Size 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h2
+          className="Subtitle-u7sjxt-0 breSlT"
+          color="inherit"
+          size="small"
+        >
+          Small Subtitle
+        </h2>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Title Blue Title 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h1
+          className="Title-rsln9a-0 hlsiLW"
+          color="blue"
+          size="large"
+        >
+          Blue Title
+        </h1>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Title Default Size 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h1
+          className="Title-rsln9a-0 rEGLt"
+          color="inherit"
+          size="large"
+        >
+          Large Title
+        </h1>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Title Medium Size 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h1
+          className="Title-rsln9a-0 dZmWGk"
+          color="inherit"
+          size="medium"
+        >
+          Medium Title
+        </h1>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Title Small Size 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <h1
+          className="Title-rsln9a-0 fQFVrY"
+          color="inherit"
+          size="small"
+        >
+          Small Title
+        </h1>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+        >
+          <div
+            className="align-items-center row"
+          >
+            <div
+              className="text-center col"
+            >
+              <h2
+                className="lead Subtitle-u7sjxt-0 dpMNPi"
+                color="white"
+                size="small"
+              >
+                Banner Content
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/Banner With Dynamic Variables 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+        >
+          <div
+            className="align-items-center row"
+          >
+            <div
+              className="text-center col"
+            >
+              <h2
+                className="lead Subtitle-u7sjxt-0 dpMNPi"
+                color="white"
+                size="small"
+              >
+                Banner Content!
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="p-0 Banner__BannerContainer-sc-1bfnvk1-0 fOmgZF container-fluid"
+        >
+          <div
+            className="align-items-center row"
+          >
+            <div
+              className="text-center col"
+            >
+              <h2
+                className="lead Subtitle-u7sjxt-0 dpMNPi"
+                color="white"
+                size="small"
+              >
+                My Custom Content!
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="border-0  list-group list-group-horizontal"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            >
+              <div
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+          <div
+            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            >
+              <div
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+          <div
+            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+            >
+              <div
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="border-0  list-group list-group-horizontal"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div />
+          </div>
+          <div
+            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div />
+          </div>
+          <div
+            className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div />
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/Logo Default Logo 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <img
+          alt="CharlieCarsonKids - Logo"
+          src="https://s3.amazonaws.com/static.charliecarsonkids.com/assets/img/logo.png"
+        />
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="indexstories__NavBackground-yfcqfj-0 cBFDnr"
+        >
+          <nav
+            className="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+          >
+            <button
+              aria-controls="responsive-navbar-nav"
+              aria-label="Toggle navigation"
+              className="navbar-toggler collapsed"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              aria-expanded={null}
+              className="navbar-collapse collapse"
+              id="responsive-navbar-nav"
+            >
+              <div
+                className="m-auto justify-content-around navbar-nav"
+                onKeyDown={[Function]}
+              >
+                <a
+                  className="nav-link"
+                  data-rb-event-key="new"
+                  href="new"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  new
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="boys"
+                  href="boys"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  boys
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="girls"
+                  href="girls"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  girls
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="baby"
+                  href="baby"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  baby
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="collections"
+                  href="collections"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  collections
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="about"
+                  href="about"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  about
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      data-css-18sl43g=""
+    >
+      <div
+        data-css-7odcmz=""
+      >
+        <h2
+          data-css-ekxd8x=""
+        >
+          Header Component
+        </h2>
+      </div>
+      <div
+        data-css-1uksfg7=""
+      >
+        <div
+          data-css-f2o14s=""
+        >
+          <div
+            data-css-10ubgfl=""
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="d-flex justify-content-start px-3 py-2 col"
+                >
+                  <div
+                    className="border-0  list-group list-group-horizontal"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="d-flex justify-content-end px-3 py-2 col"
+                >
+                  <div
+                    className="border-0  list-group list-group-horizontal"
+                    onKeyDown={[Function]}
+                  >
+                    <div
+                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                      >
+                        <div
+                          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "cursor": "pointer",
+                                "height": "100%",
+                                "transform": "rotate(90deg)",
+                                "width": "40px",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="IconButton__IconContainer-sc-1jpcu8i-0 kiaEnl"
+                      >
+                        <div
+                          className="anicon-container Anicon__HoverContainer-grvjrx-0 iRxDwY"
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "cursor": "pointer",
+                                "height": "100%",
+                                "transform": "rotate(0deg)",
+                                "width": "40px",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="justify-content-md-center row"
+              >
+                <div
+                  className="d-flex justify-content-center py-3 col-md-auto"
+                >
+                  <div
+                    className="w-50"
+                  >
+                    <img
+                      className="img-fluid"
+                      src="IMAGE_MOCK"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col"
+                >
+                  <nav
+                    className="Navigation__StyledNavbar-sc-13st3hq-0 kdGuE navbar navbar-expand-lg navbar-light"
+                  >
+                    <button
+                      aria-controls="responsive-navbar-nav"
+                      aria-label="Toggle navigation"
+                      className="navbar-toggler collapsed"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <span
+                        className="navbar-toggler-icon"
+                      />
+                    </button>
+                    <div
+                      aria-expanded={null}
+                      className="navbar-collapse collapse"
+                      id="responsive-navbar-nav"
+                    >
+                      <div
+                        className="m-auto justify-content-around navbar-nav"
+                        onKeyDown={[Function]}
+                      >
+                        <a
+                          className="nav-link"
+                          data-rb-event-key="new"
+                          href="new"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                        >
+                          new
+                        </a>
+                        <a
+                          className="nav-link"
+                          data-rb-event-key="boys"
+                          href="boys"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                        >
+                          boys
+                        </a>
+                        <a
+                          className="nav-link"
+                          data-rb-event-key="girls"
+                          href="girls"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                        >
+                          girls
+                        </a>
+                        <a
+                          className="nav-link"
+                          data-rb-event-key="baby"
+                          href="baby"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                        >
+                          baby
+                        </a>
+                        <a
+                          className="nav-link"
+                          data-rb-event-key="collections"
+                          href="collections"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                        >
+                          collections
+                        </a>
+                        <a
+                          className="nav-link"
+                          data-rb-event-key="about"
+                          href="about"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                        >
+                          about
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                data-css-1xjdp6g=""
+              >
+                <div
+                  data-css-1u3clyi=""
+                />
+                <div
+                  data-css-1vfpuyw=""
+                />
+              </div>
+              <div
+                data-css-1l117w4=""
+              >
+                <div
+                  data-css-6x2xk9=""
+                />
+                <div
+                  data-css-dh4rml=""
+                />
+              </div>
+              <div
+                data-css-3dqrhs=""
+              >
+                <div
+                  data-css-jidh41=""
+                />
+                <div
+                  data-css-zkhvkf=""
+                />
+              </div>
+              <div
+                data-css-14agfjn=""
+              >
+                <div
+                  data-css-1dkszzo=""
+                />
+                <div
+                  data-css-mqumhe=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
 `;
