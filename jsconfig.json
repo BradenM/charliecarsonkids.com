@@ -3,7 +3,14 @@
     "baseUrl": "app",
     "module": "commonjs",
     "target": "es2016",
-    "jsx": "react"
+    "jsx": "react",
+    "paths": {
+      "atoms/*": ["components/atoms/*"],
+      "molecules/*": ["components/molecules/*"],
+      "organisms/*": ["components/organisms/*"],
+      "templates/*": ["components/templates/*"],
+      "pages/*": ["components/pages/*"]
+    }
   },
   "exclude": ["node_modules", "**/node_modules/*"]
 }
