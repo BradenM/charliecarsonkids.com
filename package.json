@@ -64,7 +64,7 @@
   },
   "config": {
     "cz-emoji": {
-      "scopes": ["atoms", "molecules", "organisms", "templates", "pages"]
+      "scopes": ["atoms", "molecules", "organisms", "templates", "pages", "util", "package"]
     },
     "commitizen": {
       "path": "cz-emoji"
@@ -76,6 +76,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "7.4.3",
+    "@crello/react-lottie": "^0.0.7",
+    "add": "^2.0.6",
     "bootstrap": "^4.4.1",
     "chalk": "^2.4.2",
     "compression": "1.7.4",
@@ -100,6 +102,7 @@
     "react-redux": "7.0.2",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "5.0.0",
+    "react-svg": "^11.0.3",
     "redux": "4.0.1",
     "redux-saga": "1.0.2",
     "reselect": "4.0.0",
