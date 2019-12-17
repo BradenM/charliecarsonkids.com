@@ -63,6 +63,9 @@
     ]
   },
   "config": {
+    "cz-emoji": {
+      "scopes": ["atoms", "molecules", "organisms", "templates", "pages"]
+    },
     "commitizen": {
       "path": "cz-emoji"
     }
