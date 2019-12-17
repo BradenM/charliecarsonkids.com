@@ -15,26 +15,17 @@ jobs:
         with:
           node-version: '12'
 
-      - name: Install Dependencies
-        run: sudo apt-get install -y autoconf
-
-      - name: Install Package
-        uses: Borales/actions-yarn@v2.1.0
-        with:
-          cmd: install
+      - name: Install Project
+        run: yarn install
 
       - name: Generate Templates
         run: node ./internals/scripts/generate-templates-for-linting
 
       - name: Run Tests
-        uses: Borales/actions-yarn@v2.1.0
-        with:
-          cmd: test:cov --maxWorkers=4
+        run: yarn test:cov --maxWorkers=4
 
       - name: Build
-        uses: Borales/actions-yarn@v2.1.0
-        with:
-          cmd: build
+        run: yarn build
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
