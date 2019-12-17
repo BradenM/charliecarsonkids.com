@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconGroup /> Should render and match the snapshot 1`] = `
+<div
+  class="border-0  list-group list-group-horizontal"
+>
+  <div
+    class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+  >
+    <div>
+      <div>
+        <div
+          data-src="https://static.charliecarsonkids.com/assets/icons/icon-100.svg"
+          src=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="IconGroup__BorderlessItem-l9vnfl-0 bcDwWW list-group-item"
+  >
+    <div>
+      <div>
+        <div
+          data-src="https://static.charliecarsonkids.com/assets/icons/icon-100.svg"
+          src=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
