@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - '**.js'
+      - '**.js.snap'
+      - '.github/workflows/*'
 
 jobs:
   build:
