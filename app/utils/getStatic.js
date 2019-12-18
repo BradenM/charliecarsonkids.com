@@ -10,6 +10,7 @@ const STATIC_ROOT = 'https://static.charliecarsonkids.com';
 const STATIC_PATHS = {
   icons: 'assets/icons/',
   anicons: 'assets/anicons/',
+  images: 'assets/images/',
 };
 
 const getStaticUrl = path => {
@@ -26,5 +27,13 @@ export const IconURL = (name, size) =>
 
 export const AniconURL = name =>
   getStaticUrl(STATIC_PATHS.anicons)(`${name}.json`);
+
+export const ImageURL = (name, size) => {
+  let imgName = name;
+  if (size !== undefined) {
+    imgName = `${name}-${size}`;
+  }
+  return getStaticUrl(STATIC_PATHS.images)(`${imgName}.png`);
+};
 
 export default getStaticUrl;
