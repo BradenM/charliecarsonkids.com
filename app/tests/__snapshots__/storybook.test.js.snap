@@ -2172,7 +2172,7 @@ exports[`Storyshots Design|Organisms/HomeHero Default Story 1`] = `
     }
   >
     <div
-      className="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+      className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
     >
       <div
         className="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
@@ -2520,7 +2520,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Home Layout 1`] = `
           className="col"
         >
           <div
-            className="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+            className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
           >
             <div
               className="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
