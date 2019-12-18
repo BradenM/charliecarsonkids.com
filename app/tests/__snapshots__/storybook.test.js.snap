@@ -988,78 +988,48 @@ exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
   <div
     style={
       Object {
-        "alignItems": "center",
-        "bottom": "0",
-        "display": "flex",
-        "left": "0",
-        "overflow": "auto",
-        "position": "fixed",
-        "right": "0",
-        "top": "0",
+        "position": "relative",
+        "zIndex": 0,
       }
     }
   >
     <div
-      style={
-        Object {
-          "margin": "auto",
-          "maxHeight": "100%",
-        }
-      }
+      className="p-0 Banner__BannerContainer-sc-1in81vp-0 hQvtbb"
     >
       <div
-        style={
-          Object {
-            "position": "relative",
-            "zIndex": 0,
-          }
-        }
+        className="banner-wrapper py-1"
       >
         <div
-          className="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
+          className="banner-text text-center"
         >
-          <div
-            className="align-items-center row"
-          >
-            <div
-              className="text-center col"
-            >
-              <h2
-                className="lead Subtitle-yqye76-0 dNdqhE"
-                color="white"
-                size="small"
-              >
-                Banner Content
-              </h2>
-            </div>
-          </div>
+          Banner
         </div>
       </div>
-      <button
-        className="info__show-button"
-        onClick={[Function]}
-        style={
-          Object {
-            "background": "#027ac5",
-            "border": "none",
-            "borderRadius": "0 0 0 5px",
-            "color": "#fff",
-            "cursor": "pointer",
-            "display": "block",
-            "fontFamily": "sans-serif",
-            "fontSize": "12px",
-            "padding": "5px 15px",
-            "position": "fixed",
-            "right": 0,
-            "top": 0,
-          }
-        }
-        type="button"
-      >
-        Show Info
-      </button>
     </div>
   </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
 </div>
 `;
 
@@ -1068,78 +1038,50 @@ exports[`Storyshots Design|Molecules/Banner With Dynamic Variables 1`] = `
   <div
     style={
       Object {
-        "alignItems": "center",
-        "bottom": "0",
-        "display": "flex",
-        "left": "0",
-        "overflow": "auto",
-        "position": "fixed",
-        "right": "0",
-        "top": "0",
+        "position": "relative",
+        "zIndex": 0,
       }
     }
   >
     <div
-      style={
-        Object {
-          "margin": "auto",
-          "maxHeight": "100%",
-        }
-      }
+      className="p-0 Banner__BannerContainer-sc-1in81vp-0 ckUHPb"
     >
       <div
-        style={
-          Object {
-            "position": "relative",
-            "zIndex": 0,
-          }
-        }
+        className="banner-wrapper py-1"
       >
         <div
-          className="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
+          className="banner-text text-center"
         >
-          <div
-            className="align-items-center row"
-          >
-            <div
-              className="text-center col"
-            >
-              <h2
-                className="lead Subtitle-yqye76-0 dNdqhE"
-                color="white"
-                size="small"
-              >
-                Banner Content!
-              </h2>
-            </div>
-          </div>
+          <h3>
+            Banner Content!
+          </h3>
         </div>
       </div>
-      <button
-        className="info__show-button"
-        onClick={[Function]}
-        style={
-          Object {
-            "background": "#027ac5",
-            "border": "none",
-            "borderRadius": "0 0 0 5px",
-            "color": "#fff",
-            "cursor": "pointer",
-            "display": "block",
-            "fontFamily": "sans-serif",
-            "fontSize": "12px",
-            "padding": "5px 15px",
-            "position": "fixed",
-            "right": 0,
-            "top": 0,
-          }
-        }
-        type="button"
-      >
-        Show Info
-      </button>
     </div>
   </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
 </div>
 `;
 
@@ -1148,78 +1090,50 @@ exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
   <div
     style={
       Object {
-        "alignItems": "center",
-        "bottom": "0",
-        "display": "flex",
-        "left": "0",
-        "overflow": "auto",
-        "position": "fixed",
-        "right": "0",
-        "top": "0",
+        "position": "relative",
+        "zIndex": 0,
       }
     }
   >
     <div
-      style={
-        Object {
-          "margin": "auto",
-          "maxHeight": "100%",
-        }
-      }
+      className="p-0 Banner__BannerContainer-sc-1in81vp-0 ckUHPb"
     >
       <div
-        style={
-          Object {
-            "position": "relative",
-            "zIndex": 0,
-          }
-        }
+        className="banner-wrapper py-1"
       >
         <div
-          className="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
+          className="banner-text text-center"
         >
-          <div
-            className="align-items-center row"
-          >
-            <div
-              className="text-center col"
-            >
-              <h2
-                className="lead Subtitle-yqye76-0 dNdqhE"
-                color="white"
-                size="small"
-              >
-                My Custom Content!
-              </h2>
-            </div>
-          </div>
+          <h3>
+            Hi
+          </h3>
         </div>
       </div>
-      <button
-        className="info__show-button"
-        onClick={[Function]}
-        style={
-          Object {
-            "background": "#027ac5",
-            "border": "none",
-            "borderRadius": "0 0 0 5px",
-            "color": "#fff",
-            "cursor": "pointer",
-            "display": "block",
-            "fontFamily": "sans-serif",
-            "fontSize": "12px",
-            "padding": "5px 15px",
-            "position": "fixed",
-            "right": 0,
-            "top": 0,
-          }
-        }
-        type="button"
-      >
-        Show Info
-      </button>
     </div>
   </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
 </div>
 `;
 
@@ -1255,7 +1169,7 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 emiAJP jumbotron"
+              className="hero Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn jumbotron"
             >
               <div
                 className="h-100 container"
@@ -1264,14 +1178,14 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
                   className="row"
                 >
                   <div
-                    className="pb-3 col-6"
+                    className="pb-3 my-auto col-6"
                   >
                     <h1
                       className="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
                       color="#fefefe"
                       size={1}
                     >
-                      NEW ARRIVALS
+                      HERO TEXT
                     </h1>
                   </div>
                 </div>
@@ -1284,9 +1198,10 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
                     <button
                       className="btn btn-outline-light btn-lg"
                       disabled={false}
+                      onClick={[Function]}
                       type="button"
                     >
-                      Shop Now
+                      Click Me
                     </button>
                   </div>
                 </div>
@@ -1397,7 +1312,7 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 emiAJP jumbotron"
+              className="hero Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn jumbotron"
             >
               <div
                 className="h-100 container"
@@ -1406,14 +1321,14 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
                   className="row"
                 >
                   <div
-                    className="pb-3 col-6"
+                    className="pb-3 my-auto col-6"
                   >
                     <h1
                       className="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
                       color="#fefefe"
                       size={1}
                     >
-                      NEW ARRIVALS
+                      TITLE
                     </h1>
                   </div>
                 </div>
@@ -1426,9 +1341,10 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
                     <button
                       className="btn btn-outline-light btn-lg"
                       disabled={false}
+                      onClick={[Function]}
                       type="button"
                     >
-                      Shop Now
+                      Click Me
                     </button>
                   </div>
                 </div>
@@ -2212,6 +2128,437 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                 <div
                   data-css-mqumhe=""
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
+`;
+
+exports[`Storyshots Design|Organisms/HomeHero Default Story 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+    >
+      <div
+        className="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
+      >
+        <div
+          className="h-100 container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="pb-3 my-auto col-6"
+            >
+              <h1
+                className="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+                color="#fefefe"
+                size={1}
+              >
+                NEW ARRIVALS
+              </h1>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="py-3 col-3"
+            >
+              <button
+                className="btn btn-outline-light btn-lg"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
+`;
+
+exports[`Storyshots Design|Templates/HomeLayout With Home Layout 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="homepage-container container-fluid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="p-0 col"
+        >
+          <div
+            className="p-0 Banner__BannerContainer-sc-1in81vp-0 hQEDkc"
+          >
+            <div
+              className="banner-wrapper py-1"
+            >
+              <div
+                className="banner-text text-center"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  free shipping for orders over $100!
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="d-flex justify-content-start px-3 py-2 col"
+              >
+                <div
+                  className="border-0  list-group list-group-horizontal"
+                  onKeyDown={[Function]}
+                >
+                  <div
+                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                    data-rb-event-key={null}
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                    >
+                      <div
+                        onClick={[Function]}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                    data-rb-event-key={null}
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                    >
+                      <div
+                        onClick={[Function]}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                    data-rb-event-key={null}
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                    >
+                      <div
+                        onClick={[Function]}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="d-flex justify-content-end px-3 py-2 col"
+              >
+                <div
+                  className="border-0  list-group list-group-horizontal"
+                  onKeyDown={[Function]}
+                >
+                  <div
+                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                    data-rb-event-key={null}
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                    >
+                      <div
+                        className="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                      >
+                        <div
+                          style={
+                            Object {
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "transform": "rotate(90deg)",
+                              "width": "40px",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                    data-rb-event-key={null}
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                    >
+                      <div
+                        className="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                      >
+                        <div
+                          style={
+                            Object {
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "transform": "rotate(0deg)",
+                              "width": "40px",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="justify-content-md-center row"
+            >
+              <div
+                className="d-flex justify-content-center py-3 col-md-auto"
+              >
+                <div
+                  className="w-50"
+                >
+                  <img
+                    className="img-fluid"
+                    src="IMAGE_MOCK"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+              >
+                <nav
+                  className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+                >
+                  <button
+                    aria-controls="responsive-navbar-nav"
+                    aria-label="Toggle navigation"
+                    className="navbar-toggler collapsed"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className="navbar-toggler-icon"
+                    />
+                  </button>
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="responsive-navbar-nav"
+                  >
+                    <div
+                      className="m-auto justify-content-around navbar-nav"
+                      onKeyDown={[Function]}
+                    >
+                      <a
+                        className="nav-link"
+                        data-rb-event-key="new"
+                        href="new"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                      >
+                        new
+                      </a>
+                      <a
+                        className="nav-link"
+                        data-rb-event-key="boys"
+                        href="boys"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                      >
+                        boys
+                      </a>
+                      <a
+                        className="nav-link"
+                        data-rb-event-key="girls"
+                        href="girls"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                      >
+                        girls
+                      </a>
+                      <a
+                        className="nav-link"
+                        data-rb-event-key="baby"
+                        href="baby"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                      >
+                        baby
+                      </a>
+                      <a
+                        className="nav-link"
+                        data-rb-event-key="collections"
+                        href="collections"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                      >
+                        collections
+                      </a>
+                      <a
+                        className="nav-link"
+                        data-rb-event-key="about"
+                        href="about"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                      >
+                        about
+                      </a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+          >
+            <div
+              className="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
+            >
+              <div
+                className="h-100 container"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="pb-3 my-auto col-6"
+                  >
+                    <h1
+                      className="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+                      color="#fefefe"
+                      size={1}
+                    >
+                      NEW ARRIVALS
+                    </h1>
+                  </div>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="py-3 col-3"
+                  >
+                    <button
+                      className="btn btn-outline-light btn-lg"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
