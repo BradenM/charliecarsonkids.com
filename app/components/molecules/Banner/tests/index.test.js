@@ -13,14 +13,22 @@ import Banner from '../index';
 describe('<Banner />', () => {
   it('Expect to not log errors in console', () => {
     const spy = jest.spyOn(global.console, 'error');
-    render(<Banner />);
+    render(
+      <Banner>
+        <h3>Banner Content</h3>
+      </Banner>,
+    );
     expect(spy).not.toHaveBeenCalled();
   });
 
   it('Should render and match the snapshot', () => {
     const {
       container: { firstChild },
-    } = render(<Banner />);
+    } = render(
+      <Banner backgroundColor="gray">
+        <h3>Banner Content</h3>
+      </Banner>,
+    );
     expect(firstChild).toMatchSnapshot();
   });
 });

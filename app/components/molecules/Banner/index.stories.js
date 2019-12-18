@@ -12,10 +12,19 @@ import Banner from '.';
 export default {
   title: 'Design|Molecules/Banner',
   component: Banner,
+  parameters: {
+    centered: { disable: true },
+  },
 };
 
-export const defaultBanner = () => <Banner />;
-export const withText = () => <Banner content="My Custom Content!" />;
+export const defaultBanner = () => <Banner>Banner</Banner>;
+export const withText = () => (
+  <Banner backgroundColor="#cecece">
+    <h3>Hi</h3>
+  </Banner>
+);
 export const withDynamicVariables = () => (
-  <Banner content={text('Text', 'Banner Content!')} />
+  <Banner backgroundColor={text('Color', '#cecece')}>
+    <h3>{text('Text', 'Banner Content!')}</h3>
+  </Banner>
 );

@@ -2,20 +2,17 @@
 
 exports[`<Banner /> Should render and match the snapshot 1`] = `
 <div
-  class="p-0 Banner__BannerContainer-sc-1in81vp-0 letTkz container-fluid"
+  class="p-0 Banner__BannerContainer-sc-1in81vp-0 hQvtbb"
 >
   <div
-    class="align-items-center row"
+    class="banner-wrapper py-1"
   >
     <div
-      class="text-center col"
+      class="banner-text text-center"
     >
-      <h2
-        class="lead Subtitle-yqye76-0 dNdqhE"
-        color="white"
-      >
+      <h3>
         Banner Content
-      </h2>
+      </h3>
     </div>
   </div>
 </div>

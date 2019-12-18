@@ -5,36 +5,36 @@
  * Molecule
  */
 
-import Subtitle from 'atoms/Subtitle';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 
-const BannerContainer = styled(Container)`
-  background-color: ${props => props.backgroundColor || 'gray'};
+const BannerContainer = styled.div`
+  background-color: ${props => props.backgroundColor};
+  .banner {
+    &-text {
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
 `;
 
-const Banner = props => (
-  <BannerContainer fluid className="p-0">
-    <Row className="align-items-center">
-      <Col className="text-center">
-        <Subtitle className="lead" size="small" color="white">
-          {props.content}
-        </Subtitle>
-      </Col>
-    </Row>
+const Banner = ({ backgroundColor, children }) => (
+  <BannerContainer backgroundColor={backgroundColor} fluid className="p-0">
+    <div className="banner-wrapper py-1">
+      <div className="banner-text text-center">{children}</div>
+    </div>
   </BannerContainer>
 );
 
 Banner.defaultProps = {
-  content: 'Banner Content',
+  backgroundColor: 'gray',
 };
 
 Banner.propTypes = {
-  content: PropTypes.string,
+  children: PropTypes.element.isRequired,
+  backgroundColor: PropTypes.string,
 };
 
 export default Banner;
