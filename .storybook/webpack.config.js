@@ -11,6 +11,7 @@ const custom = require('../internals/webpack/webpack.dev.babel');
 module.exports = async ({ config, mode }) => {
   return {
     ...config,
+    target: 'node',
     resolve: { ...config.resolve, ...custom.resolve },
     module: {
       rules: [
