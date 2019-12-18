@@ -721,9 +721,9 @@ exports[`Storyshots Design|Atoms/Title Blue Title 1`] = `
         }
       >
         <h1
-          className="Title-sc-3abvrr-0 dgDAKb"
+          className="Title-sc-3abvrr-0 display-1  gcrcWc"
           color="blue"
-          size="large"
+          size={1}
         >
           Blue Title
         </h1>
@@ -756,7 +756,7 @@ exports[`Storyshots Design|Atoms/Title Blue Title 1`] = `
 </div>
 `;
 
-exports[`Storyshots Design|Atoms/Title Default Size 1`] = `
+exports[`Storyshots Design|Atoms/Title Default Title 1`] = `
 <div>
   <div
     style={
@@ -789,9 +789,9 @@ exports[`Storyshots Design|Atoms/Title Default Size 1`] = `
         }
       >
         <h1
-          className="Title-sc-3abvrr-0 bMsmFf"
+          className="Title-sc-3abvrr-0 display-1  hDDVwe"
           color="inherit"
-          size="large"
+          size={1}
         >
           Large Title
         </h1>
@@ -824,7 +824,7 @@ exports[`Storyshots Design|Atoms/Title Default Size 1`] = `
 </div>
 `;
 
-exports[`Storyshots Design|Atoms/Title Medium Size 1`] = `
+exports[`Storyshots Design|Atoms/Title With Dynamic Variables 1`] = `
 <div>
   <div
     style={
@@ -857,11 +857,11 @@ exports[`Storyshots Design|Atoms/Title Medium Size 1`] = `
         }
       >
         <h1
-          className="Title-sc-3abvrr-0 OfKlD"
+          className="Title-sc-3abvrr-0 display-1  hDDVwe"
           color="inherit"
-          size="medium"
+          size={1}
         >
-          Medium Title
+          Title
         </h1>
       </div>
       <button
@@ -892,7 +892,7 @@ exports[`Storyshots Design|Atoms/Title Medium Size 1`] = `
 </div>
 `;
 
-exports[`Storyshots Design|Atoms/Title Small Size 1`] = `
+exports[`Storyshots Design|Atoms/Title With Sizes 1`] = `
 <div>
   <div
     style={
@@ -924,13 +924,36 @@ exports[`Storyshots Design|Atoms/Title Small Size 1`] = `
           }
         }
       >
-        <h1
-          className="Title-sc-3abvrr-0 jusmTI"
-          color="inherit"
-          size="small"
-        >
-          Small Title
-        </h1>
+        <div>
+          <h1
+            className="Title-sc-3abvrr-0 display-1  hDDVwe"
+            color="inherit"
+            size={1}
+          >
+            Size 1
+          </h1>
+          <h1
+            className="Title-sc-3abvrr-0 display-2  hDDVwe"
+            color="inherit"
+            size={2}
+          >
+            Size 2
+          </h1>
+          <h1
+            className="Title-sc-3abvrr-0 display-3  hDDVwe"
+            color="inherit"
+            size={3}
+          >
+            Size 3
+          </h1>
+          <h1
+            className="Title-sc-3abvrr-0 display-4  hDDVwe"
+            color="inherit"
+            size={4}
+          >
+            Size 4
+          </h1>
+        </div>
       </div>
       <button
         className="info__show-button"

@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { render } from 'react-testing-library';
-import Title, { TitleSize } from '../index';
+import Title from '../index';
 
 describe('<Title />', () => {
   it('Expect to not log errors in console', () => {
@@ -25,19 +25,22 @@ describe('<Title />', () => {
   it('Should default to large size', () => {
     const { container } = render(<Title>Content</Title>);
     const element = container.querySelector('h1');
-    expect(element.style.fontSize === TitleSize.LARGE);
+    expect(element.classList.contains('display-1'));
   });
 
   it('Should take medium size', () => {
-    const { container } = render(<Title size="medium">Content</Title>);
+    const { container } = render(<Title size={2}>Content</Title>);
     const element = container.querySelector('h1');
-    expect(element.style.fontSize === TitleSize.MEDIUM);
+    expect(element.classList.contains('display-2'));
   });
 
-  it('Should take small size', () => {
-    const { container } = render(<Title size="small">Content</Title>);
+  it('Should add classes', () => {
+    const { container } = render(
+      <Title className="font-weight-bold">Content</Title>,
+    );
     const element = container.querySelector('h1');
-    expect(element.style.fontSize === TitleSize.SMALL);
+    expect(element.classList.contains('display-2'));
+    expect(element.classList.contains('font-weight-bold'));
   });
 
   it('Should take font color', () => {
