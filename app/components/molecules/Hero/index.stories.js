@@ -5,10 +5,10 @@
  * Molecule
  */
 
+import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs';
 import React from 'react';
 import { host } from 'storybook-host';
-import { ImageURL } from 'utils/getStatic';
 import Hero from '.';
 
 export default {
@@ -29,9 +29,19 @@ export default {
 };
 
 export const defaultHero = () => (
-  <Hero text="new arrivals" imageSrc={ImageURL('hero')} />
+  <Hero
+    onButtonClick={action('onButtonClick')}
+    buttonText="Click Me"
+    text="hero text"
+    imageSrc="https://via.placeholder.com/1200"
+  />
 );
 
 export const withDynamicVariables = () => (
-  <Hero text={text('Text', 'new arrivals')} imageSrc={ImageURL('hero')} />
+  <Hero
+    onButtonClick={action('onButtonClick')}
+    text={text('Text', 'Title')}
+    buttonText={text('Button Text', 'Click Me')}
+    imageSrc="https://via.placeholder.com/1200"
+  />
 );

@@ -18,7 +18,7 @@ import styled from 'styled-components';
 const StyledJumbotron = styled(({ imageSrc, ...props }) => (
   <Jumbotron {...props} />
 ))`
-  background-image: url(${props => props.imageSrc});
+  background: url(${props => props.imageSrc}) no-repeat center top;
   height: 100%;
 `;
 
@@ -26,11 +26,11 @@ const HeroTitle = styled(Title)`
   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
 `;
 
-export const Hero = ({ imageSrc, text }) => (
-  <StyledJumbotron imageSrc={imageSrc}>
+export const Hero = ({ imageSrc, text, buttonText, onButtonClick }) => (
+  <StyledJumbotron className="hero" imageSrc={imageSrc}>
     <Container className="h-100">
       <Row>
-        <Col xs={6} className="pb-3">
+        <Col xs={6} className="pb-3 my-auto">
           <HeroTitle className="mb-0 font-weight-bold" color="#fefefe">
             {text.toUpperCase()}
           </HeroTitle>
@@ -38,8 +38,8 @@ export const Hero = ({ imageSrc, text }) => (
       </Row>
       <Row>
         <Col xs={3} className="py-3">
-          <Button size="lg" variant="outline-light">
-            Shop Now
+          <Button onClick={onButtonClick} size="lg" variant="outline-light">
+            {buttonText}
           </Button>
         </Col>
       </Row>
@@ -47,9 +47,17 @@ export const Hero = ({ imageSrc, text }) => (
   </StyledJumbotron>
 );
 
+Hero.defaultProps = {
+  buttonText: '',
+  onButtonClick: () => {},
+  text: '',
+};
+
 Hero.propTypes = {
   imageSrc: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  buttonText: PropTypes.string,
+  onButtonClick: PropTypes.func,
 };
 
 export default Hero;
