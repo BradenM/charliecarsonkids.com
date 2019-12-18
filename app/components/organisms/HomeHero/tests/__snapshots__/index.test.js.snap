@@ -2,7 +2,7 @@
 
 exports[`<HomeHero /> Should render and match the snapshot 1`] = `
 <div
-  class="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+  class="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
 >
   <div
     class="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
