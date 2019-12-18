@@ -1223,6 +1223,290 @@ exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
 </div>
 `;
 
+exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      data-css-18sl43g=""
+    >
+      <div
+        data-css-7odcmz=""
+      >
+        <h2
+          data-css-ekxd8x=""
+        >
+          Hero Component
+        </h2>
+      </div>
+      <div
+        data-css-1uksfg7=""
+      >
+        <div
+          data-css-71mbpc=""
+        >
+          <div
+            data-css-1burwd1=""
+          >
+            <div
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 emiAJP jumbotron"
+            >
+              <div
+                className="h-100 container"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="pb-3 col-6"
+                  >
+                    <h1
+                      className="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+                      color="#fefefe"
+                      size={1}
+                    >
+                      NEW ARRIVALS
+                    </h1>
+                  </div>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="py-3 col-3"
+                  >
+                    <button
+                      className="btn btn-outline-light btn-lg"
+                      disabled={false}
+                      type="button"
+                    >
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                data-css-1xjdp6g=""
+              >
+                <div
+                  data-css-1u3clyi=""
+                />
+                <div
+                  data-css-1vfpuyw=""
+                />
+              </div>
+              <div
+                data-css-1l117w4=""
+              >
+                <div
+                  data-css-6x2xk9=""
+                />
+                <div
+                  data-css-dh4rml=""
+                />
+              </div>
+              <div
+                data-css-3dqrhs=""
+              >
+                <div
+                  data-css-jidh41=""
+                />
+                <div
+                  data-css-zkhvkf=""
+                />
+              </div>
+              <div
+                data-css-14agfjn=""
+              >
+                <div
+                  data-css-1dkszzo=""
+                />
+                <div
+                  data-css-mqumhe=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      data-css-18sl43g=""
+    >
+      <div
+        data-css-7odcmz=""
+      >
+        <h2
+          data-css-ekxd8x=""
+        >
+          Hero Component
+        </h2>
+      </div>
+      <div
+        data-css-1uksfg7=""
+      >
+        <div
+          data-css-71mbpc=""
+        >
+          <div
+            data-css-1burwd1=""
+          >
+            <div
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 emiAJP jumbotron"
+            >
+              <div
+                className="h-100 container"
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className="pb-3 col-6"
+                  >
+                    <h1
+                      className="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+                      color="#fefefe"
+                      size={1}
+                    >
+                      NEW ARRIVALS
+                    </h1>
+                  </div>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="py-3 col-3"
+                  >
+                    <button
+                      className="btn btn-outline-light btn-lg"
+                      disabled={false}
+                      type="button"
+                    >
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                data-css-1xjdp6g=""
+              >
+                <div
+                  data-css-1u3clyi=""
+                />
+                <div
+                  data-css-1vfpuyw=""
+                />
+              </div>
+              <div
+                data-css-1l117w4=""
+              >
+                <div
+                  data-css-6x2xk9=""
+                />
+                <div
+                  data-css-dh4rml=""
+                />
+              </div>
+              <div
+                data-css-3dqrhs=""
+              >
+                <div
+                  data-css-jidh41=""
+                />
+                <div
+                  data-css-zkhvkf=""
+                />
+              </div>
+              <div
+                data-css-14agfjn=""
+              >
+                <div
+                  data-css-1dkszzo=""
+                />
+                <div
+                  data-css-mqumhe=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
+`;
+
 exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
 <div>
   <div
