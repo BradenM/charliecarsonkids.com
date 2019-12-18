@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeHero /> Should render and match the snapshot 1`] = `
+<div
+  class="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+>
+  <div
+    class="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
+  >
+    <div
+      class="h-100 container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="pb-3 my-auto col-6"
+        >
+          <h1
+            class="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+            color="#fefefe"
+            size="1"
+          >
+            NEW ARRIVALS
+          </h1>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="py-3 col-3"
+        >
+          <button
+            class="btn btn-outline-light btn-lg"
+            type="button"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
