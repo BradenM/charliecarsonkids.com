@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
+<div
+  class="homepage-container container-fluid"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="p-0 col"
+    >
+      <div
+        class="p-0 Banner__BannerContainer-sc-1in81vp-0 hQEDkc"
+      >
+        <div
+          class="banner-wrapper py-1"
+        >
+          <div
+            class="banner-text text-center"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1"
+            >
+              free shipping for orders over $100!
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-start px-3 py-2 col"
+          >
+            <div
+              class="border-0  list-group list-group-horizontal"
+            >
+              <div
+                class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+              >
+                <div
+                  class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div>
+                    <div>
+                      <div
+                        data-src="https://static.charliecarsonkids.com/assets/icons/facebook-100.svg"
+                        src=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+              >
+                <div
+                  class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div>
+                    <div>
+                      <div
+                        data-src="https://static.charliecarsonkids.com/assets/icons/instagram-100.svg"
+                        src=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+              >
+                <div
+                  class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div>
+                    <div>
+                      <div
+                        data-src="https://static.charliecarsonkids.com/assets/icons/mail-100.svg"
+                        src=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-end px-3 py-2 col"
+          >
+            <div
+              class="border-0  list-group list-group-horizontal"
+            >
+              <div
+                class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+              >
+                <div
+                  class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+                  >
+                    <div
+                      style="width: 40px; height: 100%; transform: rotate(90deg); cursor: pointer;"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+              >
+                <div
+                  class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+                  >
+                    <div
+                      style="width: 40px; height: 100%; transform: rotate(0deg); cursor: pointer;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="justify-content-md-center row"
+        >
+          <div
+            class="d-flex justify-content-center py-3 col-md-auto"
+          >
+            <div
+              class="w-50"
+            >
+              <img
+                class="img-fluid"
+                src="IMAGE_MOCK"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          >
+            <nav
+              class="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+            >
+              <button
+                aria-controls="responsive-navbar-nav"
+                aria-label="Toggle navigation"
+                class="navbar-toggler collapsed"
+                type="button"
+              >
+                <span
+                  class="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                class="navbar-collapse collapse"
+                id="responsive-navbar-nav"
+              >
+                <div
+                  class="m-auto justify-content-around navbar-nav"
+                >
+                  <a
+                    class="nav-link"
+                    data-rb-event-key="new"
+                    href="new"
+                  >
+                    new
+                  </a>
+                  <a
+                    class="nav-link"
+                    data-rb-event-key="boys"
+                    href="boys"
+                  >
+                    boys
+                  </a>
+                  <a
+                    class="nav-link"
+                    data-rb-event-key="girls"
+                    href="girls"
+                  >
+                    girls
+                  </a>
+                  <a
+                    class="nav-link"
+                    data-rb-event-key="baby"
+                    href="baby"
+                  >
+                    baby
+                  </a>
+                  <a
+                    class="nav-link"
+                    data-rb-event-key="collections"
+                    href="collections"
+                  >
+                    collections
+                  </a>
+                  <a
+                    class="nav-link"
+                    data-rb-event-key="about"
+                    href="about"
+                  >
+                    about
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="HomeHero__HeroContainer-sc-18ez42y-0 hdBiEm container"
+      >
+        <div
+          class="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
+        >
+          <div
+            class="h-100 container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="pb-3 my-auto col-6"
+              >
+                <h1
+                  class="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+                  color="#fefefe"
+                  size="1"
+                >
+                  NEW ARRIVALS
+                </h1>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="py-3 col-3"
+              >
+                <button
+                  class="btn btn-outline-light btn-lg"
+                  type="button"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
