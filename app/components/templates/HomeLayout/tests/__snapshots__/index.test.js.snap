@@ -11,7 +11,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
       class="p-0 col"
     >
       <div
-        class="p-0 Banner__BannerContainer-sc-1in81vp-0 hQEDkc"
+        class="Banner__BannerContainer-sc-1in81vp-0 hQEDkc p-0"
       >
         <div
           class="banner-wrapper py-1"
@@ -110,7 +110,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                   class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
                   <div
-                    class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+                    class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
                   >
                     <div
                       style="width: 40px; height: 100%; transform: rotate(90deg); cursor: pointer;"
@@ -125,7 +125,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                   class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
                   <div
-                    class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+                    class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
                   >
                     <div
                       style="width: 40px; height: 100%; transform: rotate(0deg); cursor: pointer;"
@@ -238,7 +238,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
         class="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
       >
         <div
-          class="hero Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD jumbotron"
+          class="Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD hero jumbotron"
         >
           <div
             class="h-100 container"
@@ -250,7 +250,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 class="pb-3 my-auto col-6"
               >
                 <h1
-                  class="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+                  class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                   color="#fefefe"
                   size="1"
                 >

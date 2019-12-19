@@ -16,7 +16,7 @@ import GlobalStyle from '../../global-styles';
 
 export default function App() {
   return (
-    <React.Fragment>
+    <>
       <Container>
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -24,6 +24,6 @@ export default function App() {
         </Switch>
         <GlobalStyle />
       </Container>
-    </React.Fragment>
+    </>
   );
 }

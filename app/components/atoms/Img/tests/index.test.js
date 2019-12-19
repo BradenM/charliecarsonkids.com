@@ -5,8 +5,8 @@
  *
  */
 
+import { render } from '@testing-library/react';
 import React from 'react';
-import { render } from 'react-testing-library';
 // import 'jest-dom/extend-expect'; // add some helpful assertions
 import Img from '../index';
 

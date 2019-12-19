@@ -52,7 +52,7 @@ module.exports = plop => {
       '**',
       '**.js',
     )}`;
-
+    /* eslint-disable no-useless-catch */
     try {
       execSync(`npm run prettify -- "${folderPath}"`);
       return folderPath;
@@ -81,5 +81,5 @@ module.exports = plop => {
     }
   });
 };
-
+/* eslint-enable no-useless-catch */
 module.exports.BACKUPFILE_EXTENSION = BACKUPFILE_EXTENSION;

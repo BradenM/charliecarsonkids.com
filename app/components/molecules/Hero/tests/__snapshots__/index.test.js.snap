@@ -2,7 +2,7 @@
 
 exports[`<Hero /> Should render and match the snapshot 1`] = `
 <div
-  class="hero Hero__StyledJumbotron-sc-1ele3ck-0 hhupmH jumbotron"
+  class="Hero__StyledJumbotron-sc-1ele3ck-0 hhupmH hero jumbotron"
 >
   <div
     class="h-100 container"
@@ -14,7 +14,7 @@ exports[`<Hero /> Should render and match the snapshot 1`] = `
         class="pb-3 my-auto col-6"
       >
         <h1
-          class="Title-sc-3abvrr-0 mb-0 font-weight-bold Hero__HeroTitle-sc-1ele3ck-1 display-1 mb-0 font-weight-bold bqYlOi"
+          class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
           color="#fefefe"
           size="1"
         >

@@ -6,11 +6,11 @@
  */
 
 // import 'jest-dom/extend-expect'; // add some helpful assertions
+import { render } from '@testing-library/react';
 import { ConnectedRouter } from 'connected-react-router/immutable';
 import { createMemoryHistory } from 'history';
 import React from 'react';
 import { Provider } from 'react-redux';
-import { render } from 'react-testing-library';
 import configureStore from '../../../../configureStore';
 import HomeLayout from '../index';
 

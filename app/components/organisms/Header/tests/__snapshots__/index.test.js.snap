@@ -76,7 +76,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
             class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div
-              class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+              class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
             >
               <div
                 style="width: 40px; height: 100%; transform: rotate(90deg); cursor: pointer;"
@@ -91,7 +91,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
             class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
           >
             <div
-              class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+              class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
             >
               <div
                 style="width: 40px; height: 100%; transform: rotate(0deg); cursor: pointer;"

@@ -5,13 +5,13 @@
  * Organism
  */
 
+import { render } from '@testing-library/react';
 import { ConnectedRouter } from 'connected-react-router/immutable';
 import { createMemoryHistory } from 'history';
+import Header from 'organisms/Header';
 import React from 'react';
 import { Provider } from 'react-redux';
-import { render } from 'react-testing-library';
 import configureStore from '../../../../configureStore';
-import Header from '../index';
 
 const renderComponent = (store, history, props = {}) =>
   render(

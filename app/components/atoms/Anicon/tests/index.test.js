@@ -5,8 +5,8 @@
  *
  */
 
+import { render } from '@testing-library/react';
 import React from 'react';
-import { render } from 'react-testing-library';
 import Anicon from '../index';
 
 const renderComponent = props => render(<Anicon name="icon" {...props} />);

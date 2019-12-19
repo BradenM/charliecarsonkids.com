@@ -17,7 +17,11 @@ export default {
   },
 };
 
-export const defaultBanner = () => <Banner>Banner</Banner>;
+export const defaultBanner = () => (
+  <Banner>
+    <h3>Banner</h3>
+  </Banner>
+);
 export const withText = () => (
   <Banner backgroundColor="#cecece">
     <h3>Hi</h3>

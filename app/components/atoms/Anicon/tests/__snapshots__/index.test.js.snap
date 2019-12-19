@@ -2,7 +2,7 @@
 
 exports[`<Anicon /> Should render and match the snapshot 1`] = `
 <div
-  class="anicon-container Anicon__HoverContainer-sc-119yqeq-0 iCLpQU"
+  class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
 >
   <div
     style="width: 100%; height: 100%; transform: rotate(0deg); cursor: pointer;"
