@@ -6,22 +6,26 @@
 // When you add this file, we won't add the default configurations which is similar
 // to "React Create App". This only has babel loader to load JavaScript.
 
-const custom = require('../internals/webpack/webpack.dev.babel');
+const custom = require('../internals/webpack/webpack.prod.babel');
 
 module.exports = async ({ config, mode }) => {
   return {
     ...config,
-    target: 'node',
-    resolve: { ...config.resolve, ...custom.resolve },
     module: {
-      rules: [
-        ...config.module.rules,
+      ...config.module,
+      rules: custom.module.rules.concat([
         {
           test: /\.stories\.jsx?$/,
           loaders: [require.resolve('@storybook/source-loader')],
           enforce: 'pre',
         },
-      ],
+      ]),
     },
+    resolve: {
+      ...config.resolve,
+      alias: { ...config.resolve.alias, ...custom.resolve.alias },
+    },
+    node: { fs: 'empty' }, // polyfill
+    target: 'web', // allow webpack to access web global variables
   };
 };

@@ -6,15 +6,17 @@ import { withKnobs } from '@storybook/addon-knobs/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { addDecorator, addParameters, configure } from '@storybook/react';
 import { withHTML } from '@whitespace/storybook-addon-html/react';
-import requireContext from 'require-context.macro';
+// assets
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'typeface-roboto/index.css';
 import './storybook.css';
 
-const req = requireContext('../app', true, /\.stories.js$/);
-
-// automatically import all files ending in *.stories.js
+// Console Config
 setConsoleOptions({
   panelExclude: [],
 });
+
+// Decorators
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 addDecorator(withInfo);
 addDecorator(withKnobs);
@@ -28,6 +30,8 @@ addDecorator(
     },
   }),
 );
+
+// Options
 addParameters({
   viewport: {
     viewports: INITIAL_VIEWPORTS,
@@ -42,4 +46,6 @@ addParameters({
     panelPosition: 'bottom',
   },
 });
-configure(req, module);
+
+// Load em' up
+configure(require.context('../app', true, /\.stories.js$/), module);
