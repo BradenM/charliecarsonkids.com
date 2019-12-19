@@ -36,6 +36,10 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Upload Snapshots
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+        run: yarn snapshot
 
   build:
     name: 'Build Site'

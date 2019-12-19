@@ -45,7 +45,8 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "prettify": "prettier --write",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "snapshot": "build-storybook && percy-storybook --widths=320,1280"
   },
   "browserslist": [
     "last 2 versions",
@@ -134,6 +135,7 @@
     "@babel/preset-env": "7.7.7",
     "@babel/preset-react": "7.7.4",
     "@babel/register": "7.7.7",
+    "@percy/storybook": "^3.2.0",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-backgrounds": "^5.2.8",
     "@storybook/addon-centered": "^5.2.8",
