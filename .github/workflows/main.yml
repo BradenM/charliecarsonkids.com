@@ -24,8 +24,9 @@ jobs:
       - name: Install Project
         run: yarn install --frozen-lockfile
 
-      - name: Generate Templates
-        run: node ./internals/scripts/generate-templates-for-linting
+      # skip until localization can be re-setup
+      # - name: Generate Templates
+      # run: node ./internals/scripts/generate-templates-for-linting
 
       - name: Run Tests
         run: yarn test:cov --maxWorkers=4
