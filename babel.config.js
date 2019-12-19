@@ -9,10 +9,10 @@ module.exports = {
     '@babel/preset-react',
   ],
   plugins: [
-    'styled-components',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-syntax-dynamic-import',
     'macros',
+    'styled-components',
   ],
   env: {
     production: {
@@ -26,6 +26,7 @@ module.exports = {
     },
     test: {
       plugins: [
+        'require-context-hook',
         '@babel/plugin-transform-modules-commonjs',
         'dynamic-import-node',
       ],
