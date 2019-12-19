@@ -9,7 +9,7 @@ on:
       - '.github/workflows/*'
 
 jobs:
-  build:
+  test:
     name: 'Run Tests'
     runs-on: ubuntu-latest
 
@@ -31,10 +31,26 @@ jobs:
       - name: Run Tests
         run: yarn test:cov --maxWorkers=4
 
-      - name: Build
-        run: yarn build
-
       - name: Upload Coverage
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+
+  build:
+    name: 'Build Site'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup Node.js 12
+        uses: actions/setup-node@v1.2.0
+        with:
+          node-version: '12'
+
+      - name: Install Project
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
