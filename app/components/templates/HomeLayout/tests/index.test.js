@@ -5,7 +5,7 @@
  * Templates
  */
 
-// import 'jest-dom/extend-expect'; // add some helpful assertions
+// import '@testing-library/jest-dom/extend-expect'; // add some helpful assertions
 import { render } from '@testing-library/react';
 import { ConnectedRouter } from 'connected-react-router/immutable';
 import { createMemoryHistory } from 'history';

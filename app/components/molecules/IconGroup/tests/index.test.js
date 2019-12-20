@@ -8,7 +8,7 @@
 import { render } from '@testing-library/react';
 import Icon from 'atoms/Icon';
 import React from 'react';
-// import 'jest-dom/extend-expect'; // add some helpful assertions
+// import '@testing-library/jest-dom/extend-expect'; // add some helpful assertions
 import IconGroup from '../index';
 
 describe('<IconGroup />', () => {
