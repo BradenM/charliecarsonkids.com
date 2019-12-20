@@ -51,6 +51,7 @@ jobs:
     name: Compare Snapshots
     runs-on: ubuntu-latest
     needs: test
+    if: contains(github.ref, 'master') || contains(github.base_ref, 'master')
 
     steps:
       - uses: actions/checkout@v2
