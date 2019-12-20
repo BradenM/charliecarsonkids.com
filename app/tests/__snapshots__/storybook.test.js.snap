@@ -2251,16 +2251,16 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
         }
       >
         <div
-          className="SubscribeForm__StyledContainer-v1otes-0 fBOYoq bg-dark p-4 container-fluid"
+          className="bg-dark p-4 rounded container-fluid"
         >
           <div
             className="flex-column justify-content-center align-content-center align-items-center row"
           >
             <div
-              className="p-3 col-9"
+              className="p-3 col-md-7 col-9"
             >
               <p
-                className="h3 text-light pb-3"
+                className="h3 text-light text-justify text-center mb-3"
               >
                 Subscribe to our Newsletter
               </p>
@@ -2271,7 +2271,7 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
               </p>
             </div>
             <div
-              className="col"
+              className="col-9"
             >
               <div
                 className="p-3"
@@ -2340,14 +2340,65 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
     }
   >
     <div
-      className="bg-light container-fluid"
+      className="bg-info p-3 container-fluid"
     >
       <div
         className="row"
       >
         <div
-          className="col"
-        />
+          className="col-4"
+        >
+          <div
+            className="bg-info container-fluid"
+          >
+            <div
+              className="flex-column justify-content-center align-content-center align-items-center row"
+            >
+              <div
+                className="p-3 col-md-7 col-9"
+              >
+                <p
+                  className="h3 text-light text-justify text-center mb-3"
+                >
+                  Subscribe to our Newsletter
+                </p>
+                <p
+                  className=" text-light text-center m-0"
+                >
+                  Don't miss out on any deals and stay up to date with the latest trends.
+                </p>
+              </div>
+              <div
+                className="col-9"
+              >
+                <div
+                  className="p-3"
+                >
+                  <div
+                    className="input-group"
+                  >
+                    <input
+                      className="form-control"
+                      placeholder="Your Email"
+                      type="email"
+                    />
+                    <div
+                      className="input-group-append"
+                    >
+                      <button
+                        className="btn btn-outline-light"
+                        disabled={false}
+                        type="button"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           className="col"
         />
@@ -3066,319 +3117,360 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
     }
   >
     <div
-      className="homepage-container container-fluid"
+      className="homepage-container p-0 container-fluid"
     >
       <div
-        className="row"
+        className="Banner__BannerContainer-sc-1in81vp-0 ckUHPb p-0"
       >
         <div
-          className="p-0 col"
+          className="banner-wrapper py-1"
         >
           <div
-            className="Banner__BannerContainer-sc-1in81vp-0 ckUHPb p-0"
+            className="banner-text text-center"
           >
-            <div
-              className="banner-wrapper py-1"
+            <p
+              className=" text-dark m-0 p-1"
             >
-              <div
-                className="banner-text text-center"
-              >
-                <p
-                  className=" text-dark m-0 p-1"
-                >
-                  banner text
-                </p>
-              </div>
-            </div>
+              banner text
+            </p>
           </div>
         </div>
       </div>
       <div
-        className="row"
+        className="container"
       >
         <div
-          className="col"
+          className="row"
         >
           <div
-            className="container"
+            className="d-flex justify-content-start px-3 py-2 col"
           >
             <div
-              className="row"
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
             >
               <div
-                className="d-flex justify-content-start px-3 py-2 col"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
                 <div
-                  className="border-0  list-group list-group-horizontal"
-                  onKeyDown={[Function]}
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
                   <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
                     onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
-                    onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
-                    onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
+                  />
                 </div>
               </div>
               <div
-                className="d-flex justify-content-end px-3 py-2 col"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
                 <div
-                  className="border-0  list-group list-group-horizontal"
-                  onKeyDown={[Function]}
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
                   <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
                     onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
-                        onMouseEnter={[Function]}
-                        onMouseLeave={[Function]}
-                      >
-                        <div
-                          style={
-                            Object {
-                              "cursor": "pointer",
-                              "height": "100%",
-                              "transform": "rotate(90deg)",
-                              "width": "40px",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
-                    onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
-                        onMouseEnter={[Function]}
-                        onMouseLeave={[Function]}
-                      >
-                        <div
-                          style={
-                            Object {
-                              "cursor": "pointer",
-                              "height": "100%",
-                              "transform": "rotate(0deg)",
-                              "width": "40px",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  />
                 </div>
               </div>
-            </div>
-            <div
-              className="justify-content-md-center row"
-            >
               <div
-                className="d-flex justify-content-center py-3 col-md-auto"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
                 <div
-                  className="w-50"
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
-                  <img
-                    className="img-fluid"
-                    src="IMAGE_MOCK"
+                  <div
+                    onClick={[Function]}
                   />
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            className="d-flex justify-content-end px-3 py-2 col"
+          >
             <div
-              className="row"
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
             >
               <div
-                className="col"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
-                <nav
-                  className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
-                  <button
-                    aria-controls="responsive-navbar-nav"
-                    aria-label="Toggle navigation"
-                    className="navbar-toggler collapsed"
-                    onClick={[Function]}
-                    type="button"
-                  >
-                    <span
-                      className="navbar-toggler-icon"
-                    />
-                  </button>
                   <div
-                    aria-expanded={null}
-                    className="navbar-collapse collapse"
-                    id="responsive-navbar-nav"
+                    className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
                   >
                     <div
-                      className="m-auto justify-content-around navbar-nav"
-                      onKeyDown={[Function]}
-                    >
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="new"
-                        href="new"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        new
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="boys"
-                        href="boys"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        boys
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="girls"
-                        href="girls"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        girls
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="baby"
-                        href="baby"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        baby
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="collections"
-                        href="collections"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        collections
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="about"
-                        href="about"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        about
-                      </a>
-                    </div>
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                          "height": "100%",
+                          "transform": "rotate(90deg)",
+                          "width": "40px",
+                        }
+                      }
+                    />
                   </div>
-                </nav>
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                          "height": "100%",
+                          "transform": "rotate(0deg)",
+                          "width": "40px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div
-        className="row"
-      >
         <div
-          className="col"
+          className="justify-content-md-center row"
         >
           <div
-            className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+            className="d-flex justify-content-center py-3 col-md-auto"
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+              className="w-50"
             >
+              <img
+                className="img-fluid"
+                src="IMAGE_MOCK"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <nav
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+            >
+              <button
+                aria-controls="responsive-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
               <div
-                className="h-100 container"
+                aria-expanded={null}
+                className="navbar-collapse collapse"
+                id="responsive-navbar-nav"
               >
                 <div
-                  className="row"
+                  className="m-auto justify-content-around navbar-nav"
+                  onKeyDown={[Function]}
                 >
-                  <div
-                    className="pb-3 my-auto col-6"
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="new"
+                    href="new"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
                   >
-                    <h1
-                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                      color="#fefefe"
-                      size={1}
-                    >
-                      HERO TITLE
-                    </h1>
-                  </div>
+                    new
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="boys"
+                    href="boys"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    boys
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="girls"
+                    href="girls"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    girls
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="baby"
+                    href="baby"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    baby
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="collections"
+                    href="collections"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    collections
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="about"
+                    href="about"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    about
+                  </a>
                 </div>
-                <div
-                  className="row"
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div
+        className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+      >
+        <div
+          className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+        >
+          <div
+            className="h-100 container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="pb-3 my-auto col-6"
+              >
+                <h1
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  color="#fefefe"
+                  size={1}
                 >
-                  <div
-                    className="py-3 col-3"
-                  >
-                    <button
-                      className="btn btn-outline-light btn-lg"
-                      disabled={false}
-                      onClick={[Function]}
-                      type="button"
-                    >
-                      Click me
-                    </button>
-                  </div>
-                </div>
+                  HERO TITLE
+                </h1>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="py-3 col-3"
+              >
+                <button
+                  className="btn btn-outline-light btn-lg"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Click me
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div />
+      <div
+        className="bg-info p-3 container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-4"
+          >
+            <div
+              className="bg-info container-fluid"
+            >
+              <div
+                className="flex-column justify-content-center align-content-center align-items-center row"
+              >
+                <div
+                  className="p-3 col-md-7 col-9"
+                >
+                  <p
+                    className="h3 text-light text-justify text-center mb-3"
+                  >
+                    Subscribe to our Newsletter
+                  </p>
+                  <p
+                    className=" text-light text-center m-0"
+                  >
+                    Don't miss out on any deals and stay up to date with the latest trends.
+                  </p>
+                </div>
+                <div
+                  className="col-9"
+                >
+                  <div
+                    className="p-3"
+                  >
+                    <div
+                      className="input-group"
+                    >
+                      <input
+                        className="form-control"
+                        placeholder="Your Email"
+                        type="email"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <button
+                          className="btn btn-outline-light"
+                          disabled={false}
+                          type="button"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col"
+          />
+        </div>
+      </div>
     </div>
   </div>
   <button
@@ -3418,316 +3510,357 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
     }
   >
     <div
-      className="homepage-container container-fluid"
+      className="homepage-container p-0 container-fluid"
     >
       <div
-        className="row"
+        className="Banner__BannerContainer-sc-1in81vp-0 hQEDkc p-0"
       >
         <div
-          className="p-0 col"
+          className="banner-wrapper py-1"
         >
           <div
-            className="Banner__BannerContainer-sc-1in81vp-0 hQEDkc p-0"
+            className="banner-text text-center"
           >
-            <div
-              className="banner-wrapper py-1"
+            <p
+              className=" text-dark m-0 p-1"
             >
-              <div
-                className="banner-text text-center"
-              >
-                <p
-                  className=" text-dark m-0 p-1"
-                >
-                  banner content
-                </p>
-              </div>
-            </div>
+              banner content
+            </p>
           </div>
         </div>
       </div>
       <div
-        className="row"
+        className="container"
       >
         <div
-          className="col"
+          className="row"
         >
           <div
-            className="container"
+            className="d-flex justify-content-start px-3 py-2 col"
           >
             <div
-              className="row"
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
             >
               <div
-                className="d-flex justify-content-start px-3 py-2 col"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
                 <div
-                  className="border-0  list-group list-group-horizontal"
-                  onKeyDown={[Function]}
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
                   <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
                     onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
-                    onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
-                  <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
-                    onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        onClick={[Function]}
-                      />
-                    </div>
-                  </div>
+                  />
                 </div>
               </div>
               <div
-                className="d-flex justify-content-end px-3 py-2 col"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
                 <div
-                  className="border-0  list-group list-group-horizontal"
-                  onKeyDown={[Function]}
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
                   <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
                     onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
-                        onMouseEnter={[Function]}
-                        onMouseLeave={[Function]}
-                      >
-                        <div
-                          style={
-                            Object {
-                              "cursor": "pointer",
-                              "height": "100%",
-                              "transform": "rotate(90deg)",
-                              "width": "40px",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
-                    data-rb-event-key={null}
-                    disabled={false}
-                    onClick={[Function]}
-                  >
-                    <div
-                      className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                    >
-                      <div
-                        className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
-                        onMouseEnter={[Function]}
-                        onMouseLeave={[Function]}
-                      >
-                        <div
-                          style={
-                            Object {
-                              "cursor": "pointer",
-                              "height": "100%",
-                              "transform": "rotate(0deg)",
-                              "width": "40px",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  />
                 </div>
               </div>
-            </div>
-            <div
-              className="justify-content-md-center row"
-            >
               <div
-                className="d-flex justify-content-center py-3 col-md-auto"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
               >
                 <div
-                  className="w-50"
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
                 >
-                  <img
-                    className="img-fluid"
-                    src="IMAGE_MOCK"
+                  <div
+                    onClick={[Function]}
                   />
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            className="d-flex justify-content-end px-3 py-2 col"
+          >
+            <div
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
+            >
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                          "height": "100%",
+                          "transform": "rotate(90deg)",
+                          "width": "40px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                          "height": "100%",
+                          "transform": "rotate(0deg)",
+                          "width": "40px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="justify-content-md-center row"
+        >
+          <div
+            className="d-flex justify-content-center py-3 col-md-auto"
+          >
+            <div
+              className="w-50"
+            >
+              <img
+                className="img-fluid"
+                src="IMAGE_MOCK"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <nav
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+            >
+              <button
+                aria-controls="responsive-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                aria-expanded={null}
+                className="navbar-collapse collapse"
+                id="responsive-navbar-nav"
+              >
+                <div
+                  className="m-auto justify-content-around navbar-nav"
+                  onKeyDown={[Function]}
+                >
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="new"
+                    href="new"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    new
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="boys"
+                    href="boys"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    boys
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="girls"
+                    href="girls"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    girls
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="baby"
+                    href="baby"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    baby
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="collections"
+                    href="collections"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    collections
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="about"
+                    href="about"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    about
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div
+        className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+      >
+        <div
+          className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+        >
+          <div
+            className="h-100 container"
+          >
             <div
               className="row"
             >
               <div
-                className="col"
+                className="pb-3 my-auto col-6"
               >
-                <nav
-                  className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+                <h1
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  color="#fefefe"
+                  size={1}
                 >
-                  <button
-                    aria-controls="responsive-navbar-nav"
-                    aria-label="Toggle navigation"
-                    className="navbar-toggler collapsed"
-                    onClick={[Function]}
-                    type="button"
-                  >
-                    <span
-                      className="navbar-toggler-icon"
-                    />
-                  </button>
-                  <div
-                    aria-expanded={null}
-                    className="navbar-collapse collapse"
-                    id="responsive-navbar-nav"
-                  >
-                    <div
-                      className="m-auto justify-content-around navbar-nav"
-                      onKeyDown={[Function]}
-                    >
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="new"
-                        href="new"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        new
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="boys"
-                        href="boys"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        boys
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="girls"
-                        href="girls"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        girls
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="baby"
-                        href="baby"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        baby
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="collections"
-                        href="collections"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        collections
-                      </a>
-                      <a
-                        className="nav-link"
-                        data-rb-event-key="about"
-                        href="about"
-                        onClick={[Function]}
-                        onKeyDown={[Function]}
-                      >
-                        about
-                      </a>
-                    </div>
-                  </div>
-                </nav>
+                  HERO TITLE
+                </h1>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="py-3 col-3"
+              >
+                <button
+                  className="btn btn-outline-light btn-lg"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Click Me
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div
-        className="row"
+        className="bg-info p-3 container-fluid"
       >
         <div
-          className="col"
+          className="row"
         >
           <div
-            className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+            className="col-4"
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+              className="bg-info container-fluid"
             >
               <div
-                className="h-100 container"
+                className="flex-column justify-content-center align-content-center align-items-center row"
               >
                 <div
-                  className="row"
+                  className="p-3 col-md-7 col-9"
                 >
-                  <div
-                    className="pb-3 my-auto col-6"
+                  <p
+                    className="h3 text-light text-justify text-center mb-3"
                   >
-                    <h1
-                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                      color="#fefefe"
-                      size={1}
-                    >
-                      HERO TITLE
-                    </h1>
-                  </div>
+                    Subscribe to our Newsletter
+                  </p>
+                  <p
+                    className=" text-light text-center m-0"
+                  >
+                    Don't miss out on any deals and stay up to date with the latest trends.
+                  </p>
                 </div>
                 <div
-                  className="row"
+                  className="col-9"
                 >
                   <div
-                    className="py-3 col-3"
+                    className="p-3"
                   >
-                    <button
-                      className="btn btn-outline-light btn-lg"
-                      disabled={false}
-                      onClick={[Function]}
-                      type="button"
+                    <div
+                      className="input-group"
                     >
-                      Click Me
-                    </button>
+                      <input
+                        className="form-control"
+                        placeholder="Your Email"
+                        type="email"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <button
+                          className="btn btn-outline-light"
+                          disabled={false}
+                          type="button"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div
+            className="col"
+          />
         </div>
       </div>
     </div>
