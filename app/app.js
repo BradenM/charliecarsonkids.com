@@ -14,11 +14,10 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import history from 'utils/history';
+import { ThemeProvider } from 'styled-components';
 
 // Style assets
-import 'sanitize.css/sanitize.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'typeface-roboto';
+import { Theme } from 'global-styles';
 
 // Import root app
 import App from 'containers/App';
@@ -47,7 +46,9 @@ const render = messages => {
     <Provider store={store}>
       <LanguageProvider messages={messages}>
         <ConnectedRouter history={history}>
-          <App />
+          <ThemeProvider theme={Theme}>
+            <App />
+          </ThemeProvider>
         </ConnectedRouter>
       </LanguageProvider>
     </Provider>,

@@ -10,7 +10,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BannerContainer = styled.div`
-  background-color: ${props => props.backgroundColor};
+  background-color: ${props => props.backgroundColor || props.theme.primary};
   .banner {
     &-text {
       &:first-child {
@@ -29,7 +29,7 @@ const Banner = ({ backgroundColor, children }) => (
 );
 
 Banner.defaultProps = {
-  backgroundColor: 'gray',
+  backgroundColor: '',
 };
 
 Banner.propTypes = {
