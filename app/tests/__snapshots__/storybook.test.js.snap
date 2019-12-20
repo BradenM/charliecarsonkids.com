@@ -688,6 +688,663 @@ exports[`Storyshots Design|Atoms/Subtitle Small Size 1`] = `
 </div>
 `;
 
+exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div>
+          <p
+            className="h1 text-primary "
+          >
+            Text h1 primary
+          </p>
+          <p
+            className="h2 text-primary "
+          >
+            Text h2 primary
+          </p>
+          <p
+            className="h3 text-primary "
+          >
+            Text h3 primary
+          </p>
+          <p
+            className="h4 text-primary "
+          >
+            Text h4 primary
+          </p>
+          <p
+            className="h5 text-primary "
+          >
+            Text h5 primary
+          </p>
+          <p
+            className="h6 text-primary "
+          >
+            Text h6 primary
+          </p>
+          <p
+            className=" text-primary "
+          >
+            Text  primary
+          </p>
+          <p
+            className="h1 text-secondary "
+          >
+            Text h1 secondary
+          </p>
+          <p
+            className="h2 text-secondary "
+          >
+            Text h2 secondary
+          </p>
+          <p
+            className="h3 text-secondary "
+          >
+            Text h3 secondary
+          </p>
+          <p
+            className="h4 text-secondary "
+          >
+            Text h4 secondary
+          </p>
+          <p
+            className="h5 text-secondary "
+          >
+            Text h5 secondary
+          </p>
+          <p
+            className="h6 text-secondary "
+          >
+            Text h6 secondary
+          </p>
+          <p
+            className=" text-secondary "
+          >
+            Text  secondary
+          </p>
+          <p
+            className="h1 text-success "
+          >
+            Text h1 success
+          </p>
+          <p
+            className="h2 text-success "
+          >
+            Text h2 success
+          </p>
+          <p
+            className="h3 text-success "
+          >
+            Text h3 success
+          </p>
+          <p
+            className="h4 text-success "
+          >
+            Text h4 success
+          </p>
+          <p
+            className="h5 text-success "
+          >
+            Text h5 success
+          </p>
+          <p
+            className="h6 text-success "
+          >
+            Text h6 success
+          </p>
+          <p
+            className=" text-success "
+          >
+            Text  success
+          </p>
+          <p
+            className="h1 text-warning "
+          >
+            Text h1 warning
+          </p>
+          <p
+            className="h2 text-warning "
+          >
+            Text h2 warning
+          </p>
+          <p
+            className="h3 text-warning "
+          >
+            Text h3 warning
+          </p>
+          <p
+            className="h4 text-warning "
+          >
+            Text h4 warning
+          </p>
+          <p
+            className="h5 text-warning "
+          >
+            Text h5 warning
+          </p>
+          <p
+            className="h6 text-warning "
+          >
+            Text h6 warning
+          </p>
+          <p
+            className=" text-warning "
+          >
+            Text  warning
+          </p>
+          <p
+            className="h1 text-danger "
+          >
+            Text h1 danger
+          </p>
+          <p
+            className="h2 text-danger "
+          >
+            Text h2 danger
+          </p>
+          <p
+            className="h3 text-danger "
+          >
+            Text h3 danger
+          </p>
+          <p
+            className="h4 text-danger "
+          >
+            Text h4 danger
+          </p>
+          <p
+            className="h5 text-danger "
+          >
+            Text h5 danger
+          </p>
+          <p
+            className="h6 text-danger "
+          >
+            Text h6 danger
+          </p>
+          <p
+            className=" text-danger "
+          >
+            Text  danger
+          </p>
+          <p
+            className="h1 text-info "
+          >
+            Text h1 info
+          </p>
+          <p
+            className="h2 text-info "
+          >
+            Text h2 info
+          </p>
+          <p
+            className="h3 text-info "
+          >
+            Text h3 info
+          </p>
+          <p
+            className="h4 text-info "
+          >
+            Text h4 info
+          </p>
+          <p
+            className="h5 text-info "
+          >
+            Text h5 info
+          </p>
+          <p
+            className="h6 text-info "
+          >
+            Text h6 info
+          </p>
+          <p
+            className=" text-info "
+          >
+            Text  info
+          </p>
+          <p
+            className="h1 text-dark "
+          >
+            Text h1 dark
+          </p>
+          <p
+            className="h2 text-dark "
+          >
+            Text h2 dark
+          </p>
+          <p
+            className="h3 text-dark "
+          >
+            Text h3 dark
+          </p>
+          <p
+            className="h4 text-dark "
+          >
+            Text h4 dark
+          </p>
+          <p
+            className="h5 text-dark "
+          >
+            Text h5 dark
+          </p>
+          <p
+            className="h6 text-dark "
+          >
+            Text h6 dark
+          </p>
+          <p
+            className=" text-dark "
+          >
+            Text  dark
+          </p>
+          <p
+            className="h1 text-light "
+          >
+            Text h1 light
+          </p>
+          <p
+            className="h2 text-light "
+          >
+            Text h2 light
+          </p>
+          <p
+            className="h3 text-light "
+          >
+            Text h3 light
+          </p>
+          <p
+            className="h4 text-light "
+          >
+            Text h4 light
+          </p>
+          <p
+            className="h5 text-light "
+          >
+            Text h5 light
+          </p>
+          <p
+            className="h6 text-light "
+          >
+            Text h6 light
+          </p>
+          <p
+            className=" text-light "
+          >
+            Text  light
+          </p>
+          <p
+            className="h1 text-body "
+          >
+            Text h1 body
+          </p>
+          <p
+            className="h2 text-body "
+          >
+            Text h2 body
+          </p>
+          <p
+            className="h3 text-body "
+          >
+            Text h3 body
+          </p>
+          <p
+            className="h4 text-body "
+          >
+            Text h4 body
+          </p>
+          <p
+            className="h5 text-body "
+          >
+            Text h5 body
+          </p>
+          <p
+            className="h6 text-body "
+          >
+            Text h6 body
+          </p>
+          <p
+            className=" text-body "
+          >
+            Text  body
+          </p>
+          <p
+            className="h1 text-muted "
+          >
+            Text h1 muted
+          </p>
+          <p
+            className="h2 text-muted "
+          >
+            Text h2 muted
+          </p>
+          <p
+            className="h3 text-muted "
+          >
+            Text h3 muted
+          </p>
+          <p
+            className="h4 text-muted "
+          >
+            Text h4 muted
+          </p>
+          <p
+            className="h5 text-muted "
+          >
+            Text h5 muted
+          </p>
+          <p
+            className="h6 text-muted "
+          >
+            Text h6 muted
+          </p>
+          <p
+            className=" text-muted "
+          >
+            Text  muted
+          </p>
+          <p
+            className="h1 text-white "
+          >
+            Text h1 white
+          </p>
+          <p
+            className="h2 text-white "
+          >
+            Text h2 white
+          </p>
+          <p
+            className="h3 text-white "
+          >
+            Text h3 white
+          </p>
+          <p
+            className="h4 text-white "
+          >
+            Text h4 white
+          </p>
+          <p
+            className="h5 text-white "
+          >
+            Text h5 white
+          </p>
+          <p
+            className="h6 text-white "
+          >
+            Text h6 white
+          </p>
+          <p
+            className=" text-white "
+          >
+            Text  white
+          </p>
+          <p
+            className="h1 text-black-50 "
+          >
+            Text h1 black-50
+          </p>
+          <p
+            className="h2 text-black-50 "
+          >
+            Text h2 black-50
+          </p>
+          <p
+            className="h3 text-black-50 "
+          >
+            Text h3 black-50
+          </p>
+          <p
+            className="h4 text-black-50 "
+          >
+            Text h4 black-50
+          </p>
+          <p
+            className="h5 text-black-50 "
+          >
+            Text h5 black-50
+          </p>
+          <p
+            className="h6 text-black-50 "
+          >
+            Text h6 black-50
+          </p>
+          <p
+            className=" text-black-50 "
+          >
+            Text  black-50
+          </p>
+          <p
+            className="h1 text-white-50 "
+          >
+            Text h1 white-50
+          </p>
+          <p
+            className="h2 text-white-50 "
+          >
+            Text h2 white-50
+          </p>
+          <p
+            className="h3 text-white-50 "
+          >
+            Text h3 white-50
+          </p>
+          <p
+            className="h4 text-white-50 "
+          >
+            Text h4 white-50
+          </p>
+          <p
+            className="h5 text-white-50 "
+          >
+            Text h5 white-50
+          </p>
+          <p
+            className="h6 text-white-50 "
+          >
+            Text h6 white-50
+          </p>
+          <p
+            className=" text-white-50 "
+          >
+            Text  white-50
+          </p>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Text With Dynamic Variables 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <p
+          className="h1 text-body "
+        >
+          Text
+        </p>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Atoms/Text With Extra Classes 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div>
+          <p
+            className=" text-dark p-5"
+          >
+            I have a padding of p-5
+          </p>
+          <p
+            className=" text-body "
+          >
+            I should be pushed down by pb-5
+          </p>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Design|Atoms/Title Blue Title 1`] = `
 <div>
   <div
