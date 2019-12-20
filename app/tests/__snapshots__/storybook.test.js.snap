@@ -1379,7 +1379,7 @@ exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 hQvtbb p-0"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0"
     >
       <div
         className="banner-wrapper py-1"
@@ -2215,6 +2215,168 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
       </button>
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="SubscribeForm__StyledContainer-v1otes-0 fBOYoq bg-dark p-4 container-fluid"
+        >
+          <div
+            className="flex-column justify-content-center align-content-center align-items-center row"
+          >
+            <div
+              className="p-3 col-9"
+            >
+              <p
+                className="h3 text-light pb-3"
+              >
+                Subscribe to our Newsletter
+              </p>
+              <p
+                className=" text-light text-center m-0"
+              >
+                Don't miss out on any deals and stay up to date with the latest trends.
+              </p>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="p-3"
+              >
+                <div
+                  className="input-group"
+                >
+                  <input
+                    className="form-control"
+                    placeholder="Your Email"
+                    type="email"
+                  />
+                  <div
+                    className="input-group-append"
+                  >
+                    <button
+                      className="btn btn-outline-light"
+                      disabled={false}
+                      type="button"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="bg-light container-fluid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        />
+        <div
+          className="col"
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
 </div>
 `;
 
