@@ -2,15 +2,17 @@
  *
  * Stories for {{ properCase name }}
  *
- * Organism
+ * Organisms
  */
 
-import { storiesOf } from '@storybook/react';
 import React from 'react';
-
+//import { text, number, boolean } from '@storybook/addon-knobs';
 import {{ properCase name }} from '.';
 
-// const {{ lowerCase name }} = {}
+export default {
+  title: 'Design|Organisms/{{ properCase name }}',
+  component: {{ properCase name }}
+};
 
-storiesOf('{{ properCase name }}', module)
-  .add('default', () => <{{ properCase name }} />);
+
+export const defaultStory = () => <{{ properCase name }} />;
