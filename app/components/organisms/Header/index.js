@@ -10,36 +10,18 @@ import IconButton from 'atoms/IconButton';
 import LogoBlack from 'images/logo_black.png';
 import IconGroup from 'molecules/IconGroup';
 import Navigation from 'molecules/Navigation';
+import SocialBar from 'organisms/SocialBar';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
-const social = [
-  {
-    name: 'facebook',
-    url: 'https://www.facebook.com/charliecarsonkids',
-  },
-  {
-    name: 'instagram',
-    url: 'https://instagram.com/charliecarsonkids',
-  },
-  {
-    name: 'mail',
-    url: 'support@charliecarsonkids.com',
-  },
-];
-
 const Header = () => (
   <Container>
     <Row>
       <Col className="d-flex justify-content-start px-3 py-2">
-        <IconGroup>
-          {social.map(s => (
-            <IconButton key={`icon_button${s.name}`} {...s} width="40" />
-          ))}
-        </IconGroup>
+        <SocialBar />
       </Col>
       <Col className="d-flex justify-content-end px-3 py-2">
         <IconGroup>
