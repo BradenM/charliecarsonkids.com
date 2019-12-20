@@ -10,6 +10,7 @@ import { withHTML } from '@whitespace/storybook-addon-html/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'typeface-roboto/index.css';
 import './storybook.css';
+import GlobalStyle from '../app/global-styles'
 
 // Console Config
 setConsoleOptions({
