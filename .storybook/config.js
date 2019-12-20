@@ -7,10 +7,10 @@ import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { addDecorator, addParameters, configure } from '@storybook/react';
 import { withHTML } from '@whitespace/storybook-addon-html/react';
 // assets
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'typeface-roboto/index.css';
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import GlobalStyle, { Theme } from '../app/global-styles';
 import './storybook.css';
-import GlobalStyle from '../app/global-styles'
 
 // Console Config
 setConsoleOptions({
@@ -18,6 +18,12 @@ setConsoleOptions({
 });
 
 // Decorators
+addDecorator(storyFn => (
+  <ThemeProvider theme={Theme}>
+    <GlobalStyle />
+    {storyFn()}
+  </ThemeProvider>
+));
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 addDecorator(withInfo);
 addDecorator(withKnobs);
