@@ -36,4 +36,6 @@ export const ImageURL = (name, size) => {
   return getStaticUrl(STATIC_PATHS.images)(`${imgName}.png`);
 };
 
+export const PlaceholderURL = size => `https://via.placeholder.com/${size}`;
+
 export default getStaticUrl;
