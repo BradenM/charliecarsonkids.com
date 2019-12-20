@@ -5,7 +5,7 @@
  * Templates
  */
 
-import Typography from '@bit/mui-org.material-ui.typography';
+import Text from 'atoms/Text';
 import Banner from 'molecules/Banner';
 import Header from 'organisms/Header';
 import HomeHero from 'organisms/HomeHero';
@@ -22,7 +22,9 @@ const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
       <Col className="p-0">
         {bannerOptions && (
           <Banner backgroundColor={bannerOptions.color}>
-            <Typography variant="subtitle1">{bannerOptions.text}</Typography>
+            <Text className="m-0 p-1" color="dark">
+              {bannerOptions.text}
+            </Text>
           </Banner>
         )}
       </Col>

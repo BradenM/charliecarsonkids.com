@@ -19,11 +19,11 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
           <div
             class="banner-text text-center"
           >
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle1"
+            <p
+              class=" text-dark m-0 p-1"
             >
               banner content
-            </h6>
+            </p>
           </div>
         </div>
       </div>
