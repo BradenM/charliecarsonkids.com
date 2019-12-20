@@ -19,17 +19,20 @@ const HeroContainer = styled(Container)`
   }
 `;
 
-const HeroProps = {
+const HomeHero = props => (
+  <HeroContainer>
+    <Hero {...props} />
+  </HeroContainer>
+);
+
+HomeHero.defaultProps = {
   text: 'new arrivals',
   buttonText: 'Shop Now',
   imageSrc: ImageURL('hero'),
-  onButtonClick: () => {},
 };
 
-const HomeHero = () => (
-  <HeroContainer>
-    <Hero {...HeroProps} />
-  </HeroContainer>
-);
+HomeHero.propTypes = {
+  ...Hero.propTypes,
+};
 
 export default HomeHero;
