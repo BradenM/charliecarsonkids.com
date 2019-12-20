@@ -1,0 +1,27 @@
+// Bootstrap Theme
+
+// Basic Colors
+$colors: (
+  'pink': #ffd1dc,
+  'blue': #45749d,
+  'red': #b2565b,
+  'yellow': #ffa942,
+  'green': #82b97a,
+);
+
+// Theme Colors
+$theme-colors: (
+  'primary': map-get($colors, 'pink'),
+  'info': map-get($colors, 'blue'),
+  'warning': map-get($colors, 'yellow'),
+  'success': map-get($colors, 'green'),
+  'danger': map-get($colors, 'red'),
+);
+
+// Theme Config
+$enable-shadows: true;
+$enable-gradients: true;
+$body-bg: #fafafa;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
