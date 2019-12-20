@@ -14,40 +14,57 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { PlaceholderURL } from 'utils/getStatic';
 
-const HomeSection = ({ children }) => (
-  <Row>
-    <Col>{children}</Col>
-  </Row>
-);
-
-HomeSection.propTypes = { children: PropTypes.element.isRequired };
-
-const HomeLayout = ({ children }) => (
+const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
   <Container fluid className="homepage-container">
     <Row>
       <Col className="p-0">
-        <Banner backgroundColor="#ff9999">
-          <Typography variant="subtitle1">
-            free shipping for orders over $100!
-          </Typography>
-        </Banner>
+        {bannerOptions && (
+          <Banner backgroundColor={bannerOptions.color}>
+            <Typography variant="subtitle1">{bannerOptions.text}</Typography>
+          </Banner>
+        )}
       </Col>
     </Row>
-    <HomeSection>
-      <Header />
-    </HomeSection>
-    <HomeSection>
-      <HomeHero />
-    </HomeSection>
+    <Row>
+      <Col>
+        <Header />
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <HomeHero {...heroOptions} />
+      </Col>
+    </Row>
     {children}
   </Container>
 );
 
-HomeLayout.Section = HomeSection;
+HomeLayout.defaultProps = {
+  bannerOptions: {
+    text: 'banner content',
+    color: '#ff9999',
+  },
+  heroOptions: {
+    text: 'Hero Title',
+    buttonText: 'Click Me',
+    imageSrc: PlaceholderURL('1200'),
+  },
+};
 
 HomeLayout.propTypes = {
   children: PropTypes.element,
+  bannerOptions: PropTypes.oneOfType([
+    PropTypes.bool,
+    PropTypes.shape({
+      text: PropTypes.string,
+      color: PropTypes.string,
+    }),
+  ]),
+  heroOptions: PropTypes.shape({
+    ...HomeHero.propTypes,
+  }),
 };
 
 export default HomeLayout;
