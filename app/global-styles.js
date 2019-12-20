@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import './style/custom.scss';
 
 const GlobalStyle = createGlobalStyle`
   html,
@@ -63,8 +64,27 @@ const GlobalStyle = createGlobalStyle`
     font-size: calc(1.275rem + 0.3vw);
   }
 }
-
-
 `;
+
+export const CustomColors = {
+  pink: '#ffd1dc',
+  red: '#b2565b',
+  blue: '#45749d',
+  yellow: '#ffa942',
+  green: '#82b97a',
+};
+
+export const BrandColors = {
+  primary: CustomColors.pink,
+  success: CustomColors.green,
+  info: CustomColors.blue,
+  warning: CustomColors.yellow,
+  danger: CustomColors.red,
+};
+
+export const Theme = {
+  ...BrandColors,
+  ...CustomColors,
+};
 
 export default GlobalStyle;
