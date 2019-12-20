@@ -7,39 +7,27 @@
 
 import Text from 'atoms/Text';
 import Banner from 'molecules/Banner';
+import Footer from 'organisms/Footer';
 import Header from 'organisms/Header';
 import HomeHero from 'organisms/HomeHero';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import { PlaceholderURL } from 'utils/getStatic';
 
 const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
-  <Container fluid className="homepage-container">
-    <Row>
-      <Col className="p-0">
-        {bannerOptions && (
-          <Banner backgroundColor={bannerOptions.color}>
-            <Text className="m-0 p-1" color="dark">
-              {bannerOptions.text}
-            </Text>
-          </Banner>
-        )}
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <Header />
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <HomeHero {...heroOptions} />
-      </Col>
-    </Row>
+  <Container fluid className="homepage-container p-0">
+    {bannerOptions && (
+      <Banner backgroundColor={bannerOptions.color}>
+        <Text className="m-0 p-1" color="dark">
+          {bannerOptions.text}
+        </Text>
+      </Banner>
+    )}
+    <Header />
+    <HomeHero {...heroOptions} />
     {children}
+    <Footer />
   </Container>
 );
 
