@@ -5,12 +5,17 @@
  * Templates
  */
 
-import { storiesOf } from '@storybook/react';
 import React from 'react';
-
+//import { text, number, boolean } from '@storybook/addon-knobs';
 import {{ properCase name }} from '.';
 
-// const {{ lowerCase name }} = {}
+export default {
+  title: 'Design|Templates/{{ properCase name }}',
+  component: {{ properCase name }},
+  parameters: {
+    centered: { disable: true },
+  },
+};
 
-storiesOf('{{ properCase name }}', module)
-  .add('default', () => <{{ properCase name }} />);
+
+export const defaultStory = () => <{{ properCase name }} />;
