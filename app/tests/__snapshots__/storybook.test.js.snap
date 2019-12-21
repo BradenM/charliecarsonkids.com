@@ -1696,6 +1696,170 @@ exports[`Storyshots Design|Molecules/FeaturedCategory With Dynamic Variables 1`]
 </div>
 `;
 
+exports[`Storyshots Design|Molecules/FeaturedProduct Default Story 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+          href="product/product-name"
+          onClick={[Function]}
+        >
+          <img
+            className="card-img-top"
+            src="https://via.placeholder.com/400"
+          />
+          <div
+            className="pt-3 card-title h5"
+          >
+            Cool Shirt
+          </div>
+          <div
+            className="card-subtitle h6"
+          >
+            $
+            29.99
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/FeaturedProduct With Product 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+          href="product/product-name"
+          onClick={[Function]}
+        >
+          <img
+            className="card-img-top"
+            src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
+          />
+          <div
+            className="pt-3 card-title h5"
+          >
+            Cool Shirt
+          </div>
+          <div
+            className="card-subtitle h6"
+          >
+            $
+            29.99
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
 <div>
   <div
