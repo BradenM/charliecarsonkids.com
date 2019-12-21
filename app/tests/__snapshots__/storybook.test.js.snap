@@ -2489,6 +2489,231 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
 </div>
 `;
 
+exports[`Storyshots Design|Organisms/FeaturedCategories Default Story 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="card-columns"
+        >
+          <div
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+            href="categories/one"
+            onClick={[Function]}
+          >
+            <img
+              className="card-img-top"
+              src="https://via.placeholder.com/400"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="text-center card-title h5"
+              >
+                Card One
+              </div>
+            </div>
+          </div>
+          <div
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+            href="categories/two"
+            onClick={[Function]}
+          >
+            <img
+              className="card-img-top"
+              src="https://via.placeholder.com/400"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="text-center card-title h5"
+              >
+                Card Two
+              </div>
+            </div>
+          </div>
+          <div
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+            href="categories/three"
+            onClick={[Function]}
+          >
+            <img
+              className="card-img-top"
+              src="https://via.placeholder.com/400"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="text-center card-title h5"
+              >
+                Card Three
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Organisms/FeaturedCategories Example Categories 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <div
+          className="card-columns"
+        >
+          <div
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-danger"
+            href="categories/girls"
+            onClick={[Function]}
+          >
+            <img
+              className="card-img-top"
+              src="https://static.charliecarsonkids.com/assets/images/shop-girls.png"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="text-center card-title h5"
+              >
+                Shop Girls
+              </div>
+            </div>
+          </div>
+          <div
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-info"
+            href="categories/boys"
+            onClick={[Function]}
+          >
+            <img
+              className="card-img-top"
+              src="https://via.placeholder.com/400"
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="text-center card-title h5"
+              >
+                Shop Boys
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
 <div>
   <div
