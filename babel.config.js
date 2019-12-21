@@ -22,6 +22,7 @@ module.exports = {
         'transform-react-remove-prop-types',
         '@babel/plugin-transform-react-inline-elements',
         '@babel/plugin-transform-react-constant-elements',
+        'styled-components',
       ],
     },
     test: {
@@ -29,6 +30,7 @@ module.exports = {
         'require-context-hook',
         '@babel/plugin-transform-modules-commonjs',
         'dynamic-import-node',
+        'styled-components',
       ],
     },
   },
