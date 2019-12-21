@@ -11,7 +11,7 @@ import { withKnobs } from '@storybook/addon-knobs/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { addDecorator, addParameters, configure } from '@storybook/react';
 import { withHTML } from '@whitespace/storybook-addon-html/react';
-import { withTheme } from './decorators';
+import '../app/style/custom.scss';
 import './storybook.css';
 
 // Console Config
@@ -23,7 +23,6 @@ setConsoleOptions({
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 addDecorator(withInfo);
 addDecorator(withKnobs);
-addDecorator(withTheme);
 addDecorator(centered);
 addDecorator(
   withHTML({

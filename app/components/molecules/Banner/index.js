@@ -13,7 +13,7 @@ import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 
 const BannerContainer = styled(Container)`
-  background-color: ${props => props.theme.primary};
+  background-color: #ffd1dc;
   .banner {
     &-text {
       &:first-child {

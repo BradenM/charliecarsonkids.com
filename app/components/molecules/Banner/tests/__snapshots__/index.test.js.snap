@@ -2,7 +2,7 @@
 
 exports[`<Banner /> Should render and match the snapshot 1`] = `
 <div
-  class="Banner__BannerContainer-sc-1in81vp-0 bOBsSd p-0 undefined container-fluid"
+  class="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
 >
   <div
     class="banner-wrapper py-1 row"
