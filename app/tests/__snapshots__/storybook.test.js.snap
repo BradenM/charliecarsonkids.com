@@ -1379,17 +1379,21 @@ exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
     >
       <div
-        className="banner-wrapper py-1"
+        className="banner-wrapper py-1 row"
       >
         <div
-          className="banner-text text-center"
+          className="col"
         >
-          <h3>
-            Banner
-          </h3>
+          <div
+            className="banner-text text-center"
+          >
+            <h3>
+              Banner
+            </h3>
+          </div>
         </div>
       </div>
     </div>
@@ -1431,17 +1435,21 @@ exports[`Storyshots Design|Molecules/Banner With Dynamic Variables 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 ckUHPb p-0"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
     >
       <div
-        className="banner-wrapper py-1"
+        className="banner-wrapper py-1 row"
       >
         <div
-          className="banner-text text-center"
+          className="col"
         >
-          <h3>
-            Banner Content!
-          </h3>
+          <div
+            className="banner-text text-center"
+          >
+            <h3>
+              Banner Content!
+            </h3>
+          </div>
         </div>
       </div>
     </div>
@@ -1483,17 +1491,21 @@ exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 ckUHPb p-0"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
     >
       <div
-        className="banner-wrapper py-1"
+        className="banner-wrapper py-1 row"
       >
         <div
-          className="banner-text text-center"
+          className="col"
         >
-          <h3>
-            Hi
-          </h3>
+          <div
+            className="banner-text text-center"
+          >
+            <h3>
+              Hi
+            </h3>
+          </div>
         </div>
       </div>
     </div>
@@ -1557,7 +1569,7 @@ exports[`Storyshots Design|Molecules/FeaturedCategory Default Story 1`] = `
         }
       >
         <div
-          className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+          className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-dark"
           href="category"
           onClick={[Function]}
         >
@@ -1637,7 +1649,7 @@ exports[`Storyshots Design|Molecules/FeaturedCategory With Dynamic Variables 1`]
         }
       >
         <div
-          className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+          className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-dark"
           href="category"
           onClick={[Function]}
         >
@@ -2525,7 +2537,7 @@ exports[`Storyshots Design|Organisms/FeaturedCategories Default Story 1`] = `
           className="card-columns"
         >
           <div
-            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-dark"
             href="categories/one"
             onClick={[Function]}
           >
@@ -2544,7 +2556,7 @@ exports[`Storyshots Design|Organisms/FeaturedCategories Default Story 1`] = `
             </div>
           </div>
           <div
-            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-dark"
             href="categories/two"
             onClick={[Function]}
           >
@@ -2563,7 +2575,7 @@ exports[`Storyshots Design|Organisms/FeaturedCategories Default Story 1`] = `
             </div>
           </div>
           <div
-            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-dark"
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-dark"
             href="categories/three"
             onClick={[Function]}
           >
@@ -2647,7 +2659,7 @@ exports[`Storyshots Design|Organisms/FeaturedCategories Example Categories 1`] =
           className="card-columns"
         >
           <div
-            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-danger"
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-danger"
             href="categories/girls"
             onClick={[Function]}
           >
@@ -2666,7 +2678,7 @@ exports[`Storyshots Design|Organisms/FeaturedCategories Example Categories 1`] =
             </div>
           </div>
           <div
-            className="FeaturedCategory__StyledCard-u5mhcw-0 cZYMSC shadow card border-info"
+            className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-info"
             href="categories/boys"
             onClick={[Function]}
           >
@@ -3491,6 +3503,479 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
 </div>
 `;
 
+exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <section
+      className="homepage--wrapper"
+    >
+      <div
+        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+      >
+        <div
+          className="banner-wrapper py-1 row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="banner-text text-center"
+            >
+              <p
+                className=" text-body m-0 p-1"
+              >
+                free shipping on orders over $100!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="d-flex justify-content-start px-3 py-2 col"
+          >
+            <div
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
+            >
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="d-flex justify-content-end px-3 py-2 col"
+          >
+            <div
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
+            >
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                          "height": "100%",
+                          "transform": "rotate(90deg)",
+                          "width": "40px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                >
+                  <div
+                    className="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                          "height": "100%",
+                          "transform": "rotate(0deg)",
+                          "width": "40px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="justify-content-md-center row"
+        >
+          <div
+            className="d-flex justify-content-center py-3 col-md-auto"
+          >
+            <div
+              className="w-50"
+            >
+              <img
+                className="img-fluid"
+                src="IMAGE_MOCK"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <nav
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+            >
+              <button
+                aria-controls="responsive-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+              <div
+                aria-expanded={null}
+                className="navbar-collapse collapse"
+                id="responsive-navbar-nav"
+              >
+                <div
+                  className="m-auto justify-content-around navbar-nav"
+                  onKeyDown={[Function]}
+                >
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="new"
+                    href="new"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    new
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="boys"
+                    href="boys"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    boys
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="girls"
+                    href="girls"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    girls
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="baby"
+                    href="baby"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    baby
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="collections"
+                    href="collections"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    collections
+                  </a>
+                  <a
+                    className="nav-link"
+                    data-rb-event-key="about"
+                    href="about"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    about
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div
+        className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+      >
+        <div
+          className="Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD hero jumbotron"
+        >
+          <div
+            className="h-100 container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="pb-3 my-auto col-6"
+              >
+                <h1
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  color="#fefefe"
+                  size={1}
+                >
+                  NEW ARRIVALS
+                </h1>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="py-3 col-3"
+              >
+                <button
+                  className="btn btn-outline-light btn-lg"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        className="homepage--content"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="HomePage__StyledFeaturedCategories-sc-17qi1hn-0 haoUFH card-columns"
+              >
+                <div
+                  className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-danger"
+                  href="categories/girls"
+                  onClick={[Function]}
+                >
+                  <img
+                    className="card-img-top"
+                    src="https://static.charliecarsonkids.com/assets/images/shop-girls.png"
+                  />
+                  <div
+                    className="card-body"
+                  >
+                    <div
+                      className="text-center card-title h5"
+                    >
+                      Shop Girls
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-warning"
+                  href="categories/baby"
+                  onClick={[Function]}
+                >
+                  <img
+                    className="card-img-top"
+                    src="https://static.charliecarsonkids.com/assets/images/shop-baby.png"
+                  />
+                  <div
+                    className="card-body"
+                  >
+                    <div
+                      className="text-center card-title h5"
+                    >
+                      Shop Baby
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-info"
+                  href="categories/boys"
+                  onClick={[Function]}
+                >
+                  <img
+                    className="card-img-top"
+                    src="https://static.charliecarsonkids.com/assets/images/shop-boys.png"
+                  />
+                  <div
+                    className="card-body"
+                  >
+                    <div
+                      className="text-center card-title h5"
+                    >
+                      Shop Boys
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        className="bg-info p-3 container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-4"
+          >
+            <div
+              className="bg-info container-fluid"
+            >
+              <div
+                className="flex-column justify-content-center align-content-center align-items-center row"
+              >
+                <div
+                  className="p-3 col-md-7 col-9"
+                >
+                  <p
+                    className="h3 text-light text-justify text-center mb-3"
+                  >
+                    Subscribe to our Newsletter
+                  </p>
+                  <p
+                    className=" text-light text-center m-0"
+                  >
+                    Don't miss out on any deals and stay up to date with the latest trends.
+                  </p>
+                </div>
+                <div
+                  className="col-9"
+                >
+                  <div
+                    className="p-3"
+                  >
+                    <div
+                      className="input-group"
+                    >
+                      <input
+                        className="form-control"
+                        placeholder="Your Email"
+                        type="email"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <button
+                          className="btn btn-outline-light"
+                          disabled={false}
+                          type="button"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
+`;
+
 exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
 <div>
   <div
@@ -3501,23 +3986,27 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
       }
     }
   >
-    <div
-      className="homepage-container p-0 container-fluid"
+    <section
+      className="homepage--wrapper"
     >
       <div
-        className="Banner__BannerContainer-sc-1in81vp-0 ckUHPb p-0"
+        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
       >
         <div
-          className="banner-wrapper py-1"
+          className="banner-wrapper py-1 row"
         >
           <div
-            className="banner-text text-center"
+            className="col"
           >
-            <p
-              className=" text-dark m-0 p-1"
+            <div
+              className="banner-text text-center"
             >
-              banner text
-            </p>
+              <p
+                className=" text-body m-0 p-1"
+              >
+                banner text
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -3790,7 +4279,11 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
           </div>
         </div>
       </div>
-      <div />
+      <section
+        className="homepage--content"
+      >
+        <div />
+      </section>
       <div
         className="bg-info p-3 container-fluid"
       >
@@ -3856,7 +4349,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
           />
         </div>
       </div>
-    </div>
+    </section>
   </div>
   <button
     className="info__show-button"
@@ -3894,23 +4387,27 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
       }
     }
   >
-    <div
-      className="homepage-container p-0 container-fluid"
+    <section
+      className="homepage--wrapper"
     >
       <div
-        className="Banner__BannerContainer-sc-1in81vp-0 hQEDkc p-0"
+        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
       >
         <div
-          className="banner-wrapper py-1"
+          className="banner-wrapper py-1 row"
         >
           <div
-            className="banner-text text-center"
+            className="col"
           >
-            <p
-              className=" text-dark m-0 p-1"
+            <div
+              className="banner-text text-center"
             >
-              banner content
-            </p>
+              <p
+                className=" text-body m-0 p-1"
+              >
+                banner content
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -4183,6 +4680,9 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
           </div>
         </div>
       </div>
+      <section
+        className="homepage--content"
+      />
       <div
         className="bg-info p-3 container-fluid"
       >
@@ -4248,7 +4748,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
           />
         </div>
       </div>
-    </div>
+    </section>
   </div>
   <button
     className="info__show-button"

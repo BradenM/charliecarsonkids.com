@@ -1,23 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
-<div
-  class="homepage-container p-0 container-fluid"
+<section
+  class="homepage--wrapper"
 >
   <div
-    class="Banner__BannerContainer-sc-1in81vp-0 hQEDkc p-0"
+    class="Banner__BannerContainer-sc-1in81vp-0 bOBsSd p-0 undefined container-fluid"
   >
     <div
-      class="banner-wrapper py-1"
+      class="banner-wrapper py-1 row"
     >
       <div
-        class="banner-text text-center"
+        class="col"
       >
-        <p
-          class=" text-dark m-0 p-1"
+        <div
+          class="banner-text text-center"
         >
-          banner content
-        </p>
+          <p
+            class=" text-body m-0 p-1"
+          >
+            banner content
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -253,6 +257,9 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
       </div>
     </div>
   </div>
+  <section
+    class="homepage--content"
+  />
   <div
     class="bg-info p-3 container-fluid"
   >
@@ -317,5 +324,5 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
       />
     </div>
   </div>
-</div>
+</section>
 `;

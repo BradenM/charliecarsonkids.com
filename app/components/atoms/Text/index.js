@@ -41,7 +41,7 @@ Text.propTypes = {
   variant: PropTypes.oneOf(TextVariants),
   color: PropTypes.oneOf(TextColors),
   className: PropTypes.string,
-  children: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
 };
 
 export default Text;

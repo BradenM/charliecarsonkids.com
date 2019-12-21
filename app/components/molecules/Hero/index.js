@@ -55,7 +55,7 @@ Hero.defaultProps = {
 
 Hero.propTypes = {
   imageSrc: PropTypes.string.isRequired,
-  text: PropTypes.string,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   buttonText: PropTypes.string,
   onButtonClick: PropTypes.func,
 };

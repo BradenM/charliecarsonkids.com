@@ -12,29 +12,27 @@ import Header from 'organisms/Header';
 import HomeHero from 'organisms/HomeHero';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import { PlaceholderURL } from 'utils/getStatic';
 
 const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
-  <Container fluid className="homepage-container p-0">
+  <section className="homepage--wrapper">
     {bannerOptions && (
-      <Banner backgroundColor={bannerOptions.color}>
-        <Text className="m-0 p-1" color="dark">
+      <Banner>
+        <Text className="m-0 p-1" color="body">
           {bannerOptions.text}
         </Text>
       </Banner>
     )}
     <Header />
     <HomeHero {...heroOptions} />
-    {children}
+    <section className="homepage--content">{children}</section>
     <Footer />
-  </Container>
+  </section>
 );
 
 HomeLayout.defaultProps = {
   bannerOptions: {
     text: 'banner content',
-    color: '#ff9999',
   },
   heroOptions: {
     text: 'Hero Title',
@@ -48,7 +46,7 @@ HomeLayout.propTypes = {
   bannerOptions: PropTypes.oneOfType([
     PropTypes.bool,
     PropTypes.shape({
-      text: PropTypes.string,
+      text: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
       color: PropTypes.string,
     }),
   ]),

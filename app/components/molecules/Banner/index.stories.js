@@ -23,12 +23,12 @@ export const defaultBanner = () => (
   </Banner>
 );
 export const withText = () => (
-  <Banner backgroundColor="#cecece">
+  <Banner>
     <h3>Hi</h3>
   </Banner>
 );
 export const withDynamicVariables = () => (
-  <Banner backgroundColor={text('Color', '#cecece')}>
+  <Banner>
     <h3>{text('Text', 'Banner Content!')}</h3>
   </Banner>
 );

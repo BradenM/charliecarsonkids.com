@@ -25,7 +25,7 @@ describe('<Banner />', () => {
     const {
       container: { firstChild },
     } = render(
-      <Banner backgroundColor="gray">
+      <Banner>
         <h3>Banner Content</h3>
       </Banner>,
     );
