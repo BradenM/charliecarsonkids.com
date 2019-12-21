@@ -38,9 +38,15 @@ const StyledCard = styled(Card)`
   }
 `;
 
-const FeaturedCategory = ({ className, imageSrc, title, linkTo }) => (
+const FeaturedCategory = ({
+  className,
+  imageSrc,
+  title,
+  linkTo,
+  borderColor,
+}) => (
   <LinkContainer to={linkTo}>
-    <StyledCard className={`shadow ${className}`} border="dark">
+    <StyledCard className={`shadow ${className}`} border={borderColor}>
       <Card.Img variant="top" src={imageSrc} />
       <Card.Body>
         <Card.Title className="text-center">{title}</Card.Title>
@@ -53,6 +59,7 @@ FeaturedCategory.defaultProps = {
   className: '',
   imageSrc: PlaceholderURL('400'),
   title: 'Card Title',
+  borderColor: 'dark',
 };
 
 FeaturedCategory.propTypes = {
@@ -60,6 +67,7 @@ FeaturedCategory.propTypes = {
   imageSrc: PropTypes.string,
   title: PropTypes.string,
   linkTo: PropTypes.string.isRequired,
+  borderColor: PropTypes.string,
 };
 
 export default FeaturedCategory;
