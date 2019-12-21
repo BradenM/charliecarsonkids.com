@@ -7,10 +7,13 @@
 
 import PropTypes from 'prop-types';
 import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 
-const BannerContainer = styled.div`
-  background-color: ${props => props.backgroundColor || props.theme.primary};
+const BannerContainer = styled(Container)`
+  background-color: ${props => props.theme.primary};
   .banner {
     &-text {
       &:first-child {
@@ -20,21 +23,19 @@ const BannerContainer = styled.div`
   }
 `;
 
-const Banner = ({ backgroundColor, children }) => (
-  <BannerContainer backgroundColor={backgroundColor} fluid className="p-0">
-    <div className="banner-wrapper py-1">
-      <div className="banner-text text-center">{children}</div>
-    </div>
+const Banner = ({ children, className }) => (
+  <BannerContainer fluid className={`p-0 ${className}`}>
+    <Row className="banner-wrapper py-1">
+      <Col>
+        <div className="banner-text text-center">{children}</div>
+      </Col>
+    </Row>
   </BannerContainer>
 );
 
-Banner.defaultProps = {
-  backgroundColor: '',
-};
-
 Banner.propTypes = {
   children: PropTypes.element.isRequired,
-  backgroundColor: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default Banner;

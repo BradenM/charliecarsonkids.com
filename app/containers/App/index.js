@@ -7,7 +7,7 @@
  *
  */
 
-import HomePage from 'containers/HomePage/Loadable';
+import HomePage from 'pages/HomePage/loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import React from 'react';
 import Container from 'react-bootstrap/Container';

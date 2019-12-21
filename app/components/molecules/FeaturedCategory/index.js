@@ -13,7 +13,7 @@ import styled from 'styled-components';
 import { PlaceholderURL } from 'utils/getStatic';
 
 const StyledCard = styled(Card)`
-  width: 18rem;
+  max-width: 18rem;
   cursor: pointer;
   transition: transform 300ms ease-in-out;
   position: relative;
