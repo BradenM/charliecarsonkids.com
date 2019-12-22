@@ -450,457 +450,457 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
       >
         <div>
           <p
-            className="h1 text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-primary "
           >
             Text h1 primary
           </p>
           <p
-            className="h2 text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-primary "
           >
             Text h2 primary
           </p>
           <p
-            className="h3 text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-primary "
           >
             Text h3 primary
           </p>
           <p
-            className="h4 text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-primary "
           >
             Text h4 primary
           </p>
           <p
-            className="h5 text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-primary "
           >
             Text h5 primary
           </p>
           <p
-            className="h6 text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-primary "
           >
             Text h6 primary
           </p>
           <p
-            className=" text-primary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-primary "
           >
             Text  primary
           </p>
           <p
-            className="h1 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-secondary "
           >
             Text h1 secondary
           </p>
           <p
-            className="h2 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-secondary "
           >
             Text h2 secondary
           </p>
           <p
-            className="h3 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-secondary "
           >
             Text h3 secondary
           </p>
           <p
-            className="h4 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-secondary "
           >
             Text h4 secondary
           </p>
           <p
-            className="h5 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-secondary "
           >
             Text h5 secondary
           </p>
           <p
-            className="h6 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-secondary "
           >
             Text h6 secondary
           </p>
           <p
-            className=" text-secondary "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-secondary "
           >
             Text  secondary
           </p>
           <p
-            className="h1 text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-success "
           >
             Text h1 success
           </p>
           <p
-            className="h2 text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-success "
           >
             Text h2 success
           </p>
           <p
-            className="h3 text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-success "
           >
             Text h3 success
           </p>
           <p
-            className="h4 text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-success "
           >
             Text h4 success
           </p>
           <p
-            className="h5 text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-success "
           >
             Text h5 success
           </p>
           <p
-            className="h6 text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-success "
           >
             Text h6 success
           </p>
           <p
-            className=" text-success "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-success "
           >
             Text  success
           </p>
           <p
-            className="h1 text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-warning "
           >
             Text h1 warning
           </p>
           <p
-            className="h2 text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-warning "
           >
             Text h2 warning
           </p>
           <p
-            className="h3 text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-warning "
           >
             Text h3 warning
           </p>
           <p
-            className="h4 text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-warning "
           >
             Text h4 warning
           </p>
           <p
-            className="h5 text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-warning "
           >
             Text h5 warning
           </p>
           <p
-            className="h6 text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-warning "
           >
             Text h6 warning
           </p>
           <p
-            className=" text-warning "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-warning "
           >
             Text  warning
           </p>
           <p
-            className="h1 text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-danger "
           >
             Text h1 danger
           </p>
           <p
-            className="h2 text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-danger "
           >
             Text h2 danger
           </p>
           <p
-            className="h3 text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-danger "
           >
             Text h3 danger
           </p>
           <p
-            className="h4 text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-danger "
           >
             Text h4 danger
           </p>
           <p
-            className="h5 text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-danger "
           >
             Text h5 danger
           </p>
           <p
-            className="h6 text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-danger "
           >
             Text h6 danger
           </p>
           <p
-            className=" text-danger "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-danger "
           >
             Text  danger
           </p>
           <p
-            className="h1 text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-info "
           >
             Text h1 info
           </p>
           <p
-            className="h2 text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-info "
           >
             Text h2 info
           </p>
           <p
-            className="h3 text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-info "
           >
             Text h3 info
           </p>
           <p
-            className="h4 text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-info "
           >
             Text h4 info
           </p>
           <p
-            className="h5 text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-info "
           >
             Text h5 info
           </p>
           <p
-            className="h6 text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-info "
           >
             Text h6 info
           </p>
           <p
-            className=" text-info "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-info "
           >
             Text  info
           </p>
           <p
-            className="h1 text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-dark "
           >
             Text h1 dark
           </p>
           <p
-            className="h2 text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-dark "
           >
             Text h2 dark
           </p>
           <p
-            className="h3 text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark "
           >
             Text h3 dark
           </p>
           <p
-            className="h4 text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-dark "
           >
             Text h4 dark
           </p>
           <p
-            className="h5 text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-dark "
           >
             Text h5 dark
           </p>
           <p
-            className="h6 text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-dark "
           >
             Text h6 dark
           </p>
           <p
-            className=" text-dark "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark "
           >
             Text  dark
           </p>
           <p
-            className="h1 text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-light "
           >
             Text h1 light
           </p>
           <p
-            className="h2 text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-light "
           >
             Text h2 light
           </p>
           <p
-            className="h3 text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light "
           >
             Text h3 light
           </p>
           <p
-            className="h4 text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-light "
           >
             Text h4 light
           </p>
           <p
-            className="h5 text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-light "
           >
             Text h5 light
           </p>
           <p
-            className="h6 text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-light "
           >
             Text h6 light
           </p>
           <p
-            className=" text-light "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light "
           >
             Text  light
           </p>
           <p
-            className="h1 text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-body "
           >
             Text h1 body
           </p>
           <p
-            className="h2 text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-body "
           >
             Text h2 body
           </p>
           <p
-            className="h3 text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-body "
           >
             Text h3 body
           </p>
           <p
-            className="h4 text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-body "
           >
             Text h4 body
           </p>
           <p
-            className="h5 text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-body "
           >
             Text h5 body
           </p>
           <p
-            className="h6 text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-body "
           >
             Text h6 body
           </p>
           <p
-            className=" text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body "
           >
             Text  body
           </p>
           <p
-            className="h1 text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-muted "
           >
             Text h1 muted
           </p>
           <p
-            className="h2 text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-muted "
           >
             Text h2 muted
           </p>
           <p
-            className="h3 text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-muted "
           >
             Text h3 muted
           </p>
           <p
-            className="h4 text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-muted "
           >
             Text h4 muted
           </p>
           <p
-            className="h5 text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-muted "
           >
             Text h5 muted
           </p>
           <p
-            className="h6 text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-muted "
           >
             Text h6 muted
           </p>
           <p
-            className=" text-muted "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-muted "
           >
             Text  muted
           </p>
           <p
-            className="h1 text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-white "
           >
             Text h1 white
           </p>
           <p
-            className="h2 text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-white "
           >
             Text h2 white
           </p>
           <p
-            className="h3 text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-white "
           >
             Text h3 white
           </p>
           <p
-            className="h4 text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-white "
           >
             Text h4 white
           </p>
           <p
-            className="h5 text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-white "
           >
             Text h5 white
           </p>
           <p
-            className="h6 text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-white "
           >
             Text h6 white
           </p>
           <p
-            className=" text-white "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-white "
           >
             Text  white
           </p>
           <p
-            className="h1 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-black-50 "
           >
             Text h1 black-50
           </p>
           <p
-            className="h2 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-black-50 "
           >
             Text h2 black-50
           </p>
           <p
-            className="h3 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-black-50 "
           >
             Text h3 black-50
           </p>
           <p
-            className="h4 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-black-50 "
           >
             Text h4 black-50
           </p>
           <p
-            className="h5 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-black-50 "
           >
             Text h5 black-50
           </p>
           <p
-            className="h6 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-black-50 "
           >
             Text h6 black-50
           </p>
           <p
-            className=" text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-black-50 "
           >
             Text  black-50
           </p>
           <p
-            className="h1 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-white-50 "
           >
             Text h1 white-50
           </p>
           <p
-            className="h2 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-white-50 "
           >
             Text h2 white-50
           </p>
           <p
-            className="h3 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-white-50 "
           >
             Text h3 white-50
           </p>
           <p
-            className="h4 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-white-50 "
           >
             Text h4 white-50
           </p>
           <p
-            className="h5 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-white-50 "
           >
             Text h5 white-50
           </p>
           <p
-            className="h6 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-white-50 "
           >
             Text h6 white-50
           </p>
           <p
-            className=" text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-white-50 "
           >
             Text  white-50
           </p>
@@ -967,7 +967,7 @@ exports[`Storyshots Design|Atoms/Text With Dynamic Variables 1`] = `
         }
       >
         <p
-          className="h1 text-body "
+          className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-body "
         >
           Text
         </p>
@@ -1034,12 +1034,12 @@ exports[`Storyshots Design|Atoms/Text With Extra Classes 1`] = `
       >
         <div>
           <p
-            className=" text-dark p-5"
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark p-5"
           >
             I have a padding of p-5
           </p>
           <p
-            className=" text-body "
+            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body "
           >
             I should be pushed down by pb-5
           </p>
@@ -1106,7 +1106,7 @@ exports[`Storyshots Design|Atoms/Title Blue Title 1`] = `
         }
       >
         <h1
-          className="Title-sc-3abvrr-0 gcrcWc display-1 "
+          className="Title-sc-3abvrr-0 diUlNT display-1 "
           color="blue"
           size={1}
         >
@@ -1174,7 +1174,7 @@ exports[`Storyshots Design|Atoms/Title Default Title 1`] = `
         }
       >
         <h1
-          className="Title-sc-3abvrr-0 hDDVwe display-1 "
+          className="Title-sc-3abvrr-0 kbvsMK display-1 "
           color="inherit"
           size={1}
         >
@@ -1242,7 +1242,7 @@ exports[`Storyshots Design|Atoms/Title With Dynamic Variables 1`] = `
         }
       >
         <h1
-          className="Title-sc-3abvrr-0 hDDVwe display-1 "
+          className="Title-sc-3abvrr-0 kbvsMK display-1 "
           color="inherit"
           size={1}
         >
@@ -1311,28 +1311,28 @@ exports[`Storyshots Design|Atoms/Title With Sizes 1`] = `
       >
         <div>
           <h1
-            className="Title-sc-3abvrr-0 hDDVwe display-1 "
+            className="Title-sc-3abvrr-0 kbvsMK display-1 "
             color="inherit"
             size={1}
           >
             Size 1
           </h1>
           <h1
-            className="Title-sc-3abvrr-0 hDDVwe display-2 "
+            className="Title-sc-3abvrr-0 kbvsMK display-2 "
             color="inherit"
             size={2}
           >
             Size 2
           </h1>
           <h1
-            className="Title-sc-3abvrr-0 hDDVwe display-3 "
+            className="Title-sc-3abvrr-0 kbvsMK display-3 "
             color="inherit"
             size={3}
           >
             Size 3
           </h1>
           <h1
-            className="Title-sc-3abvrr-0 hDDVwe display-4 "
+            className="Title-sc-3abvrr-0 kbvsMK display-4 "
             color="inherit"
             size={4}
           >
@@ -1904,7 +1904,7 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
                     className="pb-3 my-auto col-6"
                   >
                     <h1
-                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                       color="#fefefe"
                       size={1}
                     >
@@ -2047,7 +2047,7 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
                     className="pb-3 my-auto col-6"
                   >
                     <h1
-                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                       color="#fefefe"
                       size={1}
                     >
@@ -2596,12 +2596,12 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
               className="p-3 col-md-7 col-9"
             >
               <p
-                className="h3 text-light text-justify text-center mb-3"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
               >
                 Subscribe to our Newsletter
               </p>
               <p
-                className=" text-light text-center m-0"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
               >
                 Don't miss out on any deals and stay up to date with the latest trends.
               </p>
@@ -2919,12 +2919,12 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
                 className="p-3 col-md-7 col-9"
               >
                 <p
-                  className="h3 text-light text-justify text-center mb-3"
+                  className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
                 >
                   Subscribe to our Newsletter
                 </p>
                 <p
-                  className=" text-light text-center m-0"
+                  className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
                 >
                   Don't miss out on any deals and stay up to date with the latest trends.
                 </p>
@@ -3348,7 +3348,7 @@ exports[`Storyshots Design|Organisms/HomeHero Default Story 1`] = `
               className="pb-3 my-auto col-6"
             >
               <h1
-                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                 color="#fefefe"
                 size={1}
               >
@@ -3693,7 +3693,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
               className="banner-text text-center"
             >
               <p
-                className=" text-body m-0 p-1"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
               >
                 free shipping on orders over $100!
               </p>
@@ -3943,7 +3943,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 className="pb-3 my-auto col-6"
               >
                 <h1
-                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                   color="#fefefe"
                   size={1}
                 >
@@ -3980,7 +3980,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
             className="my-5 py-5 container"
           >
             <p
-              className="h2 text-body text-center pb-3"
+              className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-body text-center pb-3"
             >
               New Arrivals
             </p>
@@ -4158,12 +4158,12 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="h3 text-light text-justify text-center mb-3"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className=" text-light text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
@@ -4258,7 +4258,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
               className="banner-text text-center"
             >
               <p
-                className=" text-body m-0 p-1"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
               >
                 banner text
               </p>
@@ -4508,7 +4508,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 className="pb-3 my-auto col-6"
               >
                 <h1
-                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                   color="#fefefe"
                   size={1}
                 >
@@ -4559,12 +4559,12 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="h3 text-light text-justify text-center mb-3"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className=" text-light text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
@@ -4659,7 +4659,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
               className="banner-text text-center"
             >
               <p
-                className=" text-body m-0 p-1"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
               >
                 banner content
               </p>
@@ -4909,7 +4909,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 className="pb-3 my-auto col-6"
               >
                 <h1
-                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
                   color="#fefefe"
                   size={1}
                 >
@@ -4958,12 +4958,12 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="h3 text-light text-justify text-center mb-3"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className=" text-light text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
