@@ -11,6 +11,11 @@ import { withKnobs } from '@storybook/addon-knobs/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { addDecorator, addParameters, configure } from '@storybook/react';
 import { withHTML } from '@whitespace/storybook-addon-html/react';
+// fonts
+import 'typeface-montserrat';
+import 'typeface-poppins';
+import 'typeface-roboto';
+// styles
 import '../app/style/custom.scss';
 import './storybook.css';
 

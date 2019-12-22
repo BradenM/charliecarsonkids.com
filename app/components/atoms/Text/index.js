@@ -7,6 +7,7 @@
 
 import PropTypes from 'prop-types';
 import React from 'react';
+import styled from 'styled-components';
 
 export const TextColors = [
   'primary',
@@ -26,9 +27,15 @@ export const TextColors = [
 
 export const TextVariants = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', ''];
 
+const StyledText = styled.p`
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+`;
+
 const Text = ({ variant, color, className, children }) => {
   const elClass = `${variant} text-${color} ${className}`;
-  return <p className={elClass}>{children}</p>;
+  return <StyledText className={elClass}>{children}</StyledText>;
 };
 
 Text.defaultProps = {
