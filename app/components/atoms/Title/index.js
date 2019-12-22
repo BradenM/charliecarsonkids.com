@@ -13,6 +13,7 @@ const Title = styled.h1.attrs(({ size, className }) => ({
 }))`
   color: ${props => props.color};
   margin-bottom: 0.25em;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 `;
 
 Title.defaultProps = {

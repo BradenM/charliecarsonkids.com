@@ -102,7 +102,10 @@
     "reselect": "4.0.0",
     "sanitize.css": "11.0.0",
     "sass-loader": "^8.0.0",
-    "styled-components": "4.4.1"
+    "styled-components": "4.4.1",
+    "typeface-montserrat": "^0.0.75",
+    "typeface-poppins": "^0.0.72",
+    "typeface-roboto": "^0.0.75"
   },
   "devDependencies": {
     "@babel/cli": "7.7.7",
