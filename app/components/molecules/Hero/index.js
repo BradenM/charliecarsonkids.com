@@ -16,10 +16,10 @@ import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 
 const StyledJumbotron = styled(({ imageSrc, ...props }) => (
-  <Jumbotron {...props} />
+  <Jumbotron {...props} fluid />
 ))`
-  background: url(${props => props.imageSrc}) no-repeat center top;
-  height: 100%;
+  background: url(${props => props.imageSrc}) top center no-repeat #e8aaa4;
+  min-height: 65vh;
 `;
 
 const HeroTitle = styled(Title)`
@@ -29,7 +29,7 @@ const HeroTitle = styled(Title)`
 export const Hero = ({ imageSrc, text, buttonText, onButtonClick }) => (
   <StyledJumbotron className="hero" imageSrc={imageSrc}>
     <Container className="h-100">
-      <Row>
+      <Row className="h-100">
         <Col xs={6} className="pb-3 my-auto">
           <HeroTitle className="mb-0 font-weight-bold" color="#fefefe">
             {text.toUpperCase()}

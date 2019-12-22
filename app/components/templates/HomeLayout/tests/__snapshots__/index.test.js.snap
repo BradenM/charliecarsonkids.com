@@ -217,42 +217,38 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
     </div>
   </div>
   <div
-    class="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+    class="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
   >
     <div
-      class="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+      class="h-100 container"
     >
       <div
-        class="h-100 container"
+        class="h-100 row"
       >
         <div
-          class="row"
+          class="pb-3 my-auto col-6"
         >
-          <div
-            class="pb-3 my-auto col-6"
+          <h1
+            class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+            color="#fefefe"
+            size="1"
           >
-            <h1
-              class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-              color="#fefefe"
-              size="1"
-            >
-              HERO TITLE
-            </h1>
-          </div>
+            HERO TITLE
+          </h1>
         </div>
+      </div>
+      <div
+        class="row"
+      >
         <div
-          class="row"
+          class="py-3 col-3"
         >
-          <div
-            class="py-3 col-3"
+          <button
+            class="btn btn-outline-light btn-lg"
+            type="button"
           >
-            <button
-              class="btn btn-outline-light btn-lg"
-              type="button"
-            >
-              Click Me
-            </button>
-          </div>
+            Click Me
+          </button>
         </div>
       </div>
     </div>

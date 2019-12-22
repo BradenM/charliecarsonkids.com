@@ -7,9 +7,9 @@
 
 import Text from 'atoms/Text';
 import Banner from 'molecules/Banner';
+import Hero from 'molecules/Hero';
 import Footer from 'organisms/Footer';
 import Header from 'organisms/Header';
-import HomeHero from 'organisms/HomeHero';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { PlaceholderURL } from 'utils/getStatic';
@@ -24,7 +24,7 @@ const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
       </Banner>
     )}
     <Header />
-    <HomeHero {...heroOptions} />
+    <Hero {...heroOptions} />
     <section className="homepage--content">{children}</section>
     <Footer />
   </section>
@@ -51,7 +51,7 @@ HomeLayout.propTypes = {
     }),
   ]),
   heroOptions: PropTypes.shape({
-    ...HomeHero.propTypes,
+    ...Hero.propTypes,
   }),
 };
 

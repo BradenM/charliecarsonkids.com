@@ -1892,13 +1892,13 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
             >
               <div
                 className="h-100 container"
               >
                 <div
-                  className="row"
+                  className="h-100 row"
                 >
                   <div
                     className="pb-3 my-auto col-6"
@@ -2035,13 +2035,13 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
             >
               <div
                 className="h-100 container"
               >
                 <div
-                  className="row"
+                  className="h-100 row"
                 >
                   <div
                     className="pb-3 my-auto col-6"
@@ -3333,44 +3333,40 @@ exports[`Storyshots Design|Organisms/HomeHero Default Story 1`] = `
     }
   >
     <div
-      className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+      className="Hero__StyledJumbotron-sc-1ele3ck-0 inIFwD hero jumbotron jumbotron-fluid"
     >
       <div
-        className="Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD hero jumbotron"
+        className="h-100 container"
       >
         <div
-          className="h-100 container"
+          className="h-100 row"
         >
           <div
-            className="row"
+            className="pb-3 my-auto col-6"
           >
-            <div
-              className="pb-3 my-auto col-6"
+            <h1
+              className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+              color="#fefefe"
+              size={1}
             >
-              <h1
-                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                color="#fefefe"
-                size={1}
-              >
-                NEW ARRIVALS
-              </h1>
-            </div>
+              NEW ARRIVALS
+            </h1>
           </div>
+        </div>
+        <div
+          className="row"
+        >
           <div
-            className="row"
+            className="py-3 col-3"
           >
-            <div
-              className="py-3 col-3"
+            <button
+              className="btn btn-outline-light btn-lg"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
             >
-              <button
-                className="btn btn-outline-light btn-lg"
-                disabled={false}
-                onClick={[Function]}
-                type="button"
-              >
-                Shop Now
-              </button>
-            </div>
+              Shop Now
+            </button>
           </div>
         </div>
       </div>
@@ -3928,44 +3924,40 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
         </div>
       </div>
       <div
-        className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+        className="Hero__StyledJumbotron-sc-1ele3ck-0 inIFwD hero jumbotron jumbotron-fluid"
       >
         <div
-          className="Hero__StyledJumbotron-sc-1ele3ck-0 nwfXD hero jumbotron"
+          className="h-100 container"
         >
           <div
-            className="h-100 container"
+            className="h-100 row"
           >
             <div
-              className="row"
+              className="pb-3 my-auto col-6"
             >
-              <div
-                className="pb-3 my-auto col-6"
+              <h1
+                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                color="#fefefe"
+                size={1}
               >
-                <h1
-                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                  color="#fefefe"
-                  size={1}
-                >
-                  NEW ARRIVALS
-                </h1>
-              </div>
+                NEW ARRIVALS
+              </h1>
             </div>
+          </div>
+          <div
+            className="row"
+          >
             <div
-              className="row"
+              className="py-3 col-3"
             >
-              <div
-                className="py-3 col-3"
+              <button
+                className="btn btn-outline-light btn-lg"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
               >
-                <button
-                  className="btn btn-outline-light btn-lg"
-                  disabled={false}
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Shop Now
-                </button>
-              </div>
+                Shop now
+              </button>
             </div>
           </div>
         </div>
@@ -3979,11 +3971,13 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
           <div
             className="my-5 py-5 container"
           >
-            <p
-              className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-body text-center pb-3"
+            <h1
+              className="Title-sc-3abvrr-0 kbvsMK text-center pb-3 display-4 text-center pb-3"
+              color="inherit"
+              size={4}
             >
               New Arrivals
-            </p>
+            </h1>
             <div
               className="d-flex justify-content-around align-items-center row"
             >
@@ -4493,44 +4487,40 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
         </div>
       </div>
       <div
-        className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+        className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
       >
         <div
-          className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+          className="h-100 container"
         >
           <div
-            className="h-100 container"
+            className="h-100 row"
           >
             <div
-              className="row"
+              className="pb-3 my-auto col-6"
             >
-              <div
-                className="pb-3 my-auto col-6"
+              <h1
+                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                color="#fefefe"
+                size={1}
               >
-                <h1
-                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                  color="#fefefe"
-                  size={1}
-                >
-                  HERO TITLE
-                </h1>
-              </div>
+                HERO TITLE
+              </h1>
             </div>
+          </div>
+          <div
+            className="row"
+          >
             <div
-              className="row"
+              className="py-3 col-3"
             >
-              <div
-                className="py-3 col-3"
+              <button
+                className="btn btn-outline-light btn-lg"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
               >
-                <button
-                  className="btn btn-outline-light btn-lg"
-                  disabled={false}
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Click me
-                </button>
-              </div>
+                Click me
+              </button>
             </div>
           </div>
         </div>
@@ -4894,44 +4884,40 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
         </div>
       </div>
       <div
-        className="HomeHero__HeroContainer-sc-18ez42y-0 lcxRvI container"
+        className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
       >
         <div
-          className="Hero__StyledJumbotron-sc-1ele3ck-0 eBBpFn hero jumbotron"
+          className="h-100 container"
         >
           <div
-            className="h-100 container"
+            className="h-100 row"
           >
             <div
-              className="row"
+              className="pb-3 my-auto col-6"
             >
-              <div
-                className="pb-3 my-auto col-6"
+              <h1
+                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                color="#fefefe"
+                size={1}
               >
-                <h1
-                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                  color="#fefefe"
-                  size={1}
-                >
-                  HERO TITLE
-                </h1>
-              </div>
+                HERO TITLE
+              </h1>
             </div>
+          </div>
+          <div
+            className="row"
+          >
             <div
-              className="row"
+              className="py-3 col-3"
             >
-              <div
-                className="py-3 col-3"
+              <button
+                className="btn btn-outline-light btn-lg"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
               >
-                <button
-                  className="btn btn-outline-light btn-lg"
-                  disabled={false}
-                  onClick={[Function]}
-                  type="button"
-                >
-                  Click Me
-                </button>
-              </div>
+                Click Me
+              </button>
             </div>
           </div>
         </div>
