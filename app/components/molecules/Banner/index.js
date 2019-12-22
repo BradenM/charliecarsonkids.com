@@ -24,7 +24,7 @@ const BannerContainer = styled(Container)`
 `;
 
 const Banner = ({ children, className }) => (
-  <BannerContainer fluid className={`p-0 ${className}`}>
+  <BannerContainer fluid className={className}>
     <Row className="banner-wrapper py-1">
       <Col>
         <div className="banner-text text-center">{children}</div>

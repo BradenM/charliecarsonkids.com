@@ -1379,7 +1379,7 @@ exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
     >
       <div
         className="banner-wrapper py-1 row"
@@ -1435,7 +1435,7 @@ exports[`Storyshots Design|Molecules/Banner With Dynamic Variables 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
     >
       <div
         className="banner-wrapper py-1 row"
@@ -1491,7 +1491,7 @@ exports[`Storyshots Design|Molecules/Banner With Text 1`] = `
     }
   >
     <div
-      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+      className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
     >
       <div
         className="banner-wrapper py-1 row"
@@ -3681,7 +3681,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
       className="homepage--wrapper"
     >
       <div
-        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
       >
         <div
           className="banner-wrapper py-1 row"
@@ -4246,7 +4246,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
       className="homepage--wrapper"
     >
       <div
-        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
       >
         <div
           className="banner-wrapper py-1 row"
@@ -4647,7 +4647,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
       className="homepage--wrapper"
     >
       <div
-        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz p-0 undefined container-fluid"
+        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
       >
         <div
           className="banner-wrapper py-1 row"
