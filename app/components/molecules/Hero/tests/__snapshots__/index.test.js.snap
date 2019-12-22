@@ -14,7 +14,7 @@ exports[`<Hero /> Should render and match the snapshot 1`] = `
         class="pb-3 my-auto col-6"
       >
         <h1
-          class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bqYlOi mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+          class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
           color="#fefefe"
           size="1"
         >
