@@ -63,22 +63,6 @@
       "git add --force"
     ]
   },
-  "config": {
-    "cz-emoji": {
-      "scopes": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "templates",
-        "pages",
-        "util",
-        "package"
-      ]
-    },
-    "commitizen": {
-      "path": "cz-emoji"
-    }
-  },
   "pre-commit": "lint:staged",
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
@@ -166,6 +150,7 @@
     "compression-webpack-plugin": "3.0.1",
     "coveralls": "3.0.9",
     "css-loader": "3.4.0",
+    "cz-conventional-changelog": "3.0.2",
     "cz-emoji": "^1.1.2",
     "eslint": "6.7.2",
     "eslint-config-airbnb": "18.0.1",
@@ -217,5 +202,10 @@
     "webpack-hot-middleware": "2.25.0",
     "webpack-pwa-manifest": "4.1.1",
     "whatwg-fetch": "3.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
