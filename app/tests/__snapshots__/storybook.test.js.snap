@@ -1729,16 +1729,16 @@ exports[`Storyshots Design|Molecules/FeaturedProduct Default Story 1`] = `
         }
       >
         <div
-          className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+          className="FeaturedProduct__StyledCard-sc-17af4y1-2 iilcUY card"
           href="product/product-name"
           onClick={[Function]}
         >
           <img
-            className="card-img-top"
+            className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
             src="https://via.placeholder.com/400"
           />
           <div
-            className="pt-3 card-title h5"
+            className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
           >
             Cool Shirt
           </div>
@@ -1811,16 +1811,16 @@ exports[`Storyshots Design|Molecules/FeaturedProduct With Product 1`] = `
         }
       >
         <div
-          className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+          className="FeaturedProduct__StyledCard-sc-17af4y1-2 iilcUY card"
           href="product/product-name"
           onClick={[Function]}
         >
           <img
-            className="card-img-top"
+            className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
             src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
           />
           <div
-            className="pt-3 card-title h5"
+            className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
           >
             Cool Shirt
           </div>
@@ -4101,22 +4101,22 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
               New Arrivals
             </h1>
             <div
-              className="d-flex justify-content-around align-items-center row"
+              className="d-flex justify-content-around align-items-bottom row"
             >
               <div
-                className="d-flex align-content-bottom justify-content-center col"
+                className="d-flex align-items-end justify-content-center col"
               >
                 <div
-                  className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+                  className="FeaturedProduct__StyledCard-sc-17af4y1-2 iilcUY card"
                   href="product/cool-shirt"
                   onClick={[Function]}
                 >
                   <img
-                    className="card-img-top"
+                    className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
                     src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
                   />
                   <div
-                    className="pt-3 card-title h5"
+                    className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
                   >
                     Cool Shirt
                   </div>
@@ -4129,19 +4129,19 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 </div>
               </div>
               <div
-                className="d-flex align-content-bottom justify-content-center col"
+                className="d-flex align-items-end justify-content-center col"
               >
                 <div
-                  className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+                  className="FeaturedProduct__StyledCard-sc-17af4y1-2 iilcUY card"
                   href="product/nice-shirt"
                   onClick={[Function]}
                 >
                   <img
-                    className="card-img-top"
+                    className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
                     src="https://static.charliecarsonkids.com/assets/images/featured-p2.png"
                   />
                   <div
-                    className="pt-3 card-title h5"
+                    className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
                   >
                     Nice Shirt
                   </div>
@@ -4154,19 +4154,19 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 </div>
               </div>
               <div
-                className="d-flex align-content-bottom justify-content-center col"
+                className="d-flex align-items-end justify-content-center col"
               >
                 <div
-                  className="FeaturedProduct__StyledCard-sc-17af4y1-0 iHkKTt card"
+                  className="FeaturedProduct__StyledCard-sc-17af4y1-2 iilcUY card"
                   href="product/awesome-shirt"
                   onClick={[Function]}
                 >
                   <img
-                    className="card-img-top"
+                    className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
                     src="https://static.charliecarsonkids.com/assets/images/featured-p3.png"
                   />
                   <div
-                    className="pt-3 card-title h5"
+                    className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
                   >
                     Awesome Shirt
                   </div>

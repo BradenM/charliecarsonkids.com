@@ -80,11 +80,11 @@ const HomePage = () => (
         <Title size={4} className="text-center pb-3">
           New Arrivals
         </Title>
-        <Row className="d-flex justify-content-around align-items-center">
+        <Row className="d-flex justify-content-around align-items-bottom">
           {HomeProducts.map(p => (
             <Col
               key={`fp-${p.title}-col`}
-              className="d-flex align-content-bottom justify-content-center"
+              className="d-flex align-items-end justify-content-center"
             >
               <FeaturedProduct key={`fp-${p.title}`} {...p} />
             </Col>
