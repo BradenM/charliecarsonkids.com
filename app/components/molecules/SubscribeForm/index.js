@@ -21,12 +21,12 @@ const SubscribeForm = ({ title, body, className }) => (
       <Col xs={9} md={7} className="p-3">
         <Text
           variant="h3"
-          className="text-justify text-center mb-3"
-          color="light"
+          className="text-justify text-center mb-3 font-weight-bold"
+          color="dark"
         >
           {title}
         </Text>
-        <Text color="light" className="text-center m-0">
+        <Text color="dark" className="text-center m-0">
           {body}
         </Text>
       </Col>
@@ -35,7 +35,7 @@ const SubscribeForm = ({ title, body, className }) => (
           <InputGroup>
             <FormControl type="email" placeholder="Your Email" />
             <InputGroup.Append>
-              <Button variant="outline-light">Submit</Button>
+              <Button variant="outline-dark">Submit</Button>
             </InputGroup.Append>
           </InputGroup>
         </div>

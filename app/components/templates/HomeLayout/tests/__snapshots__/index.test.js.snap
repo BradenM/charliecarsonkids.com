@@ -169,42 +169,48 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
               class="m-auto justify-content-around navbar-nav"
             >
               <a
-                class="nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="new"
                 href="new"
               >
                 new
               </a>
               <a
-                class="nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="boys"
                 href="boys"
               >
                 boys
               </a>
               <a
-                class="nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="girls"
                 href="girls"
               >
                 girls
               </a>
               <a
-                class="nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="baby"
                 href="baby"
               >
                 baby
               </a>
               <a
-                class="nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="collections"
                 href="collections"
               >
                 collections
               </a>
               <a
-                class="nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="about"
                 href="about"
               >
@@ -257,7 +263,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
     class="homepage--content"
   />
   <div
-    class="bg-info p-3 container-fluid"
+    class="Footer__FooterContainer-sc-1bec9jn-0 cWQZCZ p-3 container-fluid"
   >
     <div
       class="row"
@@ -266,7 +272,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
         class="col-4"
       >
         <div
-          class="bg-info container-fluid"
+          class="bg-none container-fluid"
         >
           <div
             class="flex-column justify-content-center align-content-center align-items-center row"
@@ -275,12 +281,12 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
               class="p-3 col-md-7 col-9"
             >
               <p
-                class="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
+                class="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
               >
                 Subscribe to our Newsletter
               </p>
               <p
-                class="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
+                class="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
               >
                 Don't miss out on any deals and stay up to date with the latest trends.
               </p>
@@ -303,7 +309,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                     class="input-group-append"
                   >
                     <button
-                      class="btn btn-outline-light"
+                      class="btn btn-outline-dark"
                       type="button"
                     >
                       Submit

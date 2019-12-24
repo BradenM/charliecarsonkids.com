@@ -2468,56 +2468,122 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                 onKeyDown={[Function]}
               >
                 <a
-                  className="nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  color={
+                    Object {
+                      "color": Array [
+                        345.6521739130435,
+                        100,
+                        77.33333333333334,
+                      ],
+                      "model": "hsl",
+                      "valpha": 1,
+                    }
+                  }
                   data-rb-event-key="new"
+                  disabled={false}
                   href="new"
                   onClick={[Function]}
-                  onKeyDown={[Function]}
                 >
                   new
                 </a>
                 <a
-                  className="nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  color={
+                    Object {
+                      "color": Array [
+                        345.6521739130435,
+                        100,
+                        77.33333333333334,
+                      ],
+                      "model": "hsl",
+                      "valpha": 1,
+                    }
+                  }
                   data-rb-event-key="boys"
+                  disabled={false}
                   href="boys"
                   onClick={[Function]}
-                  onKeyDown={[Function]}
                 >
                   boys
                 </a>
                 <a
-                  className="nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  color={
+                    Object {
+                      "color": Array [
+                        345.6521739130435,
+                        100,
+                        77.33333333333334,
+                      ],
+                      "model": "hsl",
+                      "valpha": 1,
+                    }
+                  }
                   data-rb-event-key="girls"
+                  disabled={false}
                   href="girls"
                   onClick={[Function]}
-                  onKeyDown={[Function]}
                 >
                   girls
                 </a>
                 <a
-                  className="nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  color={
+                    Object {
+                      "color": Array [
+                        345.6521739130435,
+                        100,
+                        77.33333333333334,
+                      ],
+                      "model": "hsl",
+                      "valpha": 1,
+                    }
+                  }
                   data-rb-event-key="baby"
+                  disabled={false}
                   href="baby"
                   onClick={[Function]}
-                  onKeyDown={[Function]}
                 >
                   baby
                 </a>
                 <a
-                  className="nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  color={
+                    Object {
+                      "color": Array [
+                        345.6521739130435,
+                        100,
+                        77.33333333333334,
+                      ],
+                      "model": "hsl",
+                      "valpha": 1,
+                    }
+                  }
                   data-rb-event-key="collections"
+                  disabled={false}
                   href="collections"
                   onClick={[Function]}
-                  onKeyDown={[Function]}
                 >
                   collections
                 </a>
                 <a
-                  className="nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  color={
+                    Object {
+                      "color": Array [
+                        345.6521739130435,
+                        100,
+                        77.33333333333334,
+                      ],
+                      "model": "hsl",
+                      "valpha": 1,
+                    }
+                  }
                   data-rb-event-key="about"
+                  disabled={false}
                   href="about"
                   onClick={[Function]}
-                  onKeyDown={[Function]}
                 >
                   about
                 </a>
@@ -2596,12 +2662,12 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
               className="p-3 col-md-7 col-9"
             >
               <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
               >
                 Subscribe to our Newsletter
               </p>
               <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
+                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
               >
                 Don't miss out on any deals and stay up to date with the latest trends.
               </p>
@@ -2624,7 +2690,7 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
                     className="input-group-append"
                   >
                     <button
-                      className="btn btn-outline-light"
+                      className="btn btn-outline-dark"
                       disabled={false}
                       type="button"
                     >
@@ -2901,7 +2967,7 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
     }
   >
     <div
-      className="bg-info p-3 container-fluid"
+      className="Footer__FooterContainer-sc-1bec9jn-0 cWQZCZ p-3 container-fluid"
     >
       <div
         className="row"
@@ -2910,7 +2976,7 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
           className="col-4"
         >
           <div
-            className="bg-info container-fluid"
+            className="bg-none container-fluid"
           >
             <div
               className="flex-column justify-content-center align-content-center align-items-center row"
@@ -2919,12 +2985,12 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
                 className="p-3 col-md-7 col-9"
               >
                 <p
-                  className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
+                  className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
                 >
                   Subscribe to our Newsletter
                 </p>
                 <p
-                  className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
+                  className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
                 >
                   Don't miss out on any deals and stay up to date with the latest trends.
                 </p>
@@ -2947,7 +3013,7 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
                       className="input-group-append"
                     >
                       <button
-                        className="btn btn-outline-light"
+                        className="btn btn-outline-dark"
                         disabled={false}
                         type="button"
                       >
@@ -3190,56 +3256,122 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                         onKeyDown={[Function]}
                       >
                         <a
-                          className="nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          color={
+                            Object {
+                              "color": Array [
+                                345.6521739130435,
+                                100,
+                                77.33333333333334,
+                              ],
+                              "model": "hsl",
+                              "valpha": 1,
+                            }
+                          }
                           data-rb-event-key="new"
+                          disabled={false}
                           href="new"
                           onClick={[Function]}
-                          onKeyDown={[Function]}
                         >
                           new
                         </a>
                         <a
-                          className="nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          color={
+                            Object {
+                              "color": Array [
+                                345.6521739130435,
+                                100,
+                                77.33333333333334,
+                              ],
+                              "model": "hsl",
+                              "valpha": 1,
+                            }
+                          }
                           data-rb-event-key="boys"
+                          disabled={false}
                           href="boys"
                           onClick={[Function]}
-                          onKeyDown={[Function]}
                         >
                           boys
                         </a>
                         <a
-                          className="nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          color={
+                            Object {
+                              "color": Array [
+                                345.6521739130435,
+                                100,
+                                77.33333333333334,
+                              ],
+                              "model": "hsl",
+                              "valpha": 1,
+                            }
+                          }
                           data-rb-event-key="girls"
+                          disabled={false}
                           href="girls"
                           onClick={[Function]}
-                          onKeyDown={[Function]}
                         >
                           girls
                         </a>
                         <a
-                          className="nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          color={
+                            Object {
+                              "color": Array [
+                                345.6521739130435,
+                                100,
+                                77.33333333333334,
+                              ],
+                              "model": "hsl",
+                              "valpha": 1,
+                            }
+                          }
                           data-rb-event-key="baby"
+                          disabled={false}
                           href="baby"
                           onClick={[Function]}
-                          onKeyDown={[Function]}
                         >
                           baby
                         </a>
                         <a
-                          className="nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          color={
+                            Object {
+                              "color": Array [
+                                345.6521739130435,
+                                100,
+                                77.33333333333334,
+                              ],
+                              "model": "hsl",
+                              "valpha": 1,
+                            }
+                          }
                           data-rb-event-key="collections"
+                          disabled={false}
                           href="collections"
                           onClick={[Function]}
-                          onKeyDown={[Function]}
                         >
                           collections
                         </a>
                         <a
-                          className="nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          color={
+                            Object {
+                              "color": Array [
+                                345.6521739130435,
+                                100,
+                                77.33333333333334,
+                              ],
+                              "model": "hsl",
+                              "valpha": 1,
+                            }
+                          }
                           data-rb-event-key="about"
+                          disabled={false}
                           href="about"
                           onClick={[Function]}
-                          onKeyDown={[Function]}
                         >
                           about
                         </a>
@@ -3788,56 +3920,122 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="new"
+                    disabled={false}
                     href="new"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     new
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="boys"
+                    disabled={false}
                     href="boys"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     boys
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="girls"
+                    disabled={false}
                     href="girls"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     girls
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="baby"
+                    disabled={false}
                     href="baby"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     baby
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="collections"
+                    disabled={false}
                     href="collections"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     collections
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="about"
+                    disabled={false}
                     href="about"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     about
                   </a>
@@ -4058,7 +4256,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
         </section>
       </section>
       <div
-        className="bg-info p-3 container-fluid"
+        className="Footer__FooterContainer-sc-1bec9jn-0 cWQZCZ p-3 container-fluid"
       >
         <div
           className="row"
@@ -4067,7 +4265,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
             className="col-4"
           >
             <div
-              className="bg-info container-fluid"
+              className="bg-none container-fluid"
             >
               <div
                 className="flex-column justify-content-center align-content-center align-items-center row"
@@ -4076,12 +4274,12 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
@@ -4104,7 +4302,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                         className="input-group-append"
                       >
                         <button
-                          className="btn btn-outline-light"
+                          className="btn btn-outline-dark"
                           disabled={false}
                           type="button"
                         >
@@ -4351,56 +4549,122 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="new"
+                    disabled={false}
                     href="new"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     new
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="boys"
+                    disabled={false}
                     href="boys"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     boys
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="girls"
+                    disabled={false}
                     href="girls"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     girls
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="baby"
+                    disabled={false}
                     href="baby"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     baby
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="collections"
+                    disabled={false}
                     href="collections"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     collections
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="about"
+                    disabled={false}
                     href="about"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     about
                   </a>
@@ -4455,7 +4719,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
         <div />
       </section>
       <div
-        className="bg-info p-3 container-fluid"
+        className="Footer__FooterContainer-sc-1bec9jn-0 cWQZCZ p-3 container-fluid"
       >
         <div
           className="row"
@@ -4464,7 +4728,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
             className="col-4"
           >
             <div
-              className="bg-info container-fluid"
+              className="bg-none container-fluid"
             >
               <div
                 className="flex-column justify-content-center align-content-center align-items-center row"
@@ -4473,12 +4737,12 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
@@ -4501,7 +4765,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                         className="input-group-append"
                       >
                         <button
-                          className="btn btn-outline-light"
+                          className="btn btn-outline-dark"
                           disabled={false}
                           type="button"
                         >
@@ -4748,56 +5012,122 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="new"
+                    disabled={false}
                     href="new"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     new
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="boys"
+                    disabled={false}
                     href="boys"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     boys
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="girls"
+                    disabled={false}
                     href="girls"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     girls
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="baby"
+                    disabled={false}
                     href="baby"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     baby
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="collections"
+                    disabled={false}
                     href="collections"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     collections
                   </a>
                   <a
-                    className="nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
                     data-rb-event-key="about"
+                    disabled={false}
                     href="about"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
                   >
                     about
                   </a>
@@ -4850,7 +5180,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
         className="homepage--content"
       />
       <div
-        className="bg-info p-3 container-fluid"
+        className="Footer__FooterContainer-sc-1bec9jn-0 cWQZCZ p-3 container-fluid"
       >
         <div
           className="row"
@@ -4859,7 +5189,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
             className="col-4"
           >
             <div
-              className="bg-info container-fluid"
+              className="bg-none container-fluid"
             >
               <div
                 className="flex-column justify-content-center align-content-center align-items-center row"
@@ -4868,12 +5198,12 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light text-justify text-center mb-3"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
@@ -4896,7 +5226,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                         className="input-group-append"
                       >
                         <button
-                          className="btn btn-outline-light"
+                          className="btn btn-outline-dark"
                           disabled={false}
                           type="button"
                         >

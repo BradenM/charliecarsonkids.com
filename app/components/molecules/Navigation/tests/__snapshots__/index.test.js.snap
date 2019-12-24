@@ -22,42 +22,48 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
       class="m-auto justify-content-around navbar-nav"
     >
       <a
-        class="nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+        color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="new"
         href="new"
       >
         new
       </a>
       <a
-        class="nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+        color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="boys"
         href="boys"
       >
         boys
       </a>
       <a
-        class="nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+        color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="girls"
         href="girls"
       >
         girls
       </a>
       <a
-        class="nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+        color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="baby"
         href="baby"
       >
         baby
       </a>
       <a
-        class="nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+        color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="collections"
         href="collections"
       >
         collections
       </a>
       <a
-        class="nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+        color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="about"
         href="about"
       >
