@@ -7,14 +7,12 @@
 
 import Text from 'atoms/Text';
 import Banner from 'molecules/Banner';
-import Hero from 'molecules/Hero';
 import Footer from 'organisms/Footer';
 import Header from 'organisms/Header';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { PlaceholderURL } from 'utils/getStatic';
 
-const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
+const HomeLayout = ({ children, bannerOptions }) => (
   <section className="homepage--wrapper">
     {bannerOptions && (
       <Banner>
@@ -24,7 +22,6 @@ const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
       </Banner>
     )}
     <Header />
-    <Hero {...heroOptions} />
     <section className="homepage--content">{children}</section>
     <Footer />
   </section>
@@ -33,11 +30,6 @@ const HomeLayout = ({ children, bannerOptions, heroOptions }) => (
 HomeLayout.defaultProps = {
   bannerOptions: {
     text: 'banner content',
-  },
-  heroOptions: {
-    text: 'Hero Title',
-    buttonText: 'Click Me',
-    imageSrc: PlaceholderURL('1200'),
   },
 };
 
@@ -50,9 +42,6 @@ HomeLayout.propTypes = {
       color: PropTypes.string,
     }),
   ]),
-  heroOptions: PropTypes.shape({
-    ...Hero.propTypes,
-  }),
 };
 
 export default HomeLayout;
