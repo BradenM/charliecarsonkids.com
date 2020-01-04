@@ -17,6 +17,7 @@ const HoverContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: transparent;
 `;
 
 const Anicon = ({ name, loop, rotate, hoverable, moveTo, ...props }) => {

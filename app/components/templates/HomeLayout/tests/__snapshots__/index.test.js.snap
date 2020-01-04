@@ -38,7 +38,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
           class="border-0  list-group list-group-horizontal"
         >
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
@@ -54,7 +54,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
             </div>
           </div>
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
@@ -70,7 +70,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
             </div>
           </div>
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
@@ -94,13 +94,13 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
           class="border-0  list-group list-group-horizontal"
         >
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
             >
               <div
-                class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
               >
                 <div
                   style="width: 40px; height: 100%; transform: rotate(90deg); cursor: pointer;"
@@ -109,13 +109,13 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
             </div>
           </div>
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 igufRO list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
             >
               <div
-                class="Anicon__HoverContainer-sc-119yqeq-0 iCLpQU anicon-container"
+                class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
               >
                 <div
                   style="width: 40px; height: 100%; transform: rotate(0deg); cursor: pointer;"

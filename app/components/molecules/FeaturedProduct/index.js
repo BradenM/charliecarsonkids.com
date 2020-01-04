@@ -24,6 +24,7 @@ const StyledCard = styled(Card)`
   text-align: center;
   cursor: pointer;
   max-width: 12rem;
+  background-color: transparent;
 
   ${StyledTitle},
   ${StyledImg} {
