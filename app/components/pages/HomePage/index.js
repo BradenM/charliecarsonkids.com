@@ -7,6 +7,7 @@
 
 import Title from 'atoms/Title';
 import FeaturedProduct from 'molecules/FeaturedProduct';
+import Hero from 'molecules/Hero';
 import FeaturedCategories from 'organisms/FeaturedCategories';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
@@ -76,6 +77,7 @@ const StyledFeaturedCategories = styled(FeaturedCategories)`
 const HomePage = () => (
   <HomeLayout bannerOptions={HomeBanner} heroOptions={HomeHero}>
     <section className="home--content-container">
+      <Hero {...HomeHero} />
       <Container className="my-5 py-5">
         <Title size={4} className="text-center pb-3">
           New Arrivals
