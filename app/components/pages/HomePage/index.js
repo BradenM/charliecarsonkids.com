@@ -14,12 +14,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
-import HomeLayout from 'templates/HomeLayout';
 import { ImageURL } from 'utils/getStatic';
-
-export const HomeBanner = {
-  text: 'free shipping on orders over $100!',
-};
 
 export const HomeHero = {
   text: 'new arrivals',
@@ -75,33 +70,31 @@ const StyledFeaturedCategories = styled(FeaturedCategories)`
 `;
 
 const HomePage = () => (
-  <HomeLayout bannerOptions={HomeBanner} heroOptions={HomeHero}>
-    <section className="home--content-container">
-      <Hero {...HomeHero} />
-      <Container className="my-5 py-5">
-        <Title size={4} className="text-center pb-3">
-          New Arrivals
-        </Title>
-        <Row className="d-flex justify-content-around align-items-bottom">
-          {HomeProducts.map(p => (
-            <Col
-              key={`fp-${p.title}-col`}
-              className="d-flex align-items-end justify-content-center"
-            >
-              <FeaturedProduct key={`fp-${p.title}`} {...p} />
-            </Col>
-          ))}
-        </Row>
-      </Container>
-      <Container className="my-5 py-5">
-        <Row>
-          <Col>
-            <StyledFeaturedCategories categories={HomeCategories} />
+  <section className="home--content-container">
+    <Hero {...HomeHero} />
+    <Container className="my-5 py-5">
+      <Title size={4} className="text-center pb-3">
+        New Arrivals
+      </Title>
+      <Row className="d-flex justify-content-around align-items-bottom">
+        {HomeProducts.map(p => (
+          <Col
+            key={`fp-${p.title}-col`}
+            className="d-flex align-items-end justify-content-center"
+          >
+            <FeaturedProduct key={`fp-${p.title}`} {...p} />
           </Col>
-        </Row>
-      </Container>
-    </section>
-  </HomeLayout>
+        ))}
+      </Row>
+    </Container>
+    <Container className="my-5 py-5">
+      <Row>
+        <Col>
+          <StyledFeaturedCategories categories={HomeCategories} />
+        </Col>
+      </Row>
+    </Container>
+  </section>
 );
 
 HomePage.propTypes = {};

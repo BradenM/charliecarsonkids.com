@@ -3719,6 +3719,46 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
 </div>
 `;
 
+exports[`Storyshots Design|Pages/CatalogPage Default Story 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <section
+      className="catalog--content-container"
+    />
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+</div>
+`;
+
 exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
 <div>
   <div
@@ -3730,321 +3770,8 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
     }
   >
     <section
-      className="homepage--wrapper"
+      className="home--content-container"
     >
-      <div
-        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
-      >
-        <div
-          className="banner-wrapper py-1 row"
-        >
-          <div
-            className="col"
-          >
-            <div
-              className="banner-text text-center"
-            >
-              <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
-              >
-                free shipping on orders over $100!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="container"
-      >
-        <div
-          className="row"
-        >
-          <div
-            className="d-flex justify-content-start px-3 py-2 col"
-          >
-            <div
-              className="border-0  list-group list-group-horizontal"
-              onKeyDown={[Function]}
-            >
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="d-flex justify-content-end px-3 py-2 col"
-          >
-            <div
-              className="border-0  list-group list-group-horizontal"
-              onKeyDown={[Function]}
-            >
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                  >
-                    <div
-                      style={
-                        Object {
-                          "cursor": "pointer",
-                          "height": "100%",
-                          "transform": "rotate(90deg)",
-                          "width": "40px",
-                        }
-                      }
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                  >
-                    <div
-                      style={
-                        Object {
-                          "cursor": "pointer",
-                          "height": "100%",
-                          "transform": "rotate(0deg)",
-                          "width": "40px",
-                        }
-                      }
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="justify-content-md-center row"
-        >
-          <div
-            className="d-flex justify-content-center py-3 col-md-auto"
-          >
-            <div
-              className="w-50"
-            >
-              <img
-                className="img-fluid"
-                src="IMAGE_MOCK"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          className="row"
-        >
-          <div
-            className="col"
-          >
-            <nav
-              className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
-            >
-              <button
-                aria-controls="responsive-navbar-nav"
-                aria-label="Toggle navigation"
-                className="navbar-toggler collapsed"
-                onClick={[Function]}
-                type="button"
-              >
-                <span
-                  className="navbar-toggler-icon"
-                />
-              </button>
-              <div
-                aria-expanded={null}
-                className="navbar-collapse collapse"
-                id="responsive-navbar-nav"
-              >
-                <div
-                  className="m-auto justify-content-around navbar-nav"
-                  onKeyDown={[Function]}
-                >
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          345.6521739130435,
-                          100,
-                          77.33333333333334,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    data-rb-event-key="new"
-                    disabled={false}
-                    href="new"
-                    onClick={[Function]}
-                  >
-                    new
-                  </a>
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          345.6521739130435,
-                          100,
-                          77.33333333333334,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    data-rb-event-key="boys"
-                    disabled={false}
-                    href="boys"
-                    onClick={[Function]}
-                  >
-                    boys
-                  </a>
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          345.6521739130435,
-                          100,
-                          77.33333333333334,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    data-rb-event-key="girls"
-                    disabled={false}
-                    href="girls"
-                    onClick={[Function]}
-                  >
-                    girls
-                  </a>
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          345.6521739130435,
-                          100,
-                          77.33333333333334,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    data-rb-event-key="baby"
-                    disabled={false}
-                    href="baby"
-                    onClick={[Function]}
-                  >
-                    baby
-                  </a>
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          345.6521739130435,
-                          100,
-                          77.33333333333334,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    data-rb-event-key="collections"
-                    disabled={false}
-                    href="collections"
-                    onClick={[Function]}
-                  >
-                    collections
-                  </a>
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          345.6521739130435,
-                          100,
-                          77.33333333333334,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    data-rb-event-key="about"
-                    disabled={false}
-                    href="about"
-                    onClick={[Function]}
-                  >
-                    about
-                  </a>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
       <div
         className="Hero__StyledJumbotron-sc-1ele3ck-0 inIFwD hero jumbotron jumbotron-fluid"
       >
@@ -4084,240 +3811,167 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
           </div>
         </div>
       </div>
-      <section
-        className="homepage--content"
+      <div
+        className="my-5 py-5 container"
       >
-        <section
-          className="home--content-container"
+        <h1
+          className="Title-sc-3abvrr-0 kbvsMK text-center pb-3 display-4 text-center pb-3"
+          color="inherit"
+          size={4}
+        >
+          New Arrivals
+        </h1>
+        <div
+          className="d-flex justify-content-around align-items-bottom row"
         >
           <div
-            className="my-5 py-5 container"
+            className="d-flex align-items-end justify-content-center col"
           >
-            <h1
-              className="Title-sc-3abvrr-0 kbvsMK text-center pb-3 display-4 text-center pb-3"
-              color="inherit"
-              size={4}
-            >
-              New Arrivals
-            </h1>
             <div
-              className="d-flex justify-content-around align-items-bottom row"
+              className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+              href="product/cool-shirt"
+              onClick={[Function]}
             >
+              <img
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
+                src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
+              />
               <div
-                className="d-flex align-items-end justify-content-center col"
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
               >
-                <div
-                  className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
-                  href="product/cool-shirt"
-                  onClick={[Function]}
-                >
-                  <img
-                    className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
-                    src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
-                  />
-                  <div
-                    className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
-                  >
-                    Cool Shirt
-                  </div>
-                  <div
-                    className="card-subtitle h6"
-                  >
-                    $
-                    29.99
-                  </div>
-                </div>
+                Cool Shirt
               </div>
               <div
-                className="d-flex align-items-end justify-content-center col"
+                className="card-subtitle h6"
               >
-                <div
-                  className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
-                  href="product/nice-shirt"
-                  onClick={[Function]}
-                >
-                  <img
-                    className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
-                    src="https://static.charliecarsonkids.com/assets/images/featured-p2.png"
-                  />
-                  <div
-                    className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
-                  >
-                    Nice Shirt
-                  </div>
-                  <div
-                    className="card-subtitle h6"
-                  >
-                    $
-                    29.99
-                  </div>
-                </div>
-              </div>
-              <div
-                className="d-flex align-items-end justify-content-center col"
-              >
-                <div
-                  className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
-                  href="product/awesome-shirt"
-                  onClick={[Function]}
-                >
-                  <img
-                    className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
-                    src="https://static.charliecarsonkids.com/assets/images/featured-p3.png"
-                  />
-                  <div
-                    className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
-                  >
-                    Awesome Shirt
-                  </div>
-                  <div
-                    className="card-subtitle h6"
-                  >
-                    $
-                    29.99
-                  </div>
-                </div>
+                $
+                29.99
               </div>
             </div>
           </div>
           <div
-            className="my-5 py-5 container"
+            className="d-flex align-items-end justify-content-center col"
           >
             <div
-              className="row"
+              className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+              href="product/nice-shirt"
+              onClick={[Function]}
             >
+              <img
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
+                src="https://static.charliecarsonkids.com/assets/images/featured-p2.png"
+              />
               <div
-                className="col"
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
               >
-                <div
-                  className="HomePage__StyledFeaturedCategories-sc-17qi1hn-0 haoUFH card-columns"
-                >
-                  <div
-                    className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-danger"
-                    href="categories/girls"
-                    onClick={[Function]}
-                  >
-                    <img
-                      className="card-img-top"
-                      src="https://static.charliecarsonkids.com/assets/images/shop-girls.png"
-                    />
-                    <div
-                      className="card-body"
-                    >
-                      <div
-                        className="text-center card-title h5"
-                      >
-                        Shop Girls
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-warning"
-                    href="categories/baby"
-                    onClick={[Function]}
-                  >
-                    <img
-                      className="card-img-top"
-                      src="https://static.charliecarsonkids.com/assets/images/shop-baby.png"
-                    />
-                    <div
-                      className="card-body"
-                    >
-                      <div
-                        className="text-center card-title h5"
-                      >
-                        Shop Baby
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-info"
-                    href="categories/boys"
-                    onClick={[Function]}
-                  >
-                    <img
-                      className="card-img-top"
-                      src="https://static.charliecarsonkids.com/assets/images/shop-boys.png"
-                    />
-                    <div
-                      className="card-body"
-                    >
-                      <div
-                        className="text-center card-title h5"
-                      >
-                        Shop Boys
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                Nice Shirt
+              </div>
+              <div
+                className="card-subtitle h6"
+              >
+                $
+                29.99
               </div>
             </div>
           </div>
-        </section>
-      </section>
+          <div
+            className="d-flex align-items-end justify-content-center col"
+          >
+            <div
+              className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+              href="product/awesome-shirt"
+              onClick={[Function]}
+            >
+              <img
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
+                src="https://static.charliecarsonkids.com/assets/images/featured-p3.png"
+              />
+              <div
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
+              >
+                Awesome Shirt
+              </div>
+              <div
+                className="card-subtitle h6"
+              >
+                $
+                29.99
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div
-        className="Footer__FooterContainer-sc-1bec9jn-0 cWQZCZ p-3 container-fluid"
+        className="my-5 py-5 container"
       >
         <div
           className="row"
         >
           <div
-            className="col-4"
+            className="col"
           >
             <div
-              className="bg-none container-fluid"
+              className="HomePage__StyledFeaturedCategories-sc-17qi1hn-0 haoUFH card-columns"
             >
               <div
-                className="flex-column justify-content-center align-content-center align-items-center row"
+                className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-danger"
+                href="categories/girls"
+                onClick={[Function]}
               >
+                <img
+                  className="card-img-top"
+                  src="https://static.charliecarsonkids.com/assets/images/shop-girls.png"
+                />
                 <div
-                  className="p-3 col-md-7 col-9"
-                >
-                  <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
-                  >
-                    Subscribe to our Newsletter
-                  </p>
-                  <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
-                  >
-                    Don't miss out on any deals and stay up to date with the latest trends.
-                  </p>
-                </div>
-                <div
-                  className="col-9"
+                  className="card-body"
                 >
                   <div
-                    className="p-3"
+                    className="text-center card-title h5"
                   >
-                    <div
-                      className="input-group"
-                    >
-                      <input
-                        className="form-control"
-                        placeholder="Your Email"
-                        type="email"
-                      />
-                      <div
-                        className="input-group-append"
-                      >
-                        <button
-                          className="btn btn-outline-dark"
-                          disabled={false}
-                          type="button"
-                        >
-                          Submit
-                        </button>
-                      </div>
-                    </div>
+                    Shop Girls
+                  </div>
+                </div>
+              </div>
+              <div
+                className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-warning"
+                href="categories/baby"
+                onClick={[Function]}
+              >
+                <img
+                  className="card-img-top"
+                  src="https://static.charliecarsonkids.com/assets/images/shop-baby.png"
+                />
+                <div
+                  className="card-body"
+                >
+                  <div
+                    className="text-center card-title h5"
+                  >
+                    Shop Baby
+                  </div>
+                </div>
+              </div>
+              <div
+                className="FeaturedCategory__StyledCard-u5mhcw-0 cCKQxp shadow card border-info"
+                href="categories/boys"
+                onClick={[Function]}
+              >
+                <img
+                  className="card-img-top"
+                  src="https://static.charliecarsonkids.com/assets/images/shop-boys.png"
+                />
+                <div
+                  className="card-body"
+                >
+                  <div
+                    className="text-center card-title h5"
+                  >
+                    Shop Boys
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="col"
-          />
         </div>
       </div>
     </section>
@@ -4671,45 +4325,6 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 </div>
               </div>
             </nav>
-          </div>
-        </div>
-      </div>
-      <div
-        className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
-      >
-        <div
-          className="h-100 container"
-        >
-          <div
-            className="h-100 row"
-          >
-            <div
-              className="pb-3 my-auto col-6"
-            >
-              <h1
-                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                color="#fefefe"
-                size={1}
-              >
-                HERO TITLE
-              </h1>
-            </div>
-          </div>
-          <div
-            className="row"
-          >
-            <div
-              className="py-3 col-3"
-            >
-              <button
-                className="btn btn-outline-light btn-lg"
-                disabled={false}
-                onClick={[Function]}
-                type="button"
-              >
-                Click me
-              </button>
-            </div>
           </div>
         </div>
       </div>
@@ -5134,45 +4749,6 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 </div>
               </div>
             </nav>
-          </div>
-        </div>
-      </div>
-      <div
-        className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
-      >
-        <div
-          className="h-100 container"
-        >
-          <div
-            className="h-100 row"
-          >
-            <div
-              className="pb-3 my-auto col-6"
-            >
-              <h1
-                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                color="#fefefe"
-                size={1}
-              >
-                HERO TITLE
-              </h1>
-            </div>
-          </div>
-          <div
-            className="row"
-          >
-            <div
-              className="py-3 col-3"
-            >
-              <button
-                className="btn btn-outline-light btn-lg"
-                disabled={false}
-                onClick={[Function]}
-                type="button"
-              >
-                Click Me
-              </button>
-            </div>
           </div>
         </div>
       </div>
