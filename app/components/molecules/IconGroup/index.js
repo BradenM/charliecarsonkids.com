@@ -13,6 +13,7 @@ import styled from 'styled-components';
 const BorderlessItem = styled(ListGroup.Item)`
   border: 0;
   padding: 0 0.3em 0 0.3em;
+  background-color: transparent;
 `;
 
 const IconGroup = ({ children, containerClass, ...props }) => (

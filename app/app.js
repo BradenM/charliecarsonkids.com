@@ -29,6 +29,17 @@ import LanguageProvider from 'containers/LanguageProvider';
 /* eslint-disable import/no-unresolved, import/extensions */
 import '!file-loader?name=[name].[ext]!./images/favicon.ico';
 import 'file-loader?name=.htaccess!./.htaccess';
+/*
+ *  app fonts
+ *  jest requires 'index.css' for import to be mocked.
+ *  see @ https://github.com/facebook/jest/issues/8988
+ */
+import 'typeface-montserrat/index.css';
+import 'typeface-poppins/index.css';
+import 'typeface-roboto/index.css';
+// styles
+import 'style/custom.scss';
+import 'style/global.scss';
 /* eslint-enable import/no-unresolved, import/extensions */
 
 import configureStore from './configureStore';

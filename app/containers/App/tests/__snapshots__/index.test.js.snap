@@ -2,20 +2,16 @@
 
 exports[`<App /> should render and match the snapshot 1`] = `
 <React.Fragment>
-  <ForwardRef
-    fluid={false}
-  >
-    <Switch>
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/"
-      />
-      <Route
-        component={[Function]}
-      />
-    </Switch>
-    <GlobalStyleComponent />
-  </ForwardRef>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+  <GlobalStyleComponent />
 </React.Fragment>
 `;
