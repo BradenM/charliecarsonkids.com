@@ -11,7 +11,7 @@ WIP Website for children's clothing store Charlie Carson Kids
 
 ## Notes
 
-View site [here](https://charliecarsonkids.com).
+View site [here](https://beta.charliecarsonkids.com).
 
 View component Storybook [here](https://storybook.charliecarsonkids.com).
 
