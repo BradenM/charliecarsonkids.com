@@ -7,8 +7,8 @@
     "url": "git://github.com/BradenM/charliecarsonkids.com.git"
   },
   "engines": {
-    "npm": ">=5",
-    "node": ">=8.15.1"
+    "npm": ">=6",
+    "node": ">=12.14.0"
   },
   "author": "Braden Mars <bradenmars@bradenmars.me>",
   "license": "MIT",
