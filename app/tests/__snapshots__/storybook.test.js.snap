@@ -3719,46 +3719,6 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
 </div>
 `;
 
-exports[`Storyshots Design|Pages/CatalogPage Default Story 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "position": "relative",
-        "zIndex": 0,
-      }
-    }
-  >
-    <section
-      className="catalog--content-container"
-    />
-  </div>
-  <button
-    className="info__show-button"
-    onClick={[Function]}
-    style={
-      Object {
-        "background": "#027ac5",
-        "border": "none",
-        "borderRadius": "0 0 0 5px",
-        "color": "#fff",
-        "cursor": "pointer",
-        "display": "block",
-        "fontFamily": "sans-serif",
-        "fontSize": "12px",
-        "padding": "5px 15px",
-        "position": "fixed",
-        "right": 0,
-        "top": 0,
-      }
-    }
-    type="button"
-  >
-    Show Info
-  </button>
-</div>
-`;
-
 exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
 <div>
   <div
