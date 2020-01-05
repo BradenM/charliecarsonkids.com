@@ -1,17 +1,15 @@
-name: CharlieCarsonKids
+name: CharlieCarsonKids Snapshots
 
 on:
   pull_request:
-  push:
     paths:
-      - '**.js'
       - '**.js.snap'
-      - '.github/workflows/*'
 
 jobs:
-  test:
-    name: Run Tests
+  snapshots:
+    name: Compare Snapshots
     runs-on: ubuntu-latest
+    if: contains(github.ref, 'master') || contains(github.base_ref, 'master')
 
     steps:
       - uses: actions/checkout@v2
@@ -36,13 +34,12 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Build Site
-        run: yarn build
-
       - name: Run Tests
-        run: yarn test:cov --maxWorkers=4
+        run: yarn test
 
-      - name: Upload Coverage
-        uses: coverallsapp/github-action@master
+      - name: Upload Snapshots
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+        uses: percy/storybook-action@v0.1.2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          custom-command: 'yarn snapshot'
