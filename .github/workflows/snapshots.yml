@@ -3,7 +3,7 @@ name: CharlieCarsonKids Snapshots
 on:
   pull_request:
     paths:
-      - '**.js.snap'
+      - '**/**.js.snap'
 
 jobs:
   snapshots:
