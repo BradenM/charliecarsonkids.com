@@ -9,8 +9,7 @@ import Anicon from 'atoms/Anicon';
 import IconButton from 'atoms/IconButton';
 import LogoBlack from 'images/logo_black.png';
 import IconGroup from 'molecules/IconGroup';
-import Navigation from 'molecules/Navigation';
-import SocialBar from 'organisms/SocialBar';
+import Navigation, { NavLink } from 'molecules/Navigation';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -18,16 +17,19 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
 const Header = () => (
-  <Container>
-    <Row>
-      <Col className="d-flex justify-content-start px-3 py-2">
-        <SocialBar />
+  <Container fluid>
+    <Row className="pt-3 px-3 header--container">
+      <Col className="d-flex justify-content-start">
+        <NavLink type="alt" text="Shop CCK" to="/" />
       </Col>
-      <Col className="d-flex justify-content-end px-3 py-2">
+      <Col xs={3} className="d-flex justify-content-center align-items-center">
+        <Image src={LogoBlack} fluid />
+      </Col>
+      <Col className="d-flex justify-content-end">
         <IconGroup>
           <IconButton
             Component={Anicon}
-            width="40px"
+            width="30px"
             name="search"
             rotate="90"
             moveTo={14}
@@ -36,17 +38,10 @@ const Header = () => (
           <IconButton
             Component={Anicon}
             moveTo={14}
-            width="40px"
+            width="30px"
             name="shopping"
           />
         </IconGroup>
-      </Col>
-    </Row>
-    <Row className="justify-content-md-center">
-      <Col md="auto" className="d-flex justify-content-center py-3">
-        <div className="w-50">
-          <Image src={LogoBlack} fluid />
-        </div>
       </Col>
     </Row>
     <Row>
