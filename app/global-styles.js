@@ -72,6 +72,8 @@ export const CustomColors = {
   red: '#b2565b',
   blue: '#45749d',
   yellow: '#ffa942',
+  tan: '#ffeecf',
+  nude: '#ffd2bf',
   green: '#82b97a',
 };
 

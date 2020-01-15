@@ -15,10 +15,16 @@ import styled from 'styled-components';
 import { Color } from '../../../global-styles';
 
 const StyledNavbar = styled(Navbar)`
+  padding-top: 0;
+  padding-bottom: 0;
   .navbar {
+    padding-top: 0;
     &-nav {
+      .nav-link {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
       letter-spacing: 0.15em;
-      min-width: 75%;
     }
   }
 `;
@@ -28,18 +34,44 @@ const StyledLink = styled(A)`
     color: var(--dark) !important;
     transition: color 250ms ease-in-out;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     &:hover {
       color: ${props => props.color.string()} !important;
     }
   }
 `;
 
-const NavLink = ({ text, ...props }) => (
+export const StyledUnderlineLink = styled(A)`
+  &.navlink {
+    color: var(--dark) !important;
+    font-weight: 400;
+    padding: 0;
+    text-transform: uppercase;
+    transition: color 250ms ease-in-out;
+  }
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 7px;
+    background-color: var(--dark);
+    display: block;
+    position: relative;
+    transition: background-color 250ms ease-in-out;
+  }
+
+  &:hover {
+    &:after {
+      background-color: ${Color('nude').toString()};
+    }
+  }
+`;
+
+export const NavLink = ({ text, type, ...props }) => (
   <LinkContainer {...props}>
     <Nav.Link
-      className="navlink"
-      as={StyledLink}
+      className="navlink h6 my-0"
+      as={type === 'normal' ? StyledLink : StyledUnderlineLink}
       color={Color('primary').darken(0.15)}
     >
       {text}
@@ -47,15 +79,28 @@ const NavLink = ({ text, ...props }) => (
   </LinkContainer>
 );
 
+NavLink.defaultProps = {
+  type: 'normal',
+};
+
 NavLink.propTypes = {
   text: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(['normal', 'alt']),
 };
 
 const Navigation = () => (
-  <StyledNavbar collapseOnSelect expand="lg" variant="light">
+  <StyledNavbar
+    collapseOnSelect
+    expand="lg"
+    variant="light"
+    className="justify-content-center"
+  >
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="m-auto justify-content-around">
+    <Navbar.Collapse
+      id="responsive-navbar-nav"
+      className="navbar-btn-container justify-content-center"
+    >
+      <Nav className="justify-content-center">
         <NavLink to="new" text="new" />
         <NavLink to="boys" text="boys" />
         <NavLink to="girls" text="girls" />
