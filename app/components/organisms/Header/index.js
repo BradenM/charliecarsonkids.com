@@ -18,8 +18,8 @@ import Row from 'react-bootstrap/Row';
 
 const Header = () => (
   <Container fluid>
-    <Row className="pt-3 px-3 header--container">
-      <Col className="d-flex justify-content-start">
+    <Row className="pt-2 px-3 header--container">
+      <Col className="d-flex justify-content-start ml-3">
         <NavLink type="alt" text="Shop CCK" to="/" />
       </Col>
       <Col

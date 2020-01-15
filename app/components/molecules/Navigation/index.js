@@ -23,6 +23,7 @@ const StyledNavbar = styled(Navbar)`
       .nav-link {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        font-size: 0.875rem;
       }
       letter-spacing: 0.15em;
     }
@@ -33,8 +34,8 @@ const StyledLink = styled(A)`
   &.navlink {
     color: var(--dark) !important;
     transition: color 250ms ease-in-out;
-    text-transform: uppercase;
-    font-weight: 400;
+    text-transform: capitalize;
+    font-weight: 100;
     &:hover {
       color: ${props => props.color.string()} !important;
     }
@@ -48,6 +49,7 @@ export const StyledUnderlineLink = styled(A)`
     padding: 0;
     text-transform: uppercase;
     transition: color 250ms ease-in-out;
+    font-size: 0.75rem;
   }
 
   &:after {
@@ -70,7 +72,7 @@ export const StyledUnderlineLink = styled(A)`
 export const NavLink = ({ text, type, ...props }) => (
   <LinkContainer {...props}>
     <Nav.Link
-      className="navlink h6 my-0"
+      className="navlink p my-0"
       as={type === 'normal' ? StyledLink : StyledUnderlineLink}
       color={Color('primary').darken(0.15)}
     >
