@@ -450,457 +450,457 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
       >
         <div>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-primary "
           >
             Text h1 primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-primary "
           >
             Text h2 primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-primary "
           >
             Text h3 primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-primary "
           >
             Text h4 primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-primary "
           >
             Text h5 primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-primary "
           >
             Text h6 primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-primary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-primary "
           >
             Text  primary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-secondary "
           >
             Text h1 secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-secondary "
           >
             Text h2 secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-secondary "
           >
             Text h3 secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-secondary "
           >
             Text h4 secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-secondary "
           >
             Text h5 secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-secondary "
           >
             Text h6 secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-secondary "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-secondary "
           >
             Text  secondary
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-success "
           >
             Text h1 success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-success "
           >
             Text h2 success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-success "
           >
             Text h3 success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-success "
           >
             Text h4 success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-success "
           >
             Text h5 success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-success "
           >
             Text h6 success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-success "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-success "
           >
             Text  success
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-warning "
           >
             Text h1 warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-warning "
           >
             Text h2 warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-warning "
           >
             Text h3 warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-warning "
           >
             Text h4 warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-warning "
           >
             Text h5 warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-warning "
           >
             Text h6 warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-warning "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-warning "
           >
             Text  warning
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-danger "
           >
             Text h1 danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-danger "
           >
             Text h2 danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-danger "
           >
             Text h3 danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-danger "
           >
             Text h4 danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-danger "
           >
             Text h5 danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-danger "
           >
             Text h6 danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-danger "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-danger "
           >
             Text  danger
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-info "
           >
             Text h1 info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-info "
           >
             Text h2 info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-info "
           >
             Text h3 info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-info "
           >
             Text h4 info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-info "
           >
             Text h5 info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-info "
           >
             Text h6 info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-info "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-info "
           >
             Text  info
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-dark "
           >
             Text h1 dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-dark "
           >
             Text h2 dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-dark "
           >
             Text h3 dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-dark "
           >
             Text h4 dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-dark "
           >
             Text h5 dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-dark "
           >
             Text h6 dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-dark "
           >
             Text  dark
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-light "
           >
             Text h1 light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-light "
           >
             Text h2 light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-light "
           >
             Text h3 light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-light "
           >
             Text h4 light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-light "
           >
             Text h5 light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-light "
           >
             Text h6 light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-light "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-light "
           >
             Text  light
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-body "
           >
             Text h1 body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-body "
           >
             Text h2 body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-body "
           >
             Text h3 body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-body "
           >
             Text h4 body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-body "
           >
             Text h5 body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
           >
             Text h6 body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-body "
           >
             Text  body
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-muted "
           >
             Text h1 muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-muted "
           >
             Text h2 muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-muted "
           >
             Text h3 muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-muted "
           >
             Text h4 muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-muted "
           >
             Text h5 muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-muted "
           >
             Text h6 muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-muted "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-muted "
           >
             Text  muted
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-white "
           >
             Text h1 white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-white "
           >
             Text h2 white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-white "
           >
             Text h3 white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-white "
           >
             Text h4 white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-white "
           >
             Text h5 white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-white "
           >
             Text h6 white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-white "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-white "
           >
             Text  white
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-black-50 "
           >
             Text h1 black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-black-50 "
           >
             Text h2 black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-black-50 "
           >
             Text h3 black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-black-50 "
           >
             Text h4 black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-black-50 "
           >
             Text h5 black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-black-50 "
           >
             Text h6 black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-black-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-black-50 "
           >
             Text  black-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-white-50 "
           >
             Text h1 white-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h2 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h2 text-white-50 "
           >
             Text h2 white-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-white-50 "
           >
             Text h3 white-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h4 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h4 text-white-50 "
           >
             Text h4 white-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h5 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h5 text-white-50 "
           >
             Text h5 white-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb h6 text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-white-50 "
           >
             Text h6 white-50
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-white-50 "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-white-50 "
           >
             Text  white-50
           </p>
@@ -967,7 +967,7 @@ exports[`Storyshots Design|Atoms/Text With Dynamic Variables 1`] = `
         }
       >
         <p
-          className="Text__StyledText-sc-1foatad-0 ckNvnb h1 text-body "
+          className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-body "
         >
           Text
         </p>
@@ -1034,12 +1034,12 @@ exports[`Storyshots Design|Atoms/Text With Extra Classes 1`] = `
       >
         <div>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark p-5"
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-dark p-5"
           >
             I have a padding of p-5
           </p>
           <p
-            className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body "
+            className="Text__StyledText-sc-1foatad-0 kERWLt  text-body "
           >
             I should be pushed down by pb-5
           </p>
@@ -2445,7 +2445,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
           className="indexstories__NavBackground-sc-1dii5sm-0 hBeNan"
         >
           <nav
-            className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
+            className="Navigation__StyledNavbar-sc-11o2ur6-0 hoaiWk justify-content-center navbar navbar-expand-lg navbar-light"
           >
             <button
               aria-controls="responsive-navbar-nav"
@@ -2468,7 +2468,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                 onKeyDown={[Function]}
               >
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2488,7 +2488,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   new
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2508,7 +2508,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   boys
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2528,7 +2528,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   girls
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2548,7 +2548,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   baby
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2568,7 +2568,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   collections
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2662,12 +2662,12 @@ exports[`Storyshots Design|Molecules/SubscribeForm Subscribe Form 1`] = `
               className="p-3 col-md-7 col-9"
             >
               <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
+                className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-dark text-justify text-center mb-3 font-weight-bold"
               >
                 Subscribe to our Newsletter
               </p>
               <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
+                className="Text__StyledText-sc-1foatad-0 kERWLt  text-dark text-center m-0"
               >
                 Don't miss out on any deals and stay up to date with the latest trends.
               </p>
@@ -2985,12 +2985,12 @@ exports[`Storyshots Design|Organisms/Footer Default Footer 1`] = `
                 className="p-3 col-md-7 col-9"
               >
                 <p
-                  className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
+                  className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-dark text-justify text-center mb-3 font-weight-bold"
                 >
                   Subscribe to our Newsletter
                 </p>
                 <p
-                  className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
+                  className="Text__StyledText-sc-1foatad-0 kERWLt  text-dark text-center m-0"
                 >
                   Don't miss out on any deals and stay up to date with the latest trends.
                 </p>
@@ -3093,13 +3093,13 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
               className="container-fluid"
             >
               <div
-                className="pt-3 px-3 header--container row"
+                className="pt-2 px-3 header--container row"
               >
                 <div
-                  className="d-flex justify-content-start col"
+                  className="d-flex justify-content-start ml-3 col"
                 >
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -3198,7 +3198,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                   className="col"
                 >
                   <nav
-                    className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
+                    className="Navigation__StyledNavbar-sc-11o2ur6-0 hoaiWk justify-content-center navbar navbar-expand-lg navbar-light"
                   >
                     <button
                       aria-controls="responsive-navbar-nav"
@@ -3221,7 +3221,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                         onKeyDown={[Function]}
                       >
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3241,7 +3241,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           new
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3261,7 +3261,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           boys
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3281,7 +3281,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           girls
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3301,7 +3301,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           baby
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3321,7 +3321,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           collections
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3953,7 +3953,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
               className="banner-text text-center"
             >
               <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
+                className="Text__StyledText-sc-1foatad-0 kERWLt  text-body m-0 p-1"
               >
                 banner text
               </p>
@@ -3965,13 +3965,13 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
         className="container-fluid"
       >
         <div
-          className="pt-3 px-3 header--container row"
+          className="pt-2 px-3 header--container row"
         >
           <div
-            className="d-flex justify-content-start col"
+            className="d-flex justify-content-start ml-3 col"
           >
             <a
-              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
               color={
                 Object {
                   "color": Array [
@@ -4070,7 +4070,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
             className="col"
           >
             <nav
-              className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 hoaiWk justify-content-center navbar navbar-expand-lg navbar-light"
             >
               <button
                 aria-controls="responsive-navbar-nav"
@@ -4093,7 +4093,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4113,7 +4113,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     new
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4133,7 +4133,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     boys
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4153,7 +4153,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     girls
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4173,7 +4173,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     baby
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4193,7 +4193,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     collections
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4242,12 +4242,12 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
+                    className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-dark text-justify text-center mb-3 font-weight-bold"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 kERWLt  text-dark text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>
@@ -4333,13 +4333,13 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
         className="container-fluid"
       >
         <div
-          className="pt-3 px-3 header--container row"
+          className="pt-2 px-3 header--container row"
         >
           <div
-            className="d-flex justify-content-start col"
+            className="d-flex justify-content-start ml-3 col"
           >
             <a
-              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
               color={
                 Object {
                   "color": Array [
@@ -4438,7 +4438,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
             className="col"
           >
             <nav
-              className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 hoaiWk justify-content-center navbar navbar-expand-lg navbar-light"
             >
               <button
                 aria-controls="responsive-navbar-nav"
@@ -4461,7 +4461,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4481,7 +4481,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     new
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4501,7 +4501,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     boys
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4521,7 +4521,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     girls
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4541,7 +4541,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     baby
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4561,7 +4561,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     collections
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4608,12 +4608,12 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                   className="p-3 col-md-7 col-9"
                 >
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb h3 text-dark text-justify text-center mb-3 font-weight-bold"
+                    className="Text__StyledText-sc-1foatad-0 kERWLt h3 text-dark text-justify text-center mb-3 font-weight-bold"
                   >
                     Subscribe to our Newsletter
                   </p>
                   <p
-                    className="Text__StyledText-sc-1foatad-0 ckNvnb  text-dark text-center m-0"
+                    className="Text__StyledText-sc-1foatad-0 kERWLt  text-dark text-center m-0"
                   >
                     Don't miss out on any deals and stay up to date with the latest trends.
                   </p>

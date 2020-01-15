@@ -2,7 +2,7 @@
 
 exports[`<Navigation /> Should render and match the snapshot 1`] = `
 <nav
-  class="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
+  class="Navigation__StyledNavbar-sc-11o2ur6-0 hoaiWk justify-content-center navbar navbar-expand-lg navbar-light"
 >
   <button
     aria-controls="responsive-navbar-nav"
@@ -22,7 +22,7 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
       class="justify-content-center navbar-nav"
     >
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
         color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="new"
         href="new"
@@ -30,7 +30,7 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
         new
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
         color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="boys"
         href="boys"
@@ -38,7 +38,7 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
         boys
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
         color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="girls"
         href="girls"
@@ -46,7 +46,7 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
         girls
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
         color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="baby"
         href="baby"
@@ -54,7 +54,7 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
         baby
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
         color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="collections"
         href="collections"
@@ -62,7 +62,7 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
         collections
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
         color="hsl(345.70000000000005, 100%, 77.3%)"
         data-rb-event-key="about"
         href="about"
