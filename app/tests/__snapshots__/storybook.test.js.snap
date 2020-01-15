@@ -1892,7 +1892,7 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 eMWkad hero jumbotron jumbotron-fluid"
             >
               <div
                 className="h-100 container"
@@ -2035,7 +2035,7 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 jWpdIJ hero jumbotron jumbotron-fluid"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 eMWkad hero jumbotron jumbotron-fluid"
             >
               <div
                 className="h-100 container"
@@ -2183,7 +2183,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2197,7 +2197,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2211,7 +2211,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2291,7 +2291,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2299,7 +2299,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
             <div />
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2307,7 +2307,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
             <div />
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2445,7 +2445,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
           className="indexstories__NavBackground-sc-1dii5sm-0 hBeNan"
         >
           <nav
-            className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+            className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
           >
             <button
               aria-controls="responsive-navbar-nav"
@@ -2460,15 +2460,15 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
             </button>
             <div
               aria-expanded={null}
-              className="navbar-collapse collapse"
+              className="navbar-btn-container justify-content-center navbar-collapse collapse"
               id="responsive-navbar-nav"
             >
               <div
-                className="m-auto justify-content-around navbar-nav"
+                className="justify-content-center navbar-nav"
                 onKeyDown={[Function]}
               >
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2488,7 +2488,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   new
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2508,7 +2508,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   boys
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2528,7 +2528,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   girls
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2548,7 +2548,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   baby
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -2568,7 +2568,7 @@ exports[`Storyshots Design|Molecules/Navigation Default Navigation 1`] = `
                   collections
                 </a>
                 <a
-                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                  className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                   color={
                     Object {
                       "color": Array [
@@ -3090,71 +3090,52 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
             data-css-10ubgfl=""
           >
             <div
-              className="container"
+              className="container-fluid"
             >
               <div
-                className="row"
+                className="pt-3 px-3 header--container row"
               >
                 <div
-                  className="d-flex justify-content-start px-3 py-2 col"
+                  className="d-flex justify-content-start col"
                 >
-                  <div
-                    className="border-0  list-group list-group-horizontal"
-                    onKeyDown={[Function]}
+                  <a
+                    className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+                    color={
+                      Object {
+                        "color": Array [
+                          345.6521739130435,
+                          100,
+                          77.33333333333334,
+                        ],
+                        "model": "hsl",
+                        "valpha": 1,
+                      }
+                    }
+                    disabled={false}
+                    href="/"
+                    onClick={[Function]}
+                    style={Object {}}
                   >
-                    <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                      data-rb-event-key={null}
-                      disabled={false}
-                      onClick={[Function]}
-                    >
-                      <div
-                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                      >
-                        <div
-                          onClick={[Function]}
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                      data-rb-event-key={null}
-                      disabled={false}
-                      onClick={[Function]}
-                    >
-                      <div
-                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                      >
-                        <div
-                          onClick={[Function]}
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                      data-rb-event-key={null}
-                      disabled={false}
-                      onClick={[Function]}
-                    >
-                      <div
-                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                      >
-                        <div
-                          onClick={[Function]}
-                        />
-                      </div>
-                    </div>
-                  </div>
+                    Shop CCK
+                  </a>
                 </div>
                 <div
-                  className="d-flex justify-content-end px-3 py-2 col"
+                  className="d-flex justify-content-center align-items-center col-3"
+                >
+                  <img
+                    className="img-fluid"
+                    src="IMAGE_MOCK"
+                  />
+                </div>
+                <div
+                  className="d-flex justify-content-end col"
                 >
                   <div
                     className="border-0  list-group list-group-horizontal"
                     onKeyDown={[Function]}
                   >
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3173,7 +3154,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                                 "cursor": "pointer",
                                 "height": "100%",
                                 "transform": "rotate(90deg)",
-                                "width": "40px",
+                                "width": "30px",
                               }
                             }
                           />
@@ -3181,7 +3162,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3200,7 +3181,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                                 "cursor": "pointer",
                                 "height": "100%",
                                 "transform": "rotate(0deg)",
-                                "width": "40px",
+                                "width": "30px",
                               }
                             }
                           />
@@ -3211,29 +3192,13 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                 </div>
               </div>
               <div
-                className="justify-content-md-center row"
-              >
-                <div
-                  className="d-flex justify-content-center py-3 col-md-auto"
-                >
-                  <div
-                    className="w-50"
-                  >
-                    <img
-                      className="img-fluid"
-                      src="IMAGE_MOCK"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
                 className="row"
               >
                 <div
                   className="col"
                 >
                   <nav
-                    className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+                    className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
                   >
                     <button
                       aria-controls="responsive-navbar-nav"
@@ -3248,15 +3213,15 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                     </button>
                     <div
                       aria-expanded={null}
-                      className="navbar-collapse collapse"
+                      className="navbar-btn-container justify-content-center navbar-collapse collapse"
                       id="responsive-navbar-nav"
                     >
                       <div
-                        className="m-auto justify-content-around navbar-nav"
+                        className="justify-content-center navbar-nav"
                         onKeyDown={[Function]}
                       >
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3276,7 +3241,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           new
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3296,7 +3261,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           boys
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3316,7 +3281,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           girls
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3336,7 +3301,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           baby
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3356,7 +3321,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                           collections
                         </a>
                         <a
-                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                          className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                           color={
                             Object {
                               "color": Array [
@@ -3491,7 +3456,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3505,7 +3470,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3519,7 +3484,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3600,7 +3565,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
             onKeyDown={[Function]}
           >
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3614,7 +3579,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3628,7 +3593,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3647,7 +3612,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
             onKeyDown={[Function]}
           >
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3661,7 +3626,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3675,7 +3640,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3733,7 +3698,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
       className="home--content-container"
     >
       <div
-        className="Hero__StyledJumbotron-sc-1ele3ck-0 inIFwD hero jumbotron jumbotron-fluid"
+        className="Hero__StyledJumbotron-sc-1ele3ck-0 hEplrd hero jumbotron jumbotron-fluid"
       >
         <div
           className="h-100 container"
@@ -3997,71 +3962,52 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
         </div>
       </div>
       <div
-        className="container"
+        className="container-fluid"
       >
         <div
-          className="row"
+          className="pt-3 px-3 header--container row"
         >
           <div
-            className="d-flex justify-content-start px-3 py-2 col"
+            className="d-flex justify-content-start col"
           >
-            <div
-              className="border-0  list-group list-group-horizontal"
-              onKeyDown={[Function]}
+            <a
+              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+              color={
+                Object {
+                  "color": Array [
+                    345.6521739130435,
+                    100,
+                    77.33333333333334,
+                  ],
+                  "model": "hsl",
+                  "valpha": 1,
+                }
+              }
+              disabled={false}
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
             >
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-            </div>
+              Shop CCK
+            </a>
           </div>
           <div
-            className="d-flex justify-content-end px-3 py-2 col"
+            className="d-flex justify-content-center align-items-center col-3"
+          >
+            <img
+              className="img-fluid"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            className="d-flex justify-content-end col"
           >
             <div
               className="border-0  list-group list-group-horizontal"
               onKeyDown={[Function]}
             >
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4080,7 +4026,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                           "cursor": "pointer",
                           "height": "100%",
                           "transform": "rotate(90deg)",
-                          "width": "40px",
+                          "width": "30px",
                         }
                       }
                     />
@@ -4088,7 +4034,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4107,7 +4053,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                           "cursor": "pointer",
                           "height": "100%",
                           "transform": "rotate(0deg)",
-                          "width": "40px",
+                          "width": "30px",
                         }
                       }
                     />
@@ -4118,29 +4064,13 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
           </div>
         </div>
         <div
-          className="justify-content-md-center row"
-        >
-          <div
-            className="d-flex justify-content-center py-3 col-md-auto"
-          >
-            <div
-              className="w-50"
-            >
-              <img
-                className="img-fluid"
-                src="IMAGE_MOCK"
-              />
-            </div>
-          </div>
-        </div>
-        <div
           className="row"
         >
           <div
             className="col"
           >
             <nav
-              className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
             >
               <button
                 aria-controls="responsive-navbar-nav"
@@ -4155,15 +4085,15 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
               </button>
               <div
                 aria-expanded={null}
-                className="navbar-collapse collapse"
+                className="navbar-btn-container justify-content-center navbar-collapse collapse"
                 id="responsive-navbar-nav"
               >
                 <div
-                  className="m-auto justify-content-around navbar-nav"
+                  className="justify-content-center navbar-nav"
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4183,7 +4113,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     new
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4203,7 +4133,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     boys
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4223,7 +4153,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     girls
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4243,7 +4173,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     baby
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4263,7 +4193,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                     collections
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4400,92 +4330,52 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
       className="homepage--wrapper"
     >
       <div
-        className="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
+        className="container-fluid"
       >
         <div
-          className="banner-wrapper py-1 row"
+          className="pt-3 px-3 header--container row"
         >
           <div
-            className="col"
+            className="d-flex justify-content-start col"
           >
-            <div
-              className="banner-text text-center"
+            <a
+              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+              color={
+                Object {
+                  "color": Array [
+                    345.6521739130435,
+                    100,
+                    77.33333333333334,
+                  ],
+                  "model": "hsl",
+                  "valpha": 1,
+                }
+              }
+              disabled={false}
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
             >
-              <p
-                className="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
-              >
-                banner content
-              </p>
-            </div>
+              Shop CCK
+            </a>
           </div>
-        </div>
-      </div>
-      <div
-        className="container"
-      >
-        <div
-          className="row"
-        >
           <div
-            className="d-flex justify-content-start px-3 py-2 col"
+            className="d-flex justify-content-center align-items-center col-3"
+          >
+            <img
+              className="img-fluid"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            className="d-flex justify-content-end col"
           >
             <div
               className="border-0  list-group list-group-horizontal"
               onKeyDown={[Function]}
             >
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-                >
-                  <div
-                    onClick={[Function]}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="d-flex justify-content-end px-3 py-2 col"
-          >
-            <div
-              className="border-0  list-group list-group-horizontal"
-              onKeyDown={[Function]}
-            >
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4504,7 +4394,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                           "cursor": "pointer",
                           "height": "100%",
                           "transform": "rotate(90deg)",
-                          "width": "40px",
+                          "width": "30px",
                         }
                       }
                     />
@@ -4512,7 +4402,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4531,7 +4421,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                           "cursor": "pointer",
                           "height": "100%",
                           "transform": "rotate(0deg)",
-                          "width": "40px",
+                          "width": "30px",
                         }
                       }
                     />
@@ -4542,29 +4432,13 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
           </div>
         </div>
         <div
-          className="justify-content-md-center row"
-        >
-          <div
-            className="d-flex justify-content-center py-3 col-md-auto"
-          >
-            <div
-              className="w-50"
-            >
-              <img
-                className="img-fluid"
-                src="IMAGE_MOCK"
-              />
-            </div>
-          </div>
-        </div>
-        <div
           className="row"
         >
           <div
             className="col"
           >
             <nav
-              className="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+              className="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
             >
               <button
                 aria-controls="responsive-navbar-nav"
@@ -4579,15 +4453,15 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
               </button>
               <div
                 aria-expanded={null}
-                className="navbar-collapse collapse"
+                className="navbar-btn-container justify-content-center navbar-collapse collapse"
                 id="responsive-navbar-nav"
               >
                 <div
-                  className="m-auto justify-content-around navbar-nav"
+                  className="justify-content-center navbar-nav"
                   onKeyDown={[Function]}
                 >
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4607,7 +4481,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     new
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4627,7 +4501,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     boys
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4647,7 +4521,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     girls
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4667,7 +4541,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     baby
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [
@@ -4687,7 +4561,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                     collections
                   </a>
                   <a
-                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                    className="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                     color={
                       Object {
                         "color": Array [

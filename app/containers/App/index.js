@@ -14,14 +14,10 @@ import { Route, Switch } from 'react-router-dom';
 import HomeLayout from 'templates/HomeLayout';
 import GlobalStyle from '../../global-styles';
 
-export const HomeBanner = {
-  text: 'free shipping on orders over $100!',
-};
-
 export default function App() {
   return (
     <>
-      <HomeLayout bannerOptions={HomeBanner}>
+      <HomeLayout>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route component={NotFoundPage} />

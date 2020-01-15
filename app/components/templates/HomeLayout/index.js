@@ -28,9 +28,7 @@ const HomeLayout = ({ children, bannerOptions }) => (
 );
 
 HomeLayout.defaultProps = {
-  bannerOptions: {
-    text: 'banner content',
-  },
+  bannerOptions: false,
 };
 
 HomeLayout.propTypes = {

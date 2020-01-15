@@ -5,96 +5,38 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
   class="homepage--wrapper"
 >
   <div
-    class="Banner__BannerContainer-sc-1in81vp-0 kFnzoz container-fluid"
+    class="container-fluid"
   >
     <div
-      class="banner-wrapper py-1 row"
+      class="pt-3 px-3 header--container row"
     >
       <div
-        class="col"
+        class="d-flex justify-content-start col"
       >
-        <div
-          class="banner-text text-center"
+        <a
+          class="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 cUQrbl navlink h6 my-0 active nav-link"
+          color="hsl(345.70000000000005, 100%, 77.3%)"
+          href="/"
         >
-          <p
-            class="Text__StyledText-sc-1foatad-0 ckNvnb  text-body m-0 p-1"
-          >
-            banner content
-          </p>
-        </div>
+          Shop CCK
+        </a>
       </div>
-    </div>
-  </div>
-  <div
-    class="container"
-  >
-    <div
-      class="row"
-    >
       <div
-        class="d-flex justify-content-start px-3 py-2 col"
+        class="d-flex justify-content-center align-items-center col-3"
+      >
+        <img
+          class="img-fluid"
+          src="IMAGE_MOCK"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-end col"
       >
         <div
           class="border-0  list-group list-group-horizontal"
         >
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-          >
-            <div
-              class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-            >
-              <div>
-                <div>
-                  <div
-                    data-src="https://static.charliecarsonkids.com/assets/icons/facebook-100.svg"
-                    src=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-          >
-            <div
-              class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-            >
-              <div>
-                <div>
-                  <div
-                    data-src="https://static.charliecarsonkids.com/assets/icons/instagram-100.svg"
-                    src=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
-          >
-            <div
-              class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
-            >
-              <div>
-                <div>
-                  <div
-                    data-src="https://static.charliecarsonkids.com/assets/icons/mail-100.svg"
-                    src=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="d-flex justify-content-end px-3 py-2 col"
-      >
-        <div
-          class="border-0  list-group list-group-horizontal"
-        >
-          <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
@@ -103,13 +45,13 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
               >
                 <div
-                  style="width: 40px; height: 100%; transform: rotate(90deg); cursor: pointer;"
+                  style="width: 30px; height: 100%; transform: rotate(90deg); cursor: pointer;"
                 />
               </div>
             </div>
           </div>
           <div
-            class="IconGroup__BorderlessItem-sc-1br5l8c-0 gWwTrs list-group-item"
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
           >
             <div
               class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
@@ -118,27 +60,11 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
               >
                 <div
-                  style="width: 40px; height: 100%; transform: rotate(0deg); cursor: pointer;"
+                  style="width: 30px; height: 100%; transform: rotate(0deg); cursor: pointer;"
                 />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="justify-content-md-center row"
-    >
-      <div
-        class="d-flex justify-content-center py-3 col-md-auto"
-      >
-        <div
-          class="w-50"
-        >
-          <img
-            class="img-fluid"
-            src="IMAGE_MOCK"
-          />
         </div>
       </div>
     </div>
@@ -149,7 +75,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
         class="col"
       >
         <nav
-          class="Navigation__StyledNavbar-sc-11o2ur6-0 bXviVH navbar navbar-expand-lg navbar-light"
+          class="Navigation__StyledNavbar-sc-11o2ur6-0 idZvUf justify-content-center navbar navbar-expand-lg navbar-light"
         >
           <button
             aria-controls="responsive-navbar-nav"
@@ -162,14 +88,14 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
             />
           </button>
           <div
-            class="navbar-collapse collapse"
+            class="navbar-btn-container justify-content-center navbar-collapse collapse"
             id="responsive-navbar-nav"
           >
             <div
-              class="m-auto justify-content-around navbar-nav"
+              class="justify-content-center navbar-nav"
             >
               <a
-                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                 color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="new"
                 href="new"
@@ -177,7 +103,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 new
               </a>
               <a
-                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                 color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="boys"
                 href="boys"
@@ -185,7 +111,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 boys
               </a>
               <a
-                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                 color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="girls"
                 href="girls"
@@ -193,7 +119,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 girls
               </a>
               <a
-                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                 color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="baby"
                 href="baby"
@@ -201,7 +127,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 baby
               </a>
               <a
-                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                 color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="collections"
                 href="collections"
@@ -209,7 +135,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
                 collections
               </a>
               <a
-                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 ftkcJU navlink nav-link"
+                class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 cHNVSK navlink h6 my-0 nav-link"
                 color="hsl(345.70000000000005, 100%, 77.3%)"
                 data-rb-event-key="about"
                 href="about"

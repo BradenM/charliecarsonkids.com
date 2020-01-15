@@ -3,11 +3,7 @@
 exports[`<App /> should render and match the snapshot 1`] = `
 <React.Fragment>
   <HomeLayout
-    bannerOptions={
-      Object {
-        "text": "free shipping on orders over $100!",
-      }
-    }
+    bannerOptions={false}
   >
     <Switch>
       <Route
