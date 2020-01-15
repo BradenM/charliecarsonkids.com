@@ -22,7 +22,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
         </a>
       </div>
       <div
-        class="d-flex justify-content-center align-items-center col-3"
+        class="d-flex justify-content-center align-items-center col-xl-2 col-3"
       >
         <img
           class="img-fluid"

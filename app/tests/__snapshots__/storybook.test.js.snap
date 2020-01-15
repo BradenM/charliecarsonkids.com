@@ -3120,7 +3120,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                   </a>
                 </div>
                 <div
-                  className="d-flex justify-content-center align-items-center col-3"
+                  className="d-flex justify-content-center align-items-center col-xl-2 col-3"
                 >
                   <img
                     className="img-fluid"
@@ -3992,7 +3992,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
             </a>
           </div>
           <div
-            className="d-flex justify-content-center align-items-center col-3"
+            className="d-flex justify-content-center align-items-center col-xl-2 col-3"
           >
             <img
               className="img-fluid"
@@ -4360,7 +4360,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
             </a>
           </div>
           <div
-            className="d-flex justify-content-center align-items-center col-3"
+            className="d-flex justify-content-center align-items-center col-xl-2 col-3"
           >
             <img
               className="img-fluid"

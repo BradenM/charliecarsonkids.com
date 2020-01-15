@@ -22,7 +22,11 @@ const Header = () => (
       <Col className="d-flex justify-content-start">
         <NavLink type="alt" text="Shop CCK" to="/" />
       </Col>
-      <Col xs={3} className="d-flex justify-content-center align-items-center">
+      <Col
+        xs={3}
+        xl={2}
+        className="d-flex justify-content-center align-items-center"
+      >
         <Image src={LogoBlack} fluid />
       </Col>
       <Col className="d-flex justify-content-end">
