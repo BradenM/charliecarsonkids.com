@@ -44,7 +44,9 @@
     "prettify": "prettier --write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "snapshot": "build-storybook && percy-storybook --widths=320,1280"
+    "snapshot": "build-storybook && percy-storybook --widths=320,1280",
+    "assets:push": "node ./internals/scripts/syncs3.js push",
+    "assets:pull": "node ./internals/scripts/syncs3.js pull"
   },
   "browserslist": [
     "last 2 versions",
