@@ -19,7 +19,7 @@ const StyledJumbotron = styled(({ imageSrc, ...props }) => (
   <Jumbotron {...props} fluid />
 ))`
   background: url(${props => props.imageSrc}) top center no-repeat #e8aaa4;
-  min-height: 65vh;
+  min-height: 90vh;
 `;
 
 const HeroTitle = styled(Title)`
