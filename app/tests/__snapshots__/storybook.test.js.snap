@@ -3936,7 +3936,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
               <div
                 className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
               >
-                Awesome Shirt
+                Another Shirt
               </div>
               <div
                 className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"

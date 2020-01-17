@@ -65,7 +65,7 @@ const HomeProducts = [
     imageSrc: ProductURL('19101202-0'),
   },
   {
-    title: 'Awesome Shirt',
+    title: 'Another Shirt',
     toLink: 'product/awesome-shirt',
     price: '89.99',
     imageSrc: ProductURL('19101202-0'),
@@ -74,12 +74,15 @@ const HomeProducts = [
 
 const HomeMast = [
   {
+    title: 'Mast One',
     imageSrc: ImageURL('mast-0', undefined, 'jpg'),
   },
   {
+    title: 'Mast Two',
     imageSrc: ImageURL('mast-1', undefined, 'jpg'),
   },
   {
+    title: 'Mast Three',
     imageSrc: ImageURL('mast-2', undefined, 'jpg'),
     size: 6,
   },
@@ -102,7 +105,11 @@ const HomePage = () => (
       <Row className="d-flex justify-content-center align-items-center">
         <Col className="d-flex justify-content-around">
           {HomeMast.map(i => (
-            <MastImage src={i.imageSrc} fluid />
+            <MastImage
+              key={`mast_image-${i.imageSrc}`}
+              src={i.imageSrc}
+              fluid
+            />
           ))}
         </Col>
       </Row>
