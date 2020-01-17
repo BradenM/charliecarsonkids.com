@@ -1892,7 +1892,7 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 eMWkad hero jumbotron jumbotron-fluid"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 gNUWWx hero jumbotron jumbotron-fluid"
             >
               <div
                 className="h-100 container"
@@ -2035,7 +2035,7 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 eMWkad hero jumbotron jumbotron-fluid"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 gNUWWx hero jumbotron jumbotron-fluid"
             >
               <div
                 className="h-100 container"
@@ -3096,7 +3096,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                 className="pt-2 px-3 header--container row"
               >
                 <div
-                  className="d-flex justify-content-start ml-3 col"
+                  className="d-flex justify-content-start align-items-center ml-3 col"
                 >
                   <a
                     className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
@@ -3128,7 +3128,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                   />
                 </div>
                 <div
-                  className="d-flex justify-content-end col"
+                  className="d-flex justify-content-end align-items-center col"
                 >
                   <div
                     className="border-0  list-group list-group-horizontal"
@@ -3698,7 +3698,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
       className="home--content-container"
     >
       <div
-        className="Hero__StyledJumbotron-sc-1ele3ck-0 hEplrd hero jumbotron jumbotron-fluid"
+        className="Hero__StyledJumbotron-sc-1ele3ck-0 dwaXBa hero jumbotron jumbotron-fluid"
       >
         <div
           className="h-100 container"
@@ -3714,7 +3714,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 color="#fefefe"
                 size={1}
               >
-                NEW ARRIVALS
+                
               </h1>
             </div>
           </div>
@@ -3724,14 +3724,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
             <div
               className="py-3 col-3"
             >
-              <button
-                className="btn btn-outline-light btn-lg"
-                disabled={false}
-                onClick={[Function]}
-                type="button"
-              >
-                Shop now
-              </button>
+              
             </div>
           </div>
         </div>
@@ -3968,7 +3961,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
           className="pt-2 px-3 header--container row"
         >
           <div
-            className="d-flex justify-content-start ml-3 col"
+            className="d-flex justify-content-start align-items-center ml-3 col"
           >
             <a
               className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
@@ -4000,7 +3993,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
             />
           </div>
           <div
-            className="d-flex justify-content-end col"
+            className="d-flex justify-content-end align-items-center col"
           >
             <div
               className="border-0  list-group list-group-horizontal"
@@ -4336,7 +4329,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
           className="pt-2 px-3 header--container row"
         >
           <div
-            className="d-flex justify-content-start ml-3 col"
+            className="d-flex justify-content-start align-items-center ml-3 col"
           >
             <a
               className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
@@ -4368,7 +4361,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
             />
           </div>
           <div
-            className="d-flex justify-content-end col"
+            className="d-flex justify-content-end align-items-center col"
           >
             <div
               className="border-0  list-group list-group-horizontal"

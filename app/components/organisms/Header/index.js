@@ -19,7 +19,7 @@ import Row from 'react-bootstrap/Row';
 const Header = () => (
   <Container fluid>
     <Row className="pt-2 px-3 header--container">
-      <Col className="d-flex justify-content-start ml-3">
+      <Col className="d-flex justify-content-start align-items-center ml-3">
         <NavLink type="alt" text="Shop CCK" to="/" />
       </Col>
       <Col
@@ -29,7 +29,7 @@ const Header = () => (
       >
         <Image src={LogoBlack} fluid />
       </Col>
-      <Col className="d-flex justify-content-end">
+      <Col className="d-flex justify-content-end align-items-center">
         <IconGroup>
           <IconButton
             Component={Anicon}

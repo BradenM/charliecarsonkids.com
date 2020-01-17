@@ -8,7 +8,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
     class="pt-2 px-3 header--container row"
   >
     <div
-      class="d-flex justify-content-start ml-3 col"
+      class="d-flex justify-content-start align-items-center ml-3 col"
     >
       <a
         class="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink p my-0 active nav-link"
@@ -27,7 +27,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
       />
     </div>
     <div
-      class="d-flex justify-content-end col"
+      class="d-flex justify-content-end align-items-center col"
     >
       <div
         class="border-0  list-group list-group-horizontal"

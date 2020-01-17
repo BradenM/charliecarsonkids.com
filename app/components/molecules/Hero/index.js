@@ -18,7 +18,8 @@ import styled from 'styled-components';
 const StyledJumbotron = styled(({ imageSrc, ...props }) => (
   <Jumbotron {...props} fluid />
 ))`
-  background: url(${props => props.imageSrc}) top center no-repeat #e8aaa4;
+  background: url(${props => props.imageSrc}) center center no-repeat #fafafa;
+  background-size: 75%;
   min-height: 90vh;
 `;
 
@@ -38,9 +39,11 @@ export const Hero = ({ imageSrc, text, buttonText, onButtonClick }) => (
       </Row>
       <Row>
         <Col xs={3} className="py-3">
-          <Button onClick={onButtonClick} size="lg" variant="outline-light">
-            {buttonText}
-          </Button>
+          {buttonText && (
+            <Button onClick={onButtonClick} size="lg" variant="outline-light">
+              {buttonText}
+            </Button>
+          )}
         </Col>
       </Row>
     </Container>
