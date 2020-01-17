@@ -10,15 +10,13 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { LinkContainer } from 'react-router-bootstrap';
 import styled from 'styled-components';
+import Color from 'utils/color';
 import { PlaceholderURL } from 'utils/getStatic';
-import { Color } from '../../../global-styles';
 
 const StyledImg = styled(Card.Img)``;
 const StyledTitle = styled(Card.Title)``;
 
-const NavHoverColor = Color('primary')
-  .darken(0.15)
-  .string();
+const NavHoverColor = Color.primary.darken(0.15).string();
 const StyledCard = styled(Card)`
   border: 0;
   text-align: center;

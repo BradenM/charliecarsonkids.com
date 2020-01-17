@@ -11,12 +11,10 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
-import { Color } from '../../../global-styles';
+import Color from 'utils/color';
 
 const FooterContainer = styled(Container)`
-  background-color: ${Color('primary')
-    .fade(0.5)
-    .string()} !important;
+  background-color: ${Color.primary.fade(0.5).string()} !important;
 `;
 
 const Footer = () => (

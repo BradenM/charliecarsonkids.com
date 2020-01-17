@@ -12,7 +12,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { LinkContainer } from 'react-router-bootstrap';
 import styled from 'styled-components';
-import { Color } from '../../../global-styles';
+import Color from 'utils/color';
 
 const StyledNavbar = styled(Navbar)`
   padding-top: 0;
@@ -64,7 +64,7 @@ export const StyledUnderlineLink = styled(A)`
 
   &:hover {
     &:after {
-      background-color: ${Color('nude').toString()};
+      background-color: ${Color.nude.string()};
     }
   }
 `;
@@ -74,7 +74,7 @@ export const NavLink = ({ text, type, ...props }) => (
     <Nav.Link
       className="navlink p my-0"
       as={type === 'normal' ? StyledLink : StyledUnderlineLink}
-      color={Color('primary').darken(0.15)}
+      color={Color.primary.darken(0.15)}
     >
       {text}
     </Nav.Link>

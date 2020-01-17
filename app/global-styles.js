@@ -1,4 +1,3 @@
-import color from 'color';
 import { createGlobalStyle } from 'styled-components';
 import './style/custom.scss';
 
@@ -89,7 +88,5 @@ export const Theme = {
   ...BrandColors,
   ...CustomColors,
 };
-
-export const Color = name => color(Theme[name]);
 
 export default GlobalStyle;
