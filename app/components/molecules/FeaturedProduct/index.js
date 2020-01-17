@@ -19,7 +19,7 @@ const StyledTitle = styled(Card.Title)``;
 const NavHoverColor = Color.primary.darken(0.15).string();
 const StyledCard = styled(Card)`
   border: 0;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   max-width: 12rem;
   background-color: transparent;
@@ -43,7 +43,7 @@ const FeaturedProduct = ({ imageSrc, toLink, price, title }) => (
   <LinkContainer to={toLink}>
     <StyledCard>
       <StyledImg variant="top" src={imageSrc} />
-      <StyledTitle className="pt-3">{title}</StyledTitle>
+      <StyledTitle className="pt-3 lead h6">{title}</StyledTitle>
       <Card.Subtitle>${price}</Card.Subtitle>
     </StyledCard>
   </LinkContainer>
