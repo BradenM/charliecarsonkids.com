@@ -17,9 +17,9 @@ import styled from 'styled-components';
 import { ImageURL } from 'utils/getStatic';
 
 export const HomeHero = {
-  text: 'new arrivals',
-  imageSrc: ImageURL('hero'),
-  buttonText: 'Shop now',
+  text: '',
+  imageSrc: ImageURL('hero', undefined, 'jpg'),
+  buttonText: '',
 };
 
 const HomeCategories = [

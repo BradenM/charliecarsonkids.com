@@ -28,12 +28,12 @@ export const IconURL = (name, size) =>
 export const AniconURL = name =>
   getStaticUrl(STATIC_PATHS.anicons)(`${name}.json`);
 
-export const ImageURL = (name, size) => {
+export const ImageURL = (name, size, format = 'png') => {
   let imgName = name;
   if (size !== undefined) {
     imgName = `${name}-${size}`;
   }
-  return getStaticUrl(STATIC_PATHS.images)(`${imgName}.png`);
+  return getStaticUrl(STATIC_PATHS.images)(`${imgName}.${format}`);
 };
 
 export const PlaceholderURL = size => `https://via.placeholder.com/${size}`;
