@@ -16,10 +16,10 @@ import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 
 const StyledJumbotron = styled(({ imageSrc, ...props }) => (
-  <Jumbotron {...props} fluid />
+  <Jumbotron {...props} />
 ))`
   background: url(${props => props.imageSrc}) center center no-repeat #fafafa;
-  background-size: 75%;
+  background-size: contain;
   min-height: 90vh;
 `;
 
@@ -28,26 +28,28 @@ const HeroTitle = styled(Title)`
 `;
 
 export const Hero = ({ imageSrc, text, buttonText, onButtonClick }) => (
-  <StyledJumbotron className="hero" imageSrc={imageSrc}>
-    <Container className="h-100">
-      <Row className="h-100">
-        <Col xs={6} className="pb-3 my-auto">
-          <HeroTitle className="mb-0 font-weight-bold" color="#fefefe">
-            {text.toUpperCase()}
-          </HeroTitle>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={3} className="py-3">
-          {buttonText && (
-            <Button onClick={onButtonClick} size="lg" variant="outline-light">
-              {buttonText}
-            </Button>
-          )}
-        </Col>
-      </Row>
-    </Container>
-  </StyledJumbotron>
+  <Container className="p-0">
+    <StyledJumbotron className="hero" imageSrc={imageSrc} fluid>
+      <div>
+        <Row className="h-100">
+          <Col xs={6} className="pb-3 my-auto">
+            <HeroTitle className="mb-0 font-weight-bold" color="#fefefe">
+              {text.toUpperCase()}
+            </HeroTitle>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={3} className="py-3">
+            {buttonText && (
+              <Button onClick={onButtonClick} size="lg" variant="outline-light">
+                {buttonText}
+              </Button>
+            )}
+          </Col>
+        </Row>
+      </div>
+    </StyledJumbotron>
+  </Container>
 );
 
 Hero.defaultProps = {

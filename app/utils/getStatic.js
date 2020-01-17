@@ -11,6 +11,7 @@ const STATIC_PATHS = {
   icons: 'assets/icons/',
   anicons: 'assets/anicons/',
   images: 'assets/images/',
+  products: 'products/',
 };
 
 const getStaticUrl = path => {
@@ -37,5 +38,8 @@ export const ImageURL = (name, size, format = 'png') => {
 };
 
 export const PlaceholderURL = size => `https://via.placeholder.com/${size}`;
+
+export const ProductURL = name =>
+  getStaticUrl(STATIC_PATHS.products)(`${name}.jpg`);
 
 export default getStaticUrl;

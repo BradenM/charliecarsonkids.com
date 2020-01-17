@@ -25,7 +25,7 @@ export const TextColors = [
   'white-50',
 ];
 
-export const TextVariants = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', ''];
+export const TextVariants = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', '', 'p'];
 
 const StyledText = styled.p`
   font-family: 'GT Walsheim Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

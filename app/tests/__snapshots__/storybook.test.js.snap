@@ -485,6 +485,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  primary
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-primary "
+          >
+            Text p primary
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-secondary "
           >
             Text h1 secondary
@@ -518,6 +523,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             className="Text__StyledText-sc-1foatad-0 kERWLt  text-secondary "
           >
             Text  secondary
+          </p>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-secondary "
+          >
+            Text p secondary
           </p>
           <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-success "
@@ -555,6 +565,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  success
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-success "
+          >
+            Text p success
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-warning "
           >
             Text h1 warning
@@ -588,6 +603,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             className="Text__StyledText-sc-1foatad-0 kERWLt  text-warning "
           >
             Text  warning
+          </p>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-warning "
+          >
+            Text p warning
           </p>
           <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-danger "
@@ -625,6 +645,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  danger
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-danger "
+          >
+            Text p danger
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-info "
           >
             Text h1 info
@@ -658,6 +683,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             className="Text__StyledText-sc-1foatad-0 kERWLt  text-info "
           >
             Text  info
+          </p>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-info "
+          >
+            Text p info
           </p>
           <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-dark "
@@ -695,6 +725,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  dark
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-dark "
+          >
+            Text p dark
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-light "
           >
             Text h1 light
@@ -728,6 +763,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             className="Text__StyledText-sc-1foatad-0 kERWLt  text-light "
           >
             Text  light
+          </p>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-light "
+          >
+            Text p light
           </p>
           <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-body "
@@ -765,6 +805,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  body
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-body "
+          >
+            Text p body
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-muted "
           >
             Text h1 muted
@@ -798,6 +843,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             className="Text__StyledText-sc-1foatad-0 kERWLt  text-muted "
           >
             Text  muted
+          </p>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-muted "
+          >
+            Text p muted
           </p>
           <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-white "
@@ -835,6 +885,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  white
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-white "
+          >
+            Text p white
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-black-50 "
           >
             Text h1 black-50
@@ -870,6 +925,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             Text  black-50
           </p>
           <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-black-50 "
+          >
+            Text p black-50
+          </p>
+          <p
             className="Text__StyledText-sc-1foatad-0 kERWLt h1 text-white-50 "
           >
             Text h1 white-50
@@ -903,6 +963,11 @@ exports[`Storyshots Design|Atoms/Text All Permutations 1`] = `
             className="Text__StyledText-sc-1foatad-0 kERWLt  text-white-50 "
           >
             Text  white-50
+          </p>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt p text-white-50 "
+          >
+            Text p white-50
           </p>
         </div>
       </div>
@@ -1729,21 +1794,21 @@ exports[`Storyshots Design|Molecules/FeaturedProduct Default Story 1`] = `
         }
       >
         <div
-          className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+          className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
           href="product/product-name"
           onClick={[Function]}
         >
           <img
-            className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
+            className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
             src="https://via.placeholder.com/400"
           />
           <div
-            className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
+            className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
           >
             Cool Shirt
           </div>
           <div
-            className="card-subtitle h6"
+            className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
           >
             $
             29.99
@@ -1811,21 +1876,21 @@ exports[`Storyshots Design|Molecules/FeaturedProduct With Product 1`] = `
         }
       >
         <div
-          className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+          className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
           href="product/product-name"
           onClick={[Function]}
         >
           <img
-            className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
+            className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
             src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
           />
           <div
-            className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
+            className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
           >
             Cool Shirt
           </div>
           <div
-            className="card-subtitle h6"
+            className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
           >
             $
             29.99
@@ -1892,40 +1957,42 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 gNUWWx hero jumbotron jumbotron-fluid"
+              className="p-0 container"
             >
               <div
-                className="h-100 container"
+                className="Hero__StyledJumbotron-sc-1ele3ck-0 iFIbru hero jumbotron jumbotron-fluid"
               >
-                <div
-                  className="h-100 row"
-                >
+                <div>
                   <div
-                    className="pb-3 my-auto col-6"
+                    className="h-100 row"
                   >
-                    <h1
-                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                      color="#fefefe"
-                      size={1}
+                    <div
+                      className="pb-3 my-auto col-6"
                     >
-                      HERO TEXT
-                    </h1>
+                      <h1
+                        className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                        color="#fefefe"
+                        size={1}
+                      >
+                        HERO TEXT
+                      </h1>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="row"
-                >
                   <div
-                    className="py-3 col-3"
+                    className="row"
                   >
-                    <button
-                      className="btn btn-outline-light btn-lg"
-                      disabled={false}
-                      onClick={[Function]}
-                      type="button"
+                    <div
+                      className="py-3 col-3"
                     >
-                      Click Me
-                    </button>
+                      <button
+                        className="btn btn-outline-light btn-lg"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Click Me
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -2035,40 +2102,42 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 gNUWWx hero jumbotron jumbotron-fluid"
+              className="p-0 container"
             >
               <div
-                className="h-100 container"
+                className="Hero__StyledJumbotron-sc-1ele3ck-0 iFIbru hero jumbotron jumbotron-fluid"
               >
-                <div
-                  className="h-100 row"
-                >
+                <div>
                   <div
-                    className="pb-3 my-auto col-6"
+                    className="h-100 row"
                   >
-                    <h1
-                      className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                      color="#fefefe"
-                      size={1}
+                    <div
+                      className="pb-3 my-auto col-6"
                     >
-                      TITLE
-                    </h1>
+                      <h1
+                        className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                        color="#fefefe"
+                        size={1}
+                      >
+                        TITLE
+                      </h1>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="row"
-                >
                   <div
-                    className="py-3 col-3"
+                    className="row"
                   >
-                    <button
-                      className="btn btn-outline-light btn-lg"
-                      disabled={false}
-                      onClick={[Function]}
-                      type="button"
+                    <div
+                      className="py-3 col-3"
                     >
-                      Click Me
-                    </button>
+                      <button
+                        className="btn btn-outline-light btn-lg"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Click Me
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -3698,47 +3767,82 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
       className="home--content-container"
     >
       <div
-        className="Hero__StyledJumbotron-sc-1ele3ck-0 dwaXBa hero jumbotron jumbotron-fluid"
+        className="p-0 container"
       >
         <div
-          className="h-100 container"
+          className="Hero__StyledJumbotron-sc-1ele3ck-0 eihWut hero jumbotron jumbotron-fluid"
         >
-          <div
-            className="h-100 row"
-          >
+          <div>
             <div
-              className="pb-3 my-auto col-6"
+              className="h-100 row"
             >
-              <h1
-                className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-                color="#fefefe"
-                size={1}
+              <div
+                className="pb-3 my-auto col-6"
+              >
+                <h1
+                  className="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+                  color="#fefefe"
+                  size={1}
+                >
+                  
+                </h1>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="py-3 col-3"
               >
                 
-              </h1>
-            </div>
-          </div>
-          <div
-            className="row"
-          >
-            <div
-              className="py-3 col-3"
-            >
-              
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div
-        className="my-5 py-5 container"
+        className="mb-5 container"
       >
-        <h1
-          className="Title-sc-3abvrr-0 kbvsMK text-center pb-3 display-4 text-center pb-3"
-          color="inherit"
-          size={4}
+        <div
+          className="d-flex justify-content-center align-items-center row"
         >
-          New Arrivals
-        </h1>
+          <div
+            className="d-flex justify-content-around col"
+          >
+            <img
+              className="HomePage__MastImage-sc-17qi1hn-1 DbrEw img-fluid"
+              src="https://static.charliecarsonkids.com/assets/images/mast-0.jpg"
+            />
+            <img
+              className="HomePage__MastImage-sc-17qi1hn-1 DbrEw img-fluid"
+              src="https://static.charliecarsonkids.com/assets/images/mast-1.jpg"
+            />
+            <img
+              className="HomePage__MastImage-sc-17qi1hn-1 DbrEw img-fluid"
+              src="https://static.charliecarsonkids.com/assets/images/mast-2.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-5 container"
+      >
+        <div
+          className="home--title pb-4"
+        >
+          <h1
+            className="Title-sc-3abvrr-0 kbvsMK text-center h2 font-weight-normal display-5 text-center h2 font-weight-normal"
+            color="inherit"
+            size={5}
+          >
+            New Arrivals
+          </h1>
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body text-center font-weight-light"
+          >
+            Shop Now
+          </p>
+        </div>
         <div
           className="d-flex justify-content-around align-items-bottom row"
         >
@@ -3746,24 +3850,24 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
             className="d-flex align-items-end justify-content-center col"
           >
             <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
               href="product/cool-shirt"
               onClick={[Function]}
             >
               <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
-                src="https://static.charliecarsonkids.com/assets/images/featured-p1.png"
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
+                src="https://static.charliecarsonkids.com/products/18020614-0.jpg"
               />
               <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
               >
                 Cool Shirt
               </div>
               <div
-                className="card-subtitle h6"
+                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
               >
                 $
-                29.99
+                19.99
               </div>
             </div>
           </div>
@@ -3771,21 +3875,21 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
             className="d-flex align-items-end justify-content-center col"
           >
             <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
               href="product/nice-shirt"
               onClick={[Function]}
             >
               <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
-                src="https://static.charliecarsonkids.com/assets/images/featured-p2.png"
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
+                src="https://static.charliecarsonkids.com/products/19071669-0.jpg"
               />
               <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
               >
                 Nice Shirt
               </div>
               <div
-                className="card-subtitle h6"
+                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
               >
                 $
                 29.99
@@ -3796,24 +3900,49 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
             className="d-flex align-items-end justify-content-center col"
           >
             <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-2 bSteJc card"
+              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
               href="product/awesome-shirt"
               onClick={[Function]}
             >
               <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 dOjEGj"
-                src="https://static.charliecarsonkids.com/assets/images/featured-p3.png"
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
+                src="https://static.charliecarsonkids.com/products/19101202-0.jpg"
               />
               <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fmkQyI pt-3 card-title h5"
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
               >
                 Awesome Shirt
               </div>
               <div
-                className="card-subtitle h6"
+                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
               >
                 $
-                29.99
+                89.99
+              </div>
+            </div>
+          </div>
+          <div
+            className="d-flex align-items-end justify-content-center col"
+          >
+            <div
+              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
+              href="product/awesome-shirt"
+              onClick={[Function]}
+            >
+              <img
+                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
+                src="https://static.charliecarsonkids.com/products/19101202-0.jpg"
+              />
+              <div
+                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
+              >
+                Awesome Shirt
+              </div>
+              <div
+                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
+              >
+                $
+                89.99
               </div>
             </div>
           </div>

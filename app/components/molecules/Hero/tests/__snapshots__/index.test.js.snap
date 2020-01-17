@@ -2,32 +2,34 @@
 
 exports[`<Hero /> Should render and match the snapshot 1`] = `
 <div
-  class="Hero__StyledJumbotron-sc-1ele3ck-0 xrmhT hero jumbotron jumbotron-fluid"
+  class="p-0 container"
 >
   <div
-    class="h-100 container"
+    class="Hero__StyledJumbotron-sc-1ele3ck-0 dUOxmb hero jumbotron jumbotron-fluid"
   >
-    <div
-      class="h-100 row"
-    >
+    <div>
       <div
-        class="pb-3 my-auto col-6"
+        class="h-100 row"
       >
-        <h1
-          class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
-          color="#fefefe"
-          size="1"
+        <div
+          class="pb-3 my-auto col-6"
         >
-          HI THERE
-        </h1>
+          <h1
+            class="Title-sc-3abvrr-0 Hero__HeroTitle-sc-1ele3ck-1 bVtUDZ mb-0 font-weight-bold display-1 mb-0 font-weight-bold"
+            color="#fefefe"
+            size="1"
+          >
+            HI THERE
+          </h1>
+        </div>
       </div>
-    </div>
-    <div
-      class="row"
-    >
       <div
-        class="py-3 col-3"
-      />
+        class="row"
+      >
+        <div
+          class="py-3 col-3"
+        />
+      </div>
     </div>
   </div>
 </div>
