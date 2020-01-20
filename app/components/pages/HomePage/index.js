@@ -5,8 +5,8 @@
  * Pages
  */
 
-import Text from 'atoms/Text';
 import Title from 'atoms/Title';
+import ArrowLink from 'molecules/ArrowLink';
 import FeaturedProduct from 'molecules/FeaturedProduct';
 import Hero from 'molecules/Hero';
 import PosterImage from 'molecules/PosterImage';
@@ -108,13 +108,13 @@ const HomePage = () => (
       </Row>
     </Container>
     <Container className="my-5">
-      <div className="home--title pb-4">
-        <Title size={5} className="text-center h2 font-weight-normal">
+      <div className="home--title pb-4 d-flex flex-column">
+        <Title size={5} className="text-center h2 font-weight-normal mb-0">
           New Arrivals
         </Title>
-        <Text variant="h6" className="text-center font-weight-light">
+        <ArrowLink to="#" className="text-center font-weight-light">
           Shop Now
-        </Text>
+        </ArrowLink>
       </div>
       <Row className="d-flex justify-content-around align-items-bottom">
         {HomeProducts.map(p => (

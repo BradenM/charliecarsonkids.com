@@ -1433,6 +1433,156 @@ exports[`Storyshots Design|Atoms/Title With Sizes 1`] = `
 </div>
 `;
 
+exports[`Storyshots Design|Molecules/ArrowLink Default Story 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <a
+          className="styles__Wrapper-r8n6qg-0 jOCmxe"
+          href="/"
+          onClick={[Function]}
+        >
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+          >
+            Title
+          </p>
+          <div
+            className="styles__Icon-r8n6qg-1 iidwud"
+          />
+        </a>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design|Molecules/ArrowLink With Dynamic Variables 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": "0",
+        "display": "flex",
+        "left": "0",
+        "overflow": "auto",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "margin": "auto",
+          "maxHeight": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "zIndex": 0,
+          }
+        }
+      >
+        <a
+          className="styles__Wrapper-r8n6qg-0 jOCmxe"
+          href="/"
+          onClick={[Function]}
+        >
+          <p
+            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+          >
+            Text
+          </p>
+          <div
+            className="styles__Icon-r8n6qg-1 iidwud"
+          />
+        </a>
+      </div>
+      <button
+        className="info__show-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "#027ac5",
+            "border": "none",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        type="button"
+      >
+        Show Info
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Design|Molecules/Banner Default Banner 1`] = `
 <div>
   <div
@@ -3941,20 +4091,29 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
         className="my-5 container"
       >
         <div
-          className="home--title pb-4"
+          className="home--title pb-4 d-flex flex-column"
         >
           <h1
-            className="Title-sc-3abvrr-0 kbvsMK text-center h2 font-weight-normal display-5 text-center h2 font-weight-normal"
+            className="Title-sc-3abvrr-0 kbvsMK text-center h2 font-weight-normal mb-0 display-5 text-center h2 font-weight-normal mb-0"
             color="inherit"
             size={5}
           >
             New Arrivals
           </h1>
-          <p
-            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body text-center font-weight-light"
+          <a
+            className="styles__Wrapper-r8n6qg-0 jOCmxe"
+            href="/"
+            onClick={[Function]}
           >
-            Shop Now
-          </p>
+            <p
+              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body text-center font-weight-light"
+            >
+              Shop Now
+            </p>
+            <div
+              className="styles__Icon-r8n6qg-1 iidwud"
+            />
+          </a>
         </div>
         <div
           className="d-flex justify-content-around align-items-bottom row"
