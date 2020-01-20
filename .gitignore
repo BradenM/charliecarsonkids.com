@@ -11,3 +11,5 @@ npm-debug.log
 
 # Env
 .env
+
+.envrc

@@ -8,15 +8,19 @@
 import A from 'atoms/A';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { fadeIn } from 'react-animations';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { LinkContainer } from 'react-router-bootstrap';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import Color from 'utils/color';
+
+const fadeInK = keyframes`${fadeIn}`;
 
 const StyledNavbar = styled(Navbar)`
   padding-top: 0;
   padding-bottom: 0;
+
   .navbar {
     padding-top: 0;
     &-nav {
@@ -24,6 +28,22 @@ const StyledNavbar = styled(Navbar)`
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 0.875rem;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 3px;
+          left: 13%;
+          background-color: var(--dark);
+          bottom: -0.67rem;
+        }
+        &:hover {
+          &:after {
+            width: 75%;
+            animation: 1s ${fadeInK};
+          }
+        }
       }
       letter-spacing: 0.15em;
     }
@@ -36,9 +56,6 @@ const StyledLink = styled(A)`
     transition: color 250ms ease-in-out;
     text-transform: capitalize;
     font-weight: 100;
-    &:hover {
-      color: ${props => props.color.string()} !important;
-    }
   }
 `;
 
@@ -72,7 +89,7 @@ export const StyledUnderlineLink = styled(A)`
 export const NavLink = ({ text, type, ...props }) => (
   <LinkContainer {...props}>
     <Nav.Link
-      className="navlink p my-0"
+      className="navlink py-0 my-0"
       as={type === 'normal' ? StyledLink : StyledUnderlineLink}
       color={Color.primary.darken(0.15)}
     >
@@ -102,7 +119,7 @@ const Navigation = () => (
       id="responsive-navbar-nav"
       className="navbar-btn-container justify-content-center"
     >
-      <Nav className="justify-content-center">
+      <Nav className="justify-content-center py-2">
         <NavLink to="new" text="new" />
         <NavLink to="boys" text="boys" />
         <NavLink to="girls" text="girls" />

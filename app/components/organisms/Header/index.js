@@ -15,6 +15,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import * as S from './styles';
 
 const Header = () => (
   <Container fluid>
@@ -48,11 +49,11 @@ const Header = () => (
         </IconGroup>
       </Col>
     </Row>
-    <Row>
+    <S.NavRow className="mb-1">
       <Col>
         <Navigation />
       </Col>
-    </Row>
+    </S.NavRow>
   </Container>
 );
 
