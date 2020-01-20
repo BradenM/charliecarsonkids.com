@@ -2,7 +2,7 @@
 
 exports[`<IconButton /> Should render and match the snapshot 1`] = `
 <div
-  class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+  class="styles__Wrapper-kccwaf-0 cmenth"
 >
   <div>
     <div>

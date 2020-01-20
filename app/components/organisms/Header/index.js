@@ -9,7 +9,8 @@ import Anicon from 'atoms/Anicon';
 import IconButton from 'atoms/IconButton';
 import LogoBlack from 'images/logo_black.png';
 import IconGroup from 'molecules/IconGroup';
-import Navigation, { NavLink } from 'molecules/Navigation';
+import Navigation from 'molecules/Navigation';
+import SocialBar from 'organisms/SocialBar';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -21,7 +22,7 @@ const Header = () => (
   <Container fluid>
     <Row className="pt-2 px-3 header--container">
       <Col className="d-flex justify-content-start align-items-center ml-3">
-        <NavLink type="alt" text="Shop CCK" to="/" />
+        <SocialBar iconWidth="32" />
       </Col>
       <Col
         xs={3}
@@ -32,6 +33,7 @@ const Header = () => (
       </Col>
       <Col className="d-flex justify-content-end align-items-center">
         <IconGroup>
+          <IconButton name="user" iconSize="32" />
           <IconButton
             Component={Anicon}
             width="30px"

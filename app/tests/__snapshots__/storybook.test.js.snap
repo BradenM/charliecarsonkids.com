@@ -316,7 +316,7 @@ exports[`Storyshots Design|Atoms/IconButton Facebook Icon Button 1`] = `
         }
       >
         <div
-          className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+          className="styles__Wrapper-kccwaf-0 cmenth"
         >
           <div
             onClick={[Function]}
@@ -2400,7 +2400,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              className="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 onClick={[Function]}
@@ -2414,7 +2414,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              className="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 onClick={[Function]}
@@ -2428,7 +2428,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              className="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 onClick={[Function]}
@@ -3388,26 +3388,53 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                 <div
                   className="d-flex justify-content-start align-items-center ml-3 col"
                 >
-                  <a
-                    className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink py-0 my-0 active nav-link"
-                    color={
-                      Object {
-                        "color": Array [
-                          8.709677419354819,
-                          81.57894736842107,
-                          72.33333333333333,
-                        ],
-                        "model": "hsl",
-                        "valpha": 1,
-                      }
-                    }
-                    disabled={false}
-                    href="/"
-                    onClick={[Function]}
-                    style={Object {}}
+                  <div
+                    className="border-0  list-group list-group-horizontal"
+                    onKeyDown={[Function]}
                   >
-                    Shop CCK
-                  </a>
+                    <div
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="styles__Wrapper-kccwaf-0 cmenth"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="styles__Wrapper-kccwaf-0 cmenth"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="styles__Wrapper-kccwaf-0 cmenth"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div
                   className="d-flex justify-content-center align-items-center col-xl-2 col-3"
@@ -3431,7 +3458,21 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                        className="styles__Wrapper-kccwaf-0 cmenth"
+                      >
+                        <div
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="styles__Wrapper-kccwaf-0 cmenth"
                       >
                         <div
                           className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
@@ -3458,7 +3499,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       onClick={[Function]}
                     >
                       <div
-                        className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                        className="styles__Wrapper-kccwaf-0 cmenth"
                       >
                         <div
                           className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
@@ -3752,7 +3793,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              className="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 onClick={[Function]}
@@ -3766,7 +3807,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              className="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 onClick={[Function]}
@@ -3780,7 +3821,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             onClick={[Function]}
           >
             <div
-              className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              className="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 onClick={[Function]}
@@ -3861,7 +3902,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               onClick={[Function]}
             >
               <div
-                className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                className="styles__Wrapper-kccwaf-0 cmenth"
               >
                 <div
                   onClick={[Function]}
@@ -3875,7 +3916,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               onClick={[Function]}
             >
               <div
-                className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                className="styles__Wrapper-kccwaf-0 cmenth"
               >
                 <div
                   onClick={[Function]}
@@ -3889,7 +3930,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               onClick={[Function]}
             >
               <div
-                className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                className="styles__Wrapper-kccwaf-0 cmenth"
               >
                 <div
                   onClick={[Function]}
@@ -3908,7 +3949,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               onClick={[Function]}
             >
               <div
-                className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                className="styles__Wrapper-kccwaf-0 cmenth"
               >
                 <div
                   onClick={[Function]}
@@ -3922,7 +3963,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               onClick={[Function]}
             >
               <div
-                className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                className="styles__Wrapper-kccwaf-0 cmenth"
               >
                 <div
                   onClick={[Function]}
@@ -3936,7 +3977,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               onClick={[Function]}
             >
               <div
-                className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                className="styles__Wrapper-kccwaf-0 cmenth"
               >
                 <div
                   onClick={[Function]}
@@ -4364,26 +4405,53 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
           <div
             className="d-flex justify-content-start align-items-center ml-3 col"
           >
-            <a
-              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink py-0 my-0 active nav-link"
-              color={
-                Object {
-                  "color": Array [
-                    8.709677419354819,
-                    81.57894736842107,
-                    72.33333333333333,
-                  ],
-                  "model": "hsl",
-                  "valpha": 1,
-                }
-              }
-              disabled={false}
-              href="/"
-              onClick={[Function]}
-              style={Object {}}
+            <div
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
             >
-              Shop CCK
-            </a>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <div
             className="d-flex justify-content-center align-items-center col-xl-2 col-3"
@@ -4407,7 +4475,21 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 onClick={[Function]}
               >
                 <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
                 >
                   <div
                     className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
@@ -4434,7 +4516,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 onClick={[Function]}
               >
                 <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                  className="styles__Wrapper-kccwaf-0 cmenth"
                 >
                   <div
                     className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
@@ -4732,26 +4814,53 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
           <div
             className="d-flex justify-content-start align-items-center ml-3 col"
           >
-            <a
-              className="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink py-0 my-0 active nav-link"
-              color={
-                Object {
-                  "color": Array [
-                    8.709677419354819,
-                    81.57894736842107,
-                    72.33333333333333,
-                  ],
-                  "model": "hsl",
-                  "valpha": 1,
-                }
-              }
-              disabled={false}
-              href="/"
-              onClick={[Function]}
-              style={Object {}}
+            <div
+              className="border-0  list-group list-group-horizontal"
+              onKeyDown={[Function]}
             >
-              Shop CCK
-            </a>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <div
             className="d-flex justify-content-center align-items-center col-xl-2 col-3"
@@ -4775,7 +4884,21 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 onClick={[Function]}
               >
                 <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                  className="styles__Wrapper-kccwaf-0 cmenth"
+                >
+                  <div
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+              <div
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                data-rb-event-key={null}
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="styles__Wrapper-kccwaf-0 cmenth"
                 >
                   <div
                     className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
@@ -4802,7 +4925,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 onClick={[Function]}
               >
                 <div
-                  className="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+                  className="styles__Wrapper-kccwaf-0 cmenth"
                 >
                   <div
                     className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"

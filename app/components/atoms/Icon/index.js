@@ -30,7 +30,7 @@ Icon.defaultProps = {
 
 Icon.propTypes = {
   name: PropTypes.string.isRequired,
-  iconSize: PropTypes.oneOf(['50', '100', '500']),
+  iconSize: PropTypes.oneOf(['50', '100', '500', '32', '24']),
   width: PropTypes.string,
 };
 

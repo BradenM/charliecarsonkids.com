@@ -6,8 +6,8 @@
  */
 
 import IconButton from 'atoms/IconButton';
-import PropTypes from 'prop-types';
 import IconGroup from 'molecules/IconGroup';
+import PropTypes from 'prop-types';
 import React from 'react';
 
 export const Socials = [
@@ -21,7 +21,7 @@ export const Socials = [
   },
   {
     name: 'mail',
-    url: 'support@charliecarsonkids.com',
+    url: 'mailto:support@charliecarsonkids.com',
   },
 ];
 

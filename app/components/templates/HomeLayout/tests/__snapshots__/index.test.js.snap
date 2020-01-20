@@ -13,13 +13,58 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
       <div
         class="d-flex justify-content-start align-items-center ml-3 col"
       >
-        <a
-          class="A-ml9y9l-0 Navigation__StyledUnderlineLink-sc-11o2ur6-2 nbXcW navlink py-0 my-0 active nav-link"
-          color="hsl(8.699999999999989, 81.6%, 72.3%)"
-          href="/"
+        <div
+          class="border-0  list-group list-group-horizontal"
         >
-          Shop CCK
-        </a>
+          <div
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          >
+            <div
+              class="styles__Wrapper-kccwaf-0 cmenth"
+            >
+              <div>
+                <div>
+                  <div
+                    data-src="https://static.charliecarsonkids.com/assets/icons/facebook-100.svg"
+                    src=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          >
+            <div
+              class="styles__Wrapper-kccwaf-0 cmenth"
+            >
+              <div>
+                <div>
+                  <div
+                    data-src="https://static.charliecarsonkids.com/assets/icons/instagram-100.svg"
+                    src=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          >
+            <div
+              class="styles__Wrapper-kccwaf-0 cmenth"
+            >
+              <div>
+                <div>
+                  <div
+                    data-src="https://static.charliecarsonkids.com/assets/icons/mail-100.svg"
+                    src=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         class="d-flex justify-content-center align-items-center col-xl-2 col-3"
@@ -39,7 +84,23 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
             class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
           >
             <div
-              class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              class="styles__Wrapper-kccwaf-0 cmenth"
+            >
+              <div>
+                <div>
+                  <div
+                    data-src="https://static.charliecarsonkids.com/assets/icons/user-32.svg"
+                    src=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          >
+            <div
+              class="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
@@ -54,7 +115,7 @@ exports[`<HomeLayout /> Should render and match the snapshot 1`] = `
             class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
           >
             <div
-              class="IconButton__IconContainer-pjjsvs-0 bKDZXR"
+              class="styles__Wrapper-kccwaf-0 cmenth"
             >
               <div
                 class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
