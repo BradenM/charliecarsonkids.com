@@ -2,7 +2,7 @@
 
 exports[`<Navigation /> Should render and match the snapshot 1`] = `
 <nav
-  class="Navigation__StyledNavbar-sc-11o2ur6-0 hoaiWk justify-content-center navbar navbar-expand-lg navbar-light"
+  class="Navigation__StyledNavbar-sc-11o2ur6-0 iFbzFd justify-content-center navbar navbar-expand-lg navbar-light"
 >
   <button
     aria-controls="responsive-navbar-nav"
@@ -19,55 +19,55 @@ exports[`<Navigation /> Should render and match the snapshot 1`] = `
     id="responsive-navbar-nav"
   >
     <div
-      class="justify-content-center navbar-nav"
+      class="justify-content-center py-2 navbar-nav"
     >
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
-        color="hsl(345.70000000000005, 100%, 77.3%)"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 giKWDV navlink py-0 my-0 nav-link"
+        color="hsl(8.699999999999989, 81.6%, 72.3%)"
         data-rb-event-key="new"
         href="new"
       >
         new
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
-        color="hsl(345.70000000000005, 100%, 77.3%)"
-        data-rb-event-key="boys"
-        href="boys"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 giKWDV navlink py-0 my-0 nav-link"
+        color="hsl(8.699999999999989, 81.6%, 72.3%)"
+        data-rb-event-key="clothing"
+        href="clothing"
       >
-        boys
+        clothing
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
-        color="hsl(345.70000000000005, 100%, 77.3%)"
-        data-rb-event-key="girls"
-        href="girls"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 giKWDV navlink py-0 my-0 nav-link"
+        color="hsl(8.699999999999989, 81.6%, 72.3%)"
+        data-rb-event-key="accessories"
+        href="accessories"
       >
-        girls
+        accessories
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
-        color="hsl(345.70000000000005, 100%, 77.3%)"
-        data-rb-event-key="baby"
-        href="baby"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 giKWDV navlink py-0 my-0 nav-link"
+        color="hsl(8.699999999999989, 81.6%, 72.3%)"
+        data-rb-event-key="gifts"
+        href="gifts"
       >
-        baby
+        gifts
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
-        color="hsl(345.70000000000005, 100%, 77.3%)"
-        data-rb-event-key="collections"
-        href="collections"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 giKWDV navlink py-0 my-0 nav-link"
+        color="hsl(8.699999999999989, 81.6%, 72.3%)"
+        data-rb-event-key="desk"
+        href="desk"
       >
-        collections
+        desk
       </a>
       <a
-        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 fUswUo navlink p my-0 nav-link"
-        color="hsl(345.70000000000005, 100%, 77.3%)"
-        data-rb-event-key="about"
-        href="about"
+        class="A-ml9y9l-0 Navigation__StyledLink-sc-11o2ur6-1 giKWDV navlink py-0 my-0 nav-link"
+        color="hsl(8.699999999999989, 81.6%, 72.3%)"
+        data-rb-event-key="sale"
+        href="sale"
       >
-        about
+        sale
       </a>
     </div>
   </div>
