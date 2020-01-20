@@ -67,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export const CustomColors = {
-  pink: '#ffd1dc',
+  pink: '#F8C3BA',
   red: '#b2565b',
   blue: '#45749d',
   yellow: '#ffa942',

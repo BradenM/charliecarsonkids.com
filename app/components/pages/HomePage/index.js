@@ -10,10 +10,10 @@ import Title from 'atoms/Title';
 import FeaturedProduct from 'molecules/FeaturedProduct';
 import Hero from 'molecules/Hero';
 import FeaturedCategories from 'organisms/FeaturedCategories';
+import PosterImage from 'molecules/PosterImage';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 import { ImageURL, ProductURL } from 'utils/getStatic';
@@ -93,24 +93,18 @@ const StyledFeaturedCategories = styled(FeaturedCategories)`
   justify-content: space-around;
 `;
 
-const MastImage = styled(Image)`
-  object-fit: cover;
-  height: 24rem;
-`;
-
 const HomePage = () => (
   <section className="home--content-container">
-    <Container className="">
+    <Container>
       <Hero {...HomeHero} />
     </Container>
     <Container className="mb-5">
       <Row className="d-flex justify-content-center align-items-center">
         <Col className="d-flex justify-content-between">
           {HomeMast.map(i => (
-            <MastImage
+            <PosterImage
               key={`mast_image-${i.imageSrc}`}
-              src={i.imageSrc}
-              fluid
+              imageSrc={i.imageSrc}
             />
           ))}
         </Col>
