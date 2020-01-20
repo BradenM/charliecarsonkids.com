@@ -121,11 +121,11 @@ const Navigation = () => (
     >
       <Nav className="justify-content-center py-2">
         <NavLink to="new" text="new" />
-        <NavLink to="boys" text="boys" />
-        <NavLink to="girls" text="girls" />
-        <NavLink to="baby" text="baby" />
-        <NavLink to="collections" text="collections" />
-        <NavLink to="about" text="about" />
+        <NavLink to="clothing" text="clothing" />
+        <NavLink to="accessories" text="accessories" />
+        <NavLink to="gifts" text="gifts" />
+        <NavLink to="desk" text="desk" />
+        <NavLink to="sale" text="sale" />
       </Nav>
     </Navbar.Collapse>
   </StyledNavbar>

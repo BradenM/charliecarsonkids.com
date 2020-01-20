@@ -49,7 +49,7 @@ const Header = () => (
         </IconGroup>
       </Col>
     </Row>
-    <S.NavRow className="mb-1">
+    <S.NavRow className="mb-3">
       <Col>
         <Navigation />
       </Col>

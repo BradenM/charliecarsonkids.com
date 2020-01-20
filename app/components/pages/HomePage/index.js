@@ -100,10 +100,12 @@ const MastImage = styled(Image)`
 
 const HomePage = () => (
   <section className="home--content-container">
-    <Hero {...HomeHero} />
+    <Container className="">
+      <Hero {...HomeHero} />
+    </Container>
     <Container className="mb-5">
       <Row className="d-flex justify-content-center align-items-center">
-        <Col className="d-flex justify-content-around">
+        <Col className="d-flex justify-content-between">
           {HomeMast.map(i => (
             <MastImage
               key={`mast_image-${i.imageSrc}`}
