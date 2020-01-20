@@ -2713,16 +2713,19 @@ exports[`Storyshots Design|Molecules/PosterImage Default Story 1`] = `
           }
         }
       >
-        <div>
+        <div
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
           <img
-            className="styles__Image-x5kjiu-0 eixFQM img-fluid"
+            className="styles__Image-x5kjiu-1 hKLUSy img-fluid"
             src="https://via.placeholder.com/200"
           />
           <div
             className="d-flex"
           >
             <p
-              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-1 fLMjTk"
+              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
             >
               Some Text
             </p>
@@ -3877,48 +3880,57 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
           <div
             className="d-flex justify-content-between col"
           >
-            <div>
+            <div
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
               <img
-                className="styles__Image-x5kjiu-0 eixFQM img-fluid"
+                className="styles__Image-x5kjiu-1 hKLUSy img-fluid"
                 src="https://static.charliecarsonkids.com/assets/images/mast-0.jpg"
               />
               <div
                 className="d-flex"
               >
                 <p
-                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-1 fLMjTk"
+                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
                 >
-                  Some Text
+                  Lets Play
                 </p>
               </div>
             </div>
-            <div>
+            <div
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
               <img
-                className="styles__Image-x5kjiu-0 eixFQM img-fluid"
+                className="styles__Image-x5kjiu-1 hKLUSy img-fluid"
                 src="https://static.charliecarsonkids.com/assets/images/mast-1.jpg"
               />
               <div
                 className="d-flex"
               >
                 <p
-                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-1 fLMjTk"
+                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
                 >
-                  Some Text
+                  Shop Sweaters
                 </p>
               </div>
             </div>
-            <div>
+            <div
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
               <img
-                className="styles__Image-x5kjiu-0 eixFQM img-fluid"
+                className="styles__Image-x5kjiu-1 hKLUSy img-fluid"
                 src="https://static.charliecarsonkids.com/assets/images/mast-2.jpg"
               />
               <div
                 className="d-flex"
               >
                 <p
-                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-1 fLMjTk"
+                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
                 >
-                  Some Text
+                  Shop All
                 </p>
               </div>
             </div>

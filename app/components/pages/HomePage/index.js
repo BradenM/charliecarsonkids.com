@@ -9,8 +9,8 @@ import Text from 'atoms/Text';
 import Title from 'atoms/Title';
 import FeaturedProduct from 'molecules/FeaturedProduct';
 import Hero from 'molecules/Hero';
-import FeaturedCategories from 'organisms/FeaturedCategories';
 import PosterImage from 'molecules/PosterImage';
+import FeaturedCategories from 'organisms/FeaturedCategories';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -74,15 +74,15 @@ const HomeProducts = [
 
 const HomeMast = [
   {
-    title: 'Mast One',
+    title: 'Lets Play',
     imageSrc: ImageURL('mast-0', undefined, 'jpg'),
   },
   {
-    title: 'Mast Two',
+    title: 'Shop Sweaters',
     imageSrc: ImageURL('mast-1', undefined, 'jpg'),
   },
   {
-    title: 'Mast Three',
+    title: 'Shop All',
     imageSrc: ImageURL('mast-2', undefined, 'jpg'),
     size: 6,
   },
@@ -102,10 +102,7 @@ const HomePage = () => (
       <Row className="d-flex justify-content-center align-items-center">
         <Col className="d-flex justify-content-between">
           {HomeMast.map(i => (
-            <PosterImage
-              key={`mast_image-${i.imageSrc}`}
-              imageSrc={i.imageSrc}
-            />
+            <PosterImage key={`mast_image-${i.imageSrc}`} {...i} />
           ))}
         </Col>
       </Row>
