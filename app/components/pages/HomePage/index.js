@@ -68,7 +68,7 @@ const HomeMast = [
 
 const HomePage = () => (
   <section className="home--content-container">
-    <Container>
+    <Container fluid>
       <Hero {...HomeHero} />
     </Container>
     <Container className="mb-5">

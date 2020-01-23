@@ -17,9 +17,12 @@ import styled from 'styled-components';
 const StyledJumbotron = styled(({ imageSrc, ...props }) => (
   <Jumbotron {...props} />
 ))`
-  background: url(${props => props.imageSrc}) center center no-repeat #fafafa;
-  background-size: cover;
-  min-height: 90vh;
+  background: url(${props => props.imageSrc});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  min-height: 1143px;
 `;
 
 const HeroTitle = styled(Title)`
@@ -27,7 +30,7 @@ const HeroTitle = styled(Title)`
 `;
 
 export const Hero = ({ imageSrc, text, buttonText, onButtonClick }) => (
-  <StyledJumbotron className="hero" imageSrc={imageSrc} fluid>
+  <StyledJumbotron className="hero" imageSrc={imageSrc}>
     <div>
       <Row className="h-100">
         <Col xs={6} className="pb-3 my-auto">

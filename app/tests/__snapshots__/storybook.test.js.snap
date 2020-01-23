@@ -2113,7 +2113,7 @@ exports[`Storyshots Design|Molecules/Hero Default Hero 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 hvYPnE hero jumbotron jumbotron-fluid"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 jkxYZj hero jumbotron"
             >
               <div>
                 <div
@@ -2254,7 +2254,7 @@ exports[`Storyshots Design|Molecules/Hero With Dynamic Variables 1`] = `
             data-css-1burwd1=""
           >
             <div
-              className="Hero__StyledJumbotron-sc-1ele3ck-0 hvYPnE hero jumbotron jumbotron-fluid"
+              className="Hero__StyledJumbotron-sc-1ele3ck-0 jkxYZj hero jumbotron"
             >
               <div>
                 <div
@@ -4095,10 +4095,10 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
       className="home--content-container"
     >
       <div
-        className="container"
+        className="container-fluid"
       >
         <div
-          className="Hero__StyledJumbotron-sc-1ele3ck-0 cfYWnB hero jumbotron jumbotron-fluid"
+          className="Hero__StyledJumbotron-sc-1ele3ck-0 cjSamD hero jumbotron"
         >
           <div>
             <div
