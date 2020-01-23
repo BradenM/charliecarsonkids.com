@@ -74,6 +74,7 @@ export const CustomColors = {
   tan: '#ffeecf',
   nude: '#ffd2bf',
   green: '#82b97a',
+  dark: '#343a40',
 };
 
 export const BrandColors = {

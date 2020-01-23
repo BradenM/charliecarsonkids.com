@@ -9,13 +9,12 @@ import Title from 'atoms/Title';
 import ArrowLink from 'molecules/ArrowLink';
 import FeaturedProduct from 'molecules/FeaturedProduct';
 import Hero from 'molecules/Hero';
+import NewsletterForm from 'molecules/NewsletterForm';
 import PosterImage from 'molecules/PosterImage';
-import FeaturedCategories from 'organisms/FeaturedCategories';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import styled from 'styled-components';
 import { ImageURL, ProductURL } from 'utils/getStatic';
 
 export const HomeHero = {
@@ -23,27 +22,6 @@ export const HomeHero = {
   imageSrc: ImageURL('hero', undefined, 'jpg'),
   buttonText: '',
 };
-
-const HomeCategories = [
-  {
-    title: 'Shop Girls',
-    linkTo: 'categories/girls',
-    imageSrc: ImageURL('shop-girls'),
-    borderColor: 'danger',
-  },
-  {
-    title: 'Shop Baby',
-    linkTo: 'categories/baby',
-    imageSrc: ImageURL('shop-baby'),
-    borderColor: 'warning',
-  },
-  {
-    title: 'Shop Boys',
-    linkTo: 'categories/boys',
-    imageSrc: ImageURL('shop-boys'),
-    borderColor: 'info',
-  },
-];
 
 const HomeProducts = [
   {
@@ -88,11 +66,6 @@ const HomeMast = [
   },
 ];
 
-const StyledFeaturedCategories = styled(FeaturedCategories)`
-  display: flex;
-  justify-content: space-around;
-`;
-
 const HomePage = () => (
   <section className="home--content-container">
     <Container>
@@ -130,7 +103,7 @@ const HomePage = () => (
     <Container className="my-5 py-5">
       <Row>
         <Col>
-          <StyledFeaturedCategories categories={HomeCategories} />
+          <NewsletterForm />
         </Col>
       </Row>
     </Container>
