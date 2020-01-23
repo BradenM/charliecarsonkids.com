@@ -14,7 +14,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
         class="border-0  list-group list-group-horizontal"
       >
         <div
-          class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
         >
           <div
             class="styles__Wrapper-kccwaf-0 cmenth"
@@ -22,7 +22,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
             <div>
               <div>
                 <div
-                  data-src="https://static.charliecarsonkids.com/assets/icons/facebook-100.svg"
+                  data-src="https://static.charliecarsonkids.com/assets/icons/facebook-50.svg"
                   src=""
                 />
               </div>
@@ -30,7 +30,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
         >
           <div
             class="styles__Wrapper-kccwaf-0 cmenth"
@@ -38,7 +38,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
             <div>
               <div>
                 <div
-                  data-src="https://static.charliecarsonkids.com/assets/icons/instagram-100.svg"
+                  data-src="https://static.charliecarsonkids.com/assets/icons/instagram-50.svg"
                   src=""
                 />
               </div>
@@ -46,7 +46,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
         >
           <div
             class="styles__Wrapper-kccwaf-0 cmenth"
@@ -54,7 +54,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
             <div>
               <div>
                 <div
-                  data-src="https://static.charliecarsonkids.com/assets/icons/mail-100.svg"
+                  data-src="https://static.charliecarsonkids.com/assets/icons/search-50.svg"
                   src=""
                 />
               </div>
@@ -78,7 +78,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
         class="border-0  list-group list-group-horizontal"
       >
         <div
-          class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
         >
           <div
             class="styles__Wrapper-kccwaf-0 cmenth"
@@ -86,7 +86,7 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
             <div>
               <div>
                 <div
-                  data-src="https://static.charliecarsonkids.com/assets/icons/user-32.svg"
+                  data-src="https://static.charliecarsonkids.com/assets/icons/user-50.svg"
                   src=""
                 />
               </div>
@@ -94,32 +94,18 @@ exports[`<Header /> Should render and match the snapshot 1`] = `
           </div>
         </div>
         <div
-          class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+          class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
         >
           <div
             class="styles__Wrapper-kccwaf-0 cmenth"
           >
-            <div
-              class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-            >
-              <div
-                style="width: 30px; height: 100%; transform: rotate(90deg); cursor: pointer;"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
-        >
-          <div
-            class="styles__Wrapper-kccwaf-0 cmenth"
-          >
-            <div
-              class="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-            >
-              <div
-                style="width: 30px; height: 100%; transform: rotate(0deg); cursor: pointer;"
-              />
+            <div>
+              <div>
+                <div
+                  data-src="https://static.charliecarsonkids.com/assets/icons/shopping-50.svg"
+                  src=""
+                />
+              </div>
             </div>
           </div>
         </div>

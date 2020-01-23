@@ -5,7 +5,7 @@ exports[`<IconGroup /> Should render and match the snapshot 1`] = `
   class="border-0  list-group list-group-horizontal"
 >
   <div
-    class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+    class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
   >
     <div>
       <div>
@@ -17,7 +17,7 @@ exports[`<IconGroup /> Should render and match the snapshot 1`] = `
     </div>
   </div>
   <div
-    class="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+    class="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
   >
     <div>
       <div>

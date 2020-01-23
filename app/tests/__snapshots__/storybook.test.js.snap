@@ -2394,7 +2394,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2408,7 +2408,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2422,7 +2422,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Button Group 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2502,7 +2502,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2510,7 +2510,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
             <div />
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -2518,7 +2518,7 @@ exports[`Storyshots Design|Molecules/IconGroup Social Icon Group 1`] = `
             <div />
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3393,7 +3393,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                     onKeyDown={[Function]}
                   >
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3407,7 +3407,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3421,7 +3421,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3452,7 +3452,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                     onKeyDown={[Function]}
                   >
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3466,7 +3466,7 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                       </div>
                     </div>
                     <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                       data-rb-event-key={null}
                       disabled={false}
                       onClick={[Function]}
@@ -3475,48 +3475,8 @@ exports[`Storyshots Design|Organisms/Header Default Header 1`] = `
                         className="styles__Wrapper-kccwaf-0 cmenth"
                       >
                         <div
-                          className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                        >
-                          <div
-                            style={
-                              Object {
-                                "cursor": "pointer",
-                                "height": "100%",
-                                "transform": "rotate(90deg)",
-                                "width": "30px",
-                              }
-                            }
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
-                      data-rb-event-key={null}
-                      disabled={false}
-                      onClick={[Function]}
-                    >
-                      <div
-                        className="styles__Wrapper-kccwaf-0 cmenth"
-                      >
-                        <div
-                          className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                        >
-                          <div
-                            style={
-                              Object {
-                                "cursor": "pointer",
-                                "height": "100%",
-                                "transform": "rotate(0deg)",
-                                "width": "30px",
-                              }
-                            }
-                          />
-                        </div>
+                          onClick={[Function]}
+                        />
                       </div>
                     </div>
                   </div>
@@ -3787,7 +3747,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
           onKeyDown={[Function]}
         >
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3801,7 +3761,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3815,7 +3775,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Dynamic Variables 1`] = `
             </div>
           </div>
           <div
-            className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+            className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
             data-rb-event-key={null}
             disabled={false}
             onClick={[Function]}
@@ -3896,7 +3856,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
             onKeyDown={[Function]}
           >
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3910,7 +3870,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3924,7 +3884,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3943,7 +3903,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
             onKeyDown={[Function]}
           >
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3957,7 +3917,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -3971,7 +3931,7 @@ exports[`Storyshots Design|Organisms/SocialBar With Sizes 1`] = `
               </div>
             </div>
             <div
-              className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+              className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
               data-rb-event-key={null}
               disabled={false}
               onClick={[Function]}
@@ -4410,7 +4370,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
               onKeyDown={[Function]}
             >
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4424,7 +4384,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4438,7 +4398,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4469,7 +4429,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
               onKeyDown={[Function]}
             >
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4483,7 +4443,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4492,48 +4452,8 @@ exports[`Storyshots Design|Templates/HomeLayout With Dynamic Variables 1`] = `
                   className="styles__Wrapper-kccwaf-0 cmenth"
                 >
                   <div
-                    className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                  >
-                    <div
-                      style={
-                        Object {
-                          "cursor": "pointer",
-                          "height": "100%",
-                          "transform": "rotate(90deg)",
-                          "width": "30px",
-                        }
-                      }
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="styles__Wrapper-kccwaf-0 cmenth"
-                >
-                  <div
-                    className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                  >
-                    <div
-                      style={
-                        Object {
-                          "cursor": "pointer",
-                          "height": "100%",
-                          "transform": "rotate(0deg)",
-                          "width": "30px",
-                        }
-                      }
-                    />
-                  </div>
+                    onClick={[Function]}
+                  />
                 </div>
               </div>
             </div>
@@ -4819,7 +4739,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
               onKeyDown={[Function]}
             >
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4833,7 +4753,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4847,7 +4767,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4878,7 +4798,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
               onKeyDown={[Function]}
             >
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4892,7 +4812,7 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                 </div>
               </div>
               <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
+                className="IconGroup__BorderlessItem-sc-1br5l8c-0 dJYyBe list-group-item"
                 data-rb-event-key={null}
                 disabled={false}
                 onClick={[Function]}
@@ -4901,48 +4821,8 @@ exports[`Storyshots Design|Templates/HomeLayout With Placeholders 1`] = `
                   className="styles__Wrapper-kccwaf-0 cmenth"
                 >
                   <div
-                    className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                  >
-                    <div
-                      style={
-                        Object {
-                          "cursor": "pointer",
-                          "height": "100%",
-                          "transform": "rotate(90deg)",
-                          "width": "30px",
-                        }
-                      }
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
-                className="IconGroup__BorderlessItem-sc-1br5l8c-0 jUFpId list-group-item"
-                data-rb-event-key={null}
-                disabled={false}
-                onClick={[Function]}
-              >
-                <div
-                  className="styles__Wrapper-kccwaf-0 cmenth"
-                >
-                  <div
-                    className="Anicon__HoverContainer-sc-119yqeq-0 iityHb anicon-container"
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                  >
-                    <div
-                      style={
-                        Object {
-                          "cursor": "pointer",
-                          "height": "100%",
-                          "transform": "rotate(0deg)",
-                          "width": "30px",
-                        }
-                      }
-                    />
-                  </div>
+                    onClick={[Function]}
+                  />
                 </div>
               </div>
             </div>

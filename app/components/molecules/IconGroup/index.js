@@ -12,7 +12,7 @@ import styled from 'styled-components';
 
 const BorderlessItem = styled(ListGroup.Item)`
   border: 0;
-  padding: 0 0.6em 0 0.6em;
+  padding: 0 0.4em 0 0.4em;
   background-color: transparent;
 `;
 
