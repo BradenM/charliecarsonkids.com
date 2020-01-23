@@ -1465,20 +1465,23 @@ exports[`Storyshots Design|Molecules/ArrowLink Default Story 1`] = `
           }
         }
       >
-        <a
-          className="styles__Wrapper-r8n6qg-0 jOCmxe"
-          href="/"
-          onClick={[Function]}
+        <div
+          className="styles__Wrapper-r8n6qg-0 fRgrCP mx-auto"
         >
-          <p
-            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+          <a
+            href="/"
+            onClick={[Function]}
           >
-            Title
-          </p>
+            <p
+              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+            >
+              Title
+            </p>
+          </a>
           <div
             className="styles__Icon-r8n6qg-1 iidwud"
           />
-        </a>
+        </div>
       </div>
       <button
         className="info__show-button"
@@ -1540,20 +1543,23 @@ exports[`Storyshots Design|Molecules/ArrowLink With Dynamic Variables 1`] = `
           }
         }
       >
-        <a
-          className="styles__Wrapper-r8n6qg-0 jOCmxe"
-          href="/"
-          onClick={[Function]}
+        <div
+          className="styles__Wrapper-r8n6qg-0 fRgrCP mx-auto"
         >
-          <p
-            className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+          <a
+            href="/"
+            onClick={[Function]}
           >
-            Text
-          </p>
+            <p
+              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+            >
+              Text
+            </p>
+          </a>
           <div
             className="styles__Icon-r8n6qg-1 iidwud"
           />
-        </a>
+        </div>
       </div>
       <button
         className="info__show-button"
@@ -4101,20 +4107,23 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
           >
             New Arrivals
           </h1>
-          <a
-            className="styles__Wrapper-r8n6qg-0 jOCmxe"
-            href="/"
-            onClick={[Function]}
+          <div
+            className="styles__Wrapper-r8n6qg-0 fRgrCP mx-auto"
           >
-            <p
-              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body text-center font-weight-light"
+            <a
+              href="/"
+              onClick={[Function]}
             >
-              Shop Now
-            </p>
+              <p
+                className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body text-center font-weight-light"
+              >
+                Shop Now
+              </p>
+            </a>
             <div
               className="styles__Icon-r8n6qg-1 iidwud"
             />
-          </a>
+          </div>
         </div>
         <div
           className="d-flex justify-content-around align-items-bottom row"
