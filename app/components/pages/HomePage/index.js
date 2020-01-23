@@ -82,7 +82,7 @@ const HomeMast = [
     imageSrc: ImageURL('mast-1', undefined, 'jpg'),
   },
   {
-    title: 'Shop All',
+    title: 'Shop All in Ones',
     imageSrc: ImageURL('mast-2', undefined, 'jpg'),
     size: 6,
   },

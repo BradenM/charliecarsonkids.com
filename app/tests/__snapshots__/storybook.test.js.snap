@@ -2872,7 +2872,7 @@ exports[`Storyshots Design|Molecules/PosterImage Default Story 1`] = `
             src="https://via.placeholder.com/200"
           />
           <div
-            className="d-flex"
+            className="d-flex py-1"
           >
             <p
               className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
@@ -4040,7 +4040,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 src="https://static.charliecarsonkids.com/assets/images/mast-0.jpg"
               />
               <div
-                className="d-flex"
+                className="d-flex py-1"
               >
                 <p
                   className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
@@ -4058,7 +4058,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 src="https://static.charliecarsonkids.com/assets/images/mast-1.jpg"
               />
               <div
-                className="d-flex"
+                className="d-flex py-1"
               >
                 <p
                   className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
@@ -4076,12 +4076,12 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 src="https://static.charliecarsonkids.com/assets/images/mast-2.jpg"
               />
               <div
-                className="d-flex"
+                className="d-flex py-1"
               >
                 <p
                   className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body styles__Text-x5kjiu-2 keRxtL"
                 >
-                  Shop All
+                  Shop All in Ones
                 </p>
               </div>
             </div>

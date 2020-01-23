@@ -14,7 +14,7 @@ const PosterImage = ({ imageSrc, title }) => {
   return (
     <div onMouseEnter={() => setActive(1)} onMouseLeave={() => setActive(0)}>
       <S.Image src={imageSrc} fluid />
-      <div className="d-flex">
+      <div className="d-flex py-1">
         <S.Text variant="h6" className={active ? 'active' : ''}>
           {title}
         </S.Text>
