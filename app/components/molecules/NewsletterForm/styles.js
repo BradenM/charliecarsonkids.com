@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Text = styled(TitleAtom)`
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Adelaide', cursive;
 `;
 
 export const Form = styled(FormControl)`

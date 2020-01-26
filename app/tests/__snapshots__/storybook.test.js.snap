@@ -2873,10 +2873,10 @@ exports[`Storyshots Design|Molecules/NewsletterForm Default Story 1`] = `
           className="styles__Wrapper-sc-10hmp0z-0 jsNXoM p-4 newsletter"
         >
           <div
-            className="newsletter--title"
+            className="newsletter--title pt-4"
           >
             <h1
-              className="Title-sc-3abvrr-0 styles__Text-sc-10hmp0z-1 gLaJyt display-4 "
+              className="Title-sc-3abvrr-0 styles__Text-sc-10hmp0z-1 bUGcvC display-4 "
               color="inherit"
               size={4}
             >
@@ -2887,7 +2887,7 @@ exports[`Storyshots Design|Molecules/NewsletterForm Default Story 1`] = `
             className="newsletter--body w-50 py-4"
           >
             <p
-              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+              className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body font-weight-normal"
             >
               Enter your email to get 15% off your first order, stay up to date on new arrivals and get early access to sales and promotions!
             </p>
@@ -4352,10 +4352,10 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
               className="styles__Wrapper-sc-10hmp0z-0 jsNXoM p-4 newsletter"
             >
               <div
-                className="newsletter--title"
+                className="newsletter--title pt-4"
               >
                 <h1
-                  className="Title-sc-3abvrr-0 styles__Text-sc-10hmp0z-1 gLaJyt display-4 "
+                  className="Title-sc-3abvrr-0 styles__Text-sc-10hmp0z-1 bUGcvC display-4 "
                   color="inherit"
                   size={4}
                 >
@@ -4366,7 +4366,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
                 className="newsletter--body w-50 py-4"
               >
                 <p
-                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body "
+                  className="Text__StyledText-sc-1foatad-0 kERWLt h6 text-body font-weight-normal"
                 >
                   Enter your email to get 15% off your first order, stay up to date on new arrivals and get early access to sales and promotions!
                 </p>
