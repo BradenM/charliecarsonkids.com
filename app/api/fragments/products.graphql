@@ -1,0 +1,35 @@
+# Basic Product
+fragment BasicProductFields on Product {
+  id
+  name
+  thumbnail {
+    url
+    alt
+  }
+  thumbnail2x: thumbnail(size: 510) {
+    url
+  }
+}
+
+# Product Pricing
+fragment ProductPricingField on Product {
+  pricing {
+    onSale
+    priceRangeUndiscounted {
+      start {
+        ...Price
+      }
+      stop {
+        ...Price
+      }
+    }
+    priceRange {
+      start {
+        ...Price
+      }
+      stop {
+        ...Price
+      }
+    }
+  }
+}

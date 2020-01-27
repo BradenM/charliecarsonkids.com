@@ -6,7 +6,7 @@
  */
 
 import { useQuery } from '@apollo/react-hooks';
-import GetFeaturedProducts from 'api/queries/products.graphql';
+import { GetFeaturedProducts } from 'api/queries/products.graphql';
 import FeaturedProduct from 'molecules/FeaturedProduct';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -20,8 +20,8 @@ export const FeaturedProducts = ({ ItemContainer, ...props }) => {
           <ItemContainer key={`container_${node.id}`} {...props}>
             <FeaturedProduct
               title={node.name}
-              imageSrc={node.images[0].url}
-              price={node.minimalVariantPrice.amount}
+              imageSrc={node.thumbnail2x.url}
+              price={node.pricing.priceRange.start.net.amount}
               key={node.id}
               toLink={node.slug}
             />

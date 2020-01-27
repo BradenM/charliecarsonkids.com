@@ -1,0 +1,11 @@
+# Basic Price
+fragment Price on TaxedMoney {
+  gross {
+    amount
+    currency
+  }
+  net {
+    amount
+    currency
+  }
+}

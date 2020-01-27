@@ -1,21 +1,14 @@
+#import "../fragments/products.graphql"
+#import "../fragments/checkout.graphql"
+
 # Fetch Featured Products
 query GetFeaturedProducts {
   products(last: 4) {
     edges {
       node {
-        id
-        name
-        description
+        ...BasicProductFields
+        ...ProductPricingField
         slug
-        minimalVariantPrice {
-          amount
-          currency
-        }
-        images {
-          id
-          url
-          alt
-        }
       }
     }
   }
