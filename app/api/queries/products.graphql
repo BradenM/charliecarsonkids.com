@@ -1,0 +1,22 @@
+# Fetch Featured Products
+query GetFeaturedProducts {
+  products(last: 4) {
+    edges {
+      node {
+        id
+        name
+        description
+        slug
+        minimalVariantPrice {
+          amount
+          currency
+        }
+        images {
+          id
+          url
+          alt
+        }
+      }
+    }
+  }
+}
