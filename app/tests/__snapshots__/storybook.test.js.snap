@@ -1956,7 +1956,6 @@ exports[`Storyshots Design|Molecules/FeaturedProduct Default Story 1`] = `
         >
           <img
             className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
-            src="https://via.placeholder.com/400"
           />
           <div
             className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
@@ -4236,108 +4235,7 @@ exports[`Storyshots Design|Pages/HomePage Default Story 1`] = `
         </div>
         <div
           className="d-flex justify-content-around align-items-bottom row"
-        >
-          <div
-            className="d-flex align-items-end justify-content-center col"
-          >
-            <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
-              href="product/cool-shirt"
-              onClick={[Function]}
-            >
-              <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
-                src="https://static.charliecarsonkids.com/products/18020614-0.jpg"
-              />
-              <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
-              >
-                Cool Shirt
-              </div>
-              <div
-                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
-              >
-                $
-                19.99
-              </div>
-            </div>
-          </div>
-          <div
-            className="d-flex align-items-end justify-content-center col"
-          >
-            <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
-              href="product/nice-shirt"
-              onClick={[Function]}
-            >
-              <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
-                src="https://static.charliecarsonkids.com/products/19071669-0.jpg"
-              />
-              <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
-              >
-                Nice Shirt
-              </div>
-              <div
-                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
-              >
-                $
-                29.99
-              </div>
-            </div>
-          </div>
-          <div
-            className="d-flex align-items-end justify-content-center col"
-          >
-            <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
-              href="product/awesome-shirt"
-              onClick={[Function]}
-            >
-              <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
-                src="https://static.charliecarsonkids.com/products/19101202-0.jpg"
-              />
-              <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
-              >
-                Awesome Shirt
-              </div>
-              <div
-                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
-              >
-                $
-                89.99
-              </div>
-            </div>
-          </div>
-          <div
-            className="d-flex align-items-end justify-content-center col"
-          >
-            <div
-              className="FeaturedProduct__StyledCard-sc-17af4y1-3 cOklgQ card"
-              href="product/awesome-shirt"
-              onClick={[Function]}
-            >
-              <img
-                className="card-img-top FeaturedProduct__StyledImg-sc-17af4y1-0 fOJeid shadow-sm"
-                src="https://static.charliecarsonkids.com/products/19101202-0.jpg"
-              />
-              <div
-                className="FeaturedProduct__StyledTitle-sc-17af4y1-1 fFhNPp pt-3 lead p card-title h5"
-              >
-                Another Shirt
-              </div>
-              <div
-                className="FeaturedProduct__StyledSubtitle-sc-17af4y1-2 gkOyCj card-subtitle h6"
-              >
-                $
-                89.99
-              </div>
-            </div>
-          </div>
-        </div>
+        />
       </div>
       <div
         className="my-5 py-5 container"

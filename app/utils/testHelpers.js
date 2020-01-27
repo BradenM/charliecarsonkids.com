@@ -4,6 +4,7 @@
  *
  */
 
+import { MockedProvider } from '@apollo/react-testing';
 import { ConnectedRouter } from 'connected-react-router/immutable';
 import { createMemoryHistory } from 'history';
 import React from 'react';
@@ -28,3 +29,9 @@ export const createStates = history => {
     store: configureStore({}, curHistory),
   };
 };
+
+export const withMockProvider = (Component, mocks, props = {}) => (
+  <MockedProvider mocks={mocks} addTypename={false}>
+    <Component {...props} />
+  </MockedProvider>
+);

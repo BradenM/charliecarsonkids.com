@@ -63,7 +63,7 @@ FeaturedProduct.defaultProps = {
 FeaturedProduct.propTypes = {
   imageSrc: PropTypes.string,
   toLink: PropTypes.string.isRequired,
-  price: PropTypes.string,
+  price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   title: PropTypes.string,
 };
 

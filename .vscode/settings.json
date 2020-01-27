@@ -3,7 +3,7 @@
   "stylelint.autoFixOnSave": true,
   "eslint.run": "onSave",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": false
   },
   "css.remoteStyleSheets": [
     "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"

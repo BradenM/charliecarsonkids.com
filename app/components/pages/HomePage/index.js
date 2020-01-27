@@ -7,48 +7,21 @@
 
 import Title from 'atoms/Title';
 import ArrowLink from 'molecules/ArrowLink';
-import FeaturedProduct from 'molecules/FeaturedProduct';
 import Hero from 'molecules/Hero';
 import NewsletterForm from 'molecules/NewsletterForm';
 import PosterImage from 'molecules/PosterImage';
+import FeaturedProducts from 'organisms/FeaturedProducts/loadable';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { ImageURL, ProductURL } from 'utils/getStatic';
+import { ImageURL } from 'utils/getStatic';
 
 export const HomeHero = {
   text: '',
   imageSrc: ImageURL('hero', undefined, 'jpg'),
   buttonText: '',
 };
-
-const HomeProducts = [
-  {
-    title: 'Cool Shirt',
-    toLink: 'product/cool-shirt',
-    price: '19.99',
-    imageSrc: ProductURL('18020614-0'),
-  },
-  {
-    title: 'Nice Shirt',
-    toLink: 'product/nice-shirt',
-    price: '29.99',
-    imageSrc: ProductURL('19071669-0'),
-  },
-  {
-    title: 'Awesome Shirt',
-    toLink: 'product/awesome-shirt',
-    price: '89.99',
-    imageSrc: ProductURL('19101202-0'),
-  },
-  {
-    title: 'Another Shirt',
-    toLink: 'product/awesome-shirt',
-    price: '89.99',
-    imageSrc: ProductURL('19101202-0'),
-  },
-];
 
 const HomeMast = [
   {
@@ -90,14 +63,13 @@ const HomePage = () => (
         </ArrowLink>
       </div>
       <Row className="d-flex justify-content-around align-items-bottom">
-        {HomeProducts.map(p => (
-          <Col
-            key={`fp-${p.title}-col`}
-            className="d-flex align-items-end justify-content-center"
-          >
-            <FeaturedProduct key={`fp-${p.title}`} {...p} />
-          </Col>
-        ))}
+        <FeaturedProducts
+          ItemContainer={({ children }) => (
+            <Col className="d-flex align-items-end justify-content-center">
+              {children}
+            </Col>
+          )}
+        />
       </Row>
     </Container>
     <Container className="my-5 py-5">
