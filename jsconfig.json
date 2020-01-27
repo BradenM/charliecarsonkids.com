@@ -9,7 +9,8 @@
       "molecules/*": ["components/molecules/*"],
       "organisms/*": ["components/organisms/*"],
       "templates/*": ["components/templates/*"],
-      "pages/*": ["components/pages/*"]
+      "pages/*": ["components/pages/*"],
+      "api/*": ["api/*"]
     }
   },
   "exclude": ["node_modules", "**/node_modules/*"]

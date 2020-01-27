@@ -103,6 +103,11 @@ module.exports = options => ({
           },
         },
       },
+      {
+        test: /\.(graphql|gql)$/,
+        exclude: /node_modules/,
+        loader: 'graphql-tag/loader',
+      },
     ],
   },
   plugins: options.plugins.concat([
@@ -123,6 +128,7 @@ module.exports = options => ({
       pages: path.resolve('app/components/pages/'),
       utils: path.resolve('app/utils/'),
       images: path.resolve('app/images/'),
+      api: path.resolve('app/api'),
     },
     extensions: ['.js', '.jsx', '.react.js'],
     mainFields: ['browser', 'jsnext:main', 'main'],

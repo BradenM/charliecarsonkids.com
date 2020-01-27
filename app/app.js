@@ -11,6 +11,8 @@ import 'regenerator-runtime/runtime';
 // Import all the third party stuff
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { ApolloProvider } from '@apollo/react-hooks';
+import ApolloClient from 'apollo-boost';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import history from 'utils/history';
@@ -47,6 +49,11 @@ import configureStore from './configureStore';
 // Import i18n messages
 import { translationMessages } from './i18n';
 
+// Create Apollo Client
+const client = new ApolloClient({
+  uri: 'https://api.charliecarsonkids.com/graphql/',
+});
+
 // Create redux store with history
 const initialState = {};
 const store = configureStore(initialState, history);
@@ -54,15 +61,17 @@ const MOUNT_NODE = document.getElementById('app');
 
 const render = messages => {
   ReactDOM.render(
-    <Provider store={store}>
-      <LanguageProvider messages={messages}>
-        <ConnectedRouter history={history}>
-          <ThemeProvider theme={Theme}>
-            <App />
-          </ThemeProvider>
-        </ConnectedRouter>
-      </LanguageProvider>
-    </Provider>,
+    <ApolloProvider client={client}>
+      <Provider store={store}>
+        <LanguageProvider messages={messages}>
+          <ConnectedRouter history={history}>
+            <ThemeProvider theme={Theme}>
+              <App />
+            </ThemeProvider>
+          </ConnectedRouter>
+        </LanguageProvider>
+      </Provider>
+    </ApolloProvider>,
     MOUNT_NODE,
   );
 };

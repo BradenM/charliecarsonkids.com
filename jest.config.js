@@ -29,5 +29,9 @@ module.exports = {
   ],
   setupFiles: ['raf/polyfill', 'jest-canvas-mock'],
   testRegex: 'tests/.*\\.test\\.js$',
+  transform: {
+    '\\.(gql|graphql)$': 'jest-transform-graphql',
+    '.*': 'babel-jest',
+  },
   snapshotSerializers: [],
 };
