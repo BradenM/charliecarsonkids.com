@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Image = styled(bsImage)`
-  object-fit: cover;
+  object-fit: fit;
   height: 24rem;
   cursor: pointer;
 `;

@@ -12,10 +12,16 @@ import * as S from './styles';
 const PosterImage = ({ imageSrc, title }) => {
   const [active, setActive] = useState(0);
   return (
-    <div onMouseEnter={() => setActive(1)} onMouseLeave={() => setActive(0)}>
-      <S.Image src={imageSrc} fluid />
-      <div className="d-flex py-1">
-        <S.Text variant="h6" className={active ? 'active' : ''}>
+    <div
+      className="d-flex flex-column justify-content-center align-items-start"
+      onMouseEnter={() => setActive(1)}
+      onMouseLeave={() => setActive(0)}
+    >
+      <div>
+        <S.Image src={imageSrc} fluid />
+      </div>
+      <div className="align-self-start">
+        <S.Text variant="h6" className={active ? 'active py-1' : 'py-1'}>
           {title}
         </S.Text>
       </div>

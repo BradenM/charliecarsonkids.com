@@ -7,13 +7,13 @@
 
 import Title from 'atoms/Title';
 import ArrowLink from 'molecules/ArrowLink';
-import Hero from 'molecules/Hero';
 import NewsletterForm from 'molecules/NewsletterForm';
 import PosterImage from 'molecules/PosterImage';
 import FeaturedProducts from 'organisms/FeaturedProducts/loadable';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import { ImageURL } from 'utils/getStatic';
 
@@ -35,25 +35,27 @@ const HomeMast = [
   {
     title: 'Shop All in Ones',
     imageSrc: ImageURL('mast-2', undefined, 'jpg'),
-    size: 6,
+    size: 3,
   },
 ];
 
 const HomePage = () => (
   <section className="home--content-container">
     <Container fluid>
-      <Hero {...HomeHero} />
-    </Container>
-    <Container className="mb-5">
-      <Row className="d-flex justify-content-center align-items-center">
-        <Col className="d-flex justify-content-between">
-          {HomeMast.map(i => (
-            <PosterImage key={`mast_image-${i.imageSrc}`} {...i} />
-          ))}
+      <Row className="justify-content-center align-items-center">
+        <Col xs={9}>
+          <Image src={HomeHero.imageSrc} fluid />
         </Col>
       </Row>
-    </Container>
-    <Container className="my-5">
+
+      <Row className="justify-content-center align-items-baseline my-5">
+        {HomeMast.map(({ size, ...i }) => (
+          <Col xs={size || 3}>
+            <PosterImage {...i} />
+          </Col>
+        ))}
+      </Row>
+
       <div className="home--title pb-4 d-flex flex-column">
         <Title size={5} className="text-center h2 font-weight-normal mb-0">
           New Arrivals
@@ -62,19 +64,27 @@ const HomePage = () => (
           Shop Now
         </ArrowLink>
       </div>
-      <Row className="d-flex justify-content-around align-items-bottom">
-        <FeaturedProducts
-          ItemContainer={({ children }) => (
-            <Col className="d-flex align-items-end justify-content-center">
-              {children}
-            </Col>
-          )}
-        />
+
+      <Row className="justify-content-center">
+        <Col xs={9}>
+          <Row className="justify-content-between align-content-center">
+            <FeaturedProducts
+              ItemContainer={({ children }) => (
+                <Col xs={3}>
+                  <div className="d-flex align-items-end justify-content-center">
+                    {children}
+                  </div>
+                </Col>
+              )}
+            />
+          </Row>
+        </Col>
       </Row>
     </Container>
-    <Container className="my-5 py-5">
-      <Row>
-        <Col>
+
+    <Container className="my-5" fluid>
+      <Row className="py-5 justify-content-center">
+        <Col xs={9}>
           <NewsletterForm />
         </Col>
       </Row>
