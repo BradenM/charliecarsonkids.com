@@ -8,6 +8,7 @@
  */
 
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import CatalogPage from 'pages/CatalogPage/loadable';
 import HomePage from 'pages/HomePage/loadable';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
@@ -20,6 +21,7 @@ export default function App() {
       <HomeLayout>
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route path="/category/:slug" component={CatalogPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </HomeLayout>

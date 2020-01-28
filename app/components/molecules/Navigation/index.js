@@ -125,7 +125,16 @@ const Navigation = () => {
       >
         <Nav className="justify-content-center py-2">
           {data?.shop.navigation.main.items.map(({ id, name, category }) => (
-            <NavLink to={category?.url || '#'} text={name} key={id} />
+            <NavLink
+              to={{
+                pathname: `/category/${category?.slug}`,
+                state: {
+                  categoryId: category?.id,
+                },
+              }}
+              text={name}
+              key={id}
+            />
           ))}
         </Nav>
       </Navbar.Collapse>

@@ -6,6 +6,7 @@ fragment BasicMenuItem on MenuItem {
     id
     name
     url
+    slug
   }
   children {
     id

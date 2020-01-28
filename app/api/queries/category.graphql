@@ -1,3 +1,6 @@
+#import "../fragments/products.graphql"
+#import "../fragments/checkout.graphql"
+
 # Query Category
 query CategoryDetails($id: ID!) {
   category(id: $id) {
@@ -13,6 +16,23 @@ query CategoryDetails($id: ID!) {
         node {
           id
           name
+        }
+      }
+    }
+  }
+}
+
+# Catalog Page
+query GetCategoryProducts($id: ID!) {
+  category(id: $id) {
+    id
+    name
+    description
+    products(first: 10) {
+      edges {
+        node {
+          ...BasicProductFields
+          ...ProductPricingField
         }
       }
     }
