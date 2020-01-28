@@ -5,28 +5,53 @@
  * Organism
  */
 
-import SubscribeForm from 'molecules/SubscribeForm';
+import { useQuery } from '@apollo/react-hooks';
+import { GetNavigationMenus } from 'api/queries/menus.graphql';
+import Text from 'atoms/Text';
+import SocialBar from 'organisms/SocialBar';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import styled from 'styled-components';
-import Color from 'utils/color';
+import * as S from './styles';
 
-const FooterContainer = styled(Container)`
-  background-color: ${Color.primary.fade(0.5).string()} !important;
-`;
-
-const Footer = () => (
-  <FooterContainer className="p-3" fluid>
-    <Row>
-      <Col xs="4">
-        <SubscribeForm className="bg-none" />
-      </Col>
-      <Col></Col>
-    </Row>
-  </FooterContainer>
-);
+const Footer = () => {
+  const { data } = useQuery(GetNavigationMenus);
+  return (
+    <S.Wrapper className="p-3 footer">
+      <Row className="justify-content-center align-items-top footer py-4">
+        {data?.shop.navigation.secondary.items.map(({ id, name, children }) => (
+          <Col xs={2}>
+            <div className="d-flex justify-content-center footer--item">
+              <S.FooterList key={id}>
+                <Text>
+                  <Text variant="h6">{name}</Text>
+                </Text>
+                {children.map(c => (
+                  <li key={c.id}>
+                    <a href={c.url || '#'}>{c.name}</a>
+                  </li>
+                ))}
+              </S.FooterList>
+            </div>
+          </Col>
+        ))}
+      </Row>
+      <Row className="align-items-center py-3">
+        <Col>
+          <S.FooterText>Legal Stuff</S.FooterText>
+        </Col>
+        <Col>
+          <SocialBar iconWidth="30" containerClass="justify-content-center" />
+        </Col>
+        <Col>
+          <S.FooterText className="text-right">
+            &copy;2020 CharlieCarsonKids
+          </S.FooterText>
+        </Col>
+      </Row>
+    </S.Wrapper>
+  );
+};
 
 Footer.propTypes = {};
 

@@ -25,8 +25,8 @@ export const Socials = [
   },
 ];
 
-export const SocialBar = ({ iconWidth }) => (
-  <IconGroup>
+export const SocialBar = ({ iconWidth, ...props }) => (
+  <IconGroup {...props}>
     {Socials.map(s => (
       <IconButton key={`icon_button${s.name}`} {...s} width={iconWidth} />
     ))}

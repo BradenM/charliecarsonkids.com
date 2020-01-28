@@ -33,6 +33,23 @@
       }
     },
     {
+      // Requires the extension Debugger for Chrome: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+      "type": "chrome",
+      "request": "launch",
+      "name": "Chrome Debug",
+      "breakOnLoad": true,
+      "runtimeExecutable": "/usr/bin/google-chrome-stable",
+      "url": "http://localhost:3000",
+      "sourceMaps": true,
+      "webRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "webpack:///*": "${webRoot}/*",
+        "webpack:///./*": "${webRoot}/*",
+        "webpack:///src/*": "${webRoot}/*",
+        "webpack:///./~/*": "${webRoot}/node_modules/*"
+      }
+    },
+    {
       "type": "firefox",
       "request": "launch",
       "name": "Storybook Firefox Debug",

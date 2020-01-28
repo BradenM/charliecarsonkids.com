@@ -1,0 +1,25 @@
+# Basic Menu Item
+fragment BasicMenuItem on MenuItem {
+  id
+  name
+  children {
+    id
+    name
+    url
+  }
+}
+
+# Basic Menu
+fragment BasicMenu on Menu {
+  id
+  name
+  items {
+    id
+    name
+    children {
+      id
+      name
+      url
+    }
+  }
+}

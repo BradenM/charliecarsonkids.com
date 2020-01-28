@@ -1,0 +1,22 @@
+#import "../fragments/menus.graphql"
+
+# Footer Information
+query GetNavigationMenus {
+  shop {
+    navigation {
+      main {
+        id
+        items {
+          ...BasicMenuItem
+        }
+      }
+      secondary {
+        id
+        name
+        items {
+          ...BasicMenuItem
+        }
+      }
+    }
+  }
+}
