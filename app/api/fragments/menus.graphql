@@ -2,6 +2,11 @@
 fragment BasicMenuItem on MenuItem {
   id
   name
+  category {
+    id
+    name
+    url
+  }
   children {
     id
     name

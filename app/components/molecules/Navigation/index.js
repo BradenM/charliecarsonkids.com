@@ -5,6 +5,8 @@
  * Molecule
  */
 
+import { useQuery } from '@apollo/react-hooks';
+import { GetNavigationMenus } from 'api/queries/menus.graphql';
 import A from 'atoms/A';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -107,29 +109,29 @@ NavLink.propTypes = {
   type: PropTypes.oneOf(['normal', 'alt']),
 };
 
-const Navigation = () => (
-  <StyledNavbar
-    collapseOnSelect
-    expand="lg"
-    variant="light"
-    className="justify-content-center"
-  >
-    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse
-      id="responsive-navbar-nav"
-      className="navbar-btn-container justify-content-center"
+const Navigation = () => {
+  const { data } = useQuery(GetNavigationMenus);
+  return (
+    <StyledNavbar
+      collapseOnSelect
+      expand="lg"
+      variant="light"
+      className="justify-content-center"
     >
-      <Nav className="justify-content-center py-2">
-        <NavLink to="new" text="new" />
-        <NavLink to="clothing" text="clothing" />
-        <NavLink to="accessories" text="accessories" />
-        <NavLink to="gifts" text="gifts" />
-        <NavLink to="desk" text="desk" />
-        <NavLink to="sale" text="sale" />
-      </Nav>
-    </Navbar.Collapse>
-  </StyledNavbar>
-);
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse
+        id="responsive-navbar-nav"
+        className="navbar-btn-container justify-content-center"
+      >
+        <Nav className="justify-content-center py-2">
+          {data?.shop.navigation.main.items.map(({ id, name, category }) => (
+            <NavLink to={category?.url || '#'} text={name} key={id} />
+          ))}
+        </Nav>
+      </Navbar.Collapse>
+    </StyledNavbar>
+  );
+};
 
 Navigation.propTypes = {};
 
