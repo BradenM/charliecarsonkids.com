@@ -16,7 +16,7 @@ export const Wrapper = styled(Card)`
 `;
 
 export const Img = styled(Card.Img)`
-  height: 16rem;
+  height: 100%;
   object-fit: cover;
 `;
 

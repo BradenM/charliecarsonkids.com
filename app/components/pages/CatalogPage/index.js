@@ -27,16 +27,16 @@ const CatalogPage = () => {
     },
   });
   return (
-    <section className="catalog--content-container">
+    <section className="catalog--content-container my-4">
       <Container>
-        <Title size={5} className="text-center h2 font-weight-normal">
+        <Title size={5} className="text-center h2 font-weight-normal mb-3">
           {data?.category.name}
         </Title>
-        <Row>
+        <Row class="my-4">
           {data?.category.products?.edges.map(({ node }) => (
-            <Col xs={2}>
+            <Col xs={3}>
               <ProductCard
-                imageSrc={node.thumbnail.url}
+                imageSrc={node.thumbnail2x.url}
                 name={node.name}
                 price={node.pricing.priceRange.start.net.amount}
               />
