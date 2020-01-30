@@ -45,10 +45,7 @@ const Footer = () => {
               <S.FooterText>Legal Stuff</S.FooterText>
             </Col>
             <Col>
-              <SocialBar
-                iconWidth="30"
-                containerClass="justify-content-center"
-              />
+              <SocialBar containerClass="justify-content-center" />
             </Col>
             <Col>
               <S.FooterText className="text-right">
