@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import './style/custom.scss';
 
 const GlobalStyle = createGlobalStyle`
   html,
@@ -9,11 +8,15 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'GT Walsheim Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 
   body.fontLoaded {
-    font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'GT Walsheim Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 
   #app {
@@ -24,11 +27,11 @@ const GlobalStyle = createGlobalStyle`
 
   p,
   label {
-    font-family: 'Poppins', Georgia, Times, 'Times New Roman', serif;
+    font-family: 'GT Walsheim Pro', Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
   }
 
-  @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
   }
@@ -63,6 +66,12 @@ const GlobalStyle = createGlobalStyle`
   .close {
     font-size: calc(1.275rem + 0.3vw);
   }
+}
+
+a,
+a:hover,
+a:focus {
+  outline: none;
 }
 `;
 

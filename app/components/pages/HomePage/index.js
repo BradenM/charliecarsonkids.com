@@ -50,7 +50,7 @@ const HomePage = () => (
 
       <Row className="justify-content-center align-items-baseline my-5">
         {HomeMast.map(({ size, ...i }) => (
-          <Col xs={size || 3}>
+          <Col xs={size || 3} key={`postImage_${i.title}`}>
             <PosterImage {...i} />
           </Col>
         ))}

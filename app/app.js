@@ -41,7 +41,6 @@ import 'typeface-poppins/index.css';
 import 'typeface-roboto/index.css';
 // styles
 import 'style/custom.scss';
-import 'style/global.scss';
 /* eslint-enable import/no-unresolved, import/extensions */
 
 import configureStore from './configureStore';

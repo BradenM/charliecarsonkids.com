@@ -18,6 +18,7 @@ import GlobalStyle from '../../global-styles';
 export default function App() {
   return (
     <>
+      <GlobalStyle />
       <HomeLayout>
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -25,7 +26,6 @@ export default function App() {
           <Route component={NotFoundPage} />
         </Switch>
       </HomeLayout>
-      <GlobalStyle />
     </>
   );
 }
