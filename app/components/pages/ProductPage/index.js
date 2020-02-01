@@ -7,6 +7,7 @@
 
 import { useQuery } from '@apollo/react-hooks';
 import { ProductDetails } from 'api/queries/products.graphql';
+import RichTextContent from 'atoms/RichTextContent';
 import Text from 'atoms/Text';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
@@ -64,7 +65,7 @@ const ProductPage = () => {
               </Col>
 
               <Col>
-                <p>{data.product.descriptionJson}</p>
+                <RichTextContent content={data.product.descriptionJson} />
               </Col>
 
               <Col>
