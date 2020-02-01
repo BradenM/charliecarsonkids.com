@@ -39,6 +39,7 @@ const CatalogPage = () => {
                 imageSrc={node.thumbnail2x.url}
                 name={node.name}
                 price={node.pricing.priceRange.start.net.amount}
+                category={node.category.name}
               />
             </Col>
           ))}
