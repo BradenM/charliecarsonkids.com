@@ -13,3 +13,40 @@ query GetFeaturedProducts {
     }
   }
 }
+
+query ProductDetails($id: ID!) {
+  product(id: $id) {
+    ...BasicProductFields
+    ...ProductPricingField
+    descriptionJson
+    category {
+      id
+      name
+      products(first: 4) {
+        edges {
+          node {
+            ...BasicProductFields
+            ...ProductPricingField
+            category {
+              id
+              name
+            }
+          }
+        }
+      }
+    }
+    images {
+      id
+      url
+    }
+    attributes {
+      ...SelectedAttributeFields
+    }
+    variants {
+      ...ProductVariantFields
+    }
+    seoDescription
+    seoTitle
+    isAvailable
+  }
+}

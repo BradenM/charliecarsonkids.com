@@ -32,3 +32,21 @@
   font-weight: 500;
   font-style: normal;
 }
+
+@font-face {
+  font-family: GT Walsheim Regular;
+  src: local('GT Walsheim Regular Medium'), local('GTWalsheimRegularMedium'),
+    url('https://static.charliecarsonkids.com/assets/fonts/GTWalsheimMedium.ttf')
+      format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GT Walsheim Regular;
+  src: local('GT Walsheim Regular'), local('GTWalsheimRegular'),
+    url('https://static.charliecarsonkids.com/assets/fonts/GTWalsheimRegular.ttf')
+      format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

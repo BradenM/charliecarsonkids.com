@@ -33,3 +33,42 @@ fragment ProductPricingField on Product {
     }
   }
 }
+
+# Product Attributes
+fragment SelectedAttributeFields on SelectedAttribute {
+  attribute {
+    id
+    name
+  }
+  values {
+    id
+    name
+  }
+}
+
+# Product Variants
+fragment ProductVariantFields on ProductVariant {
+  id
+  sku
+  name
+  pricing {
+    onSale
+    priceUndiscounted {
+      ...Price
+    }
+    price {
+      ...Price
+    }
+  }
+  attributes {
+    attribute {
+      id
+      name
+    }
+    values {
+      id
+      name
+      value: name
+    }
+  }
+}
