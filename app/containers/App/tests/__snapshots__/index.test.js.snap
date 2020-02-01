@@ -2,6 +2,7 @@
 
 exports[`<App /> should render and match the snapshot 1`] = `
 <React.Fragment>
+  <Memo(GlobalStyleComponent) />
   <HomeLayout
     bannerOptions={false}
   >
@@ -20,6 +21,5 @@ exports[`<App /> should render and match the snapshot 1`] = `
       />
     </Switch>
   </HomeLayout>
-  <GlobalStyleComponent />
 </React.Fragment>
 `;
