@@ -6,6 +6,7 @@
  */
 
 import IconButton from 'atoms/IconButton';
+import PlainLink from 'atoms/PlainLink';
 import SocialBar from 'components/organisms/SocialBar';
 import LogoBlack from 'images/logo_black.png';
 import IconGroup from 'molecules/IconGroup';
@@ -28,7 +29,9 @@ const Header = () => (
         xl={2}
         className="d-flex justify-content-center align-items-center"
       >
-        <Image src={LogoBlack} fluid />
+        <PlainLink to="/">
+          <Image src={LogoBlack} fluid />
+        </PlainLink>
       </Col>
       <Col className="d-flex justify-content-end align-items-center">
         <IconGroup>
