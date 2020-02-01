@@ -7,10 +7,10 @@
 
 import IconButton from 'atoms/IconButton';
 import PlainLink from 'atoms/PlainLink';
-import SocialBar from 'components/organisms/SocialBar';
 import LogoBlack from 'images/logo_black.png';
 import IconGroup from 'molecules/IconGroup';
 import Navigation from 'molecules/Navigation';
+import SocialBar from 'organisms/SocialBar';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';

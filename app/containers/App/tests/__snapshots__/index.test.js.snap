@@ -13,6 +13,10 @@ exports[`<App /> should render and match the snapshot 1`] = `
       />
       <Route
         component={[Function]}
+        path="/category/:slug"
+      />
+      <Route
+        component={[Function]}
       />
     </Switch>
   </HomeLayout>
