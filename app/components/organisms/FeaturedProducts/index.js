@@ -23,7 +23,12 @@ export const FeaturedProducts = ({ ItemContainer, ...props }) => {
               imageSrc={node.thumbnail2x.url}
               price={node.pricing.priceRange.start.net.amount}
               key={node.id}
-              toLink={node.slug}
+              toLink={{
+                pathname: `/product/${node.slug}`,
+                state: {
+                  productId: node.id,
+                },
+              }}
             />
           </ItemContainer>
         ))}

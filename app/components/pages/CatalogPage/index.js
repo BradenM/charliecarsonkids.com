@@ -36,7 +36,14 @@ const CatalogPage = () => {
         <Row className="my-4">
           {data?.category.products?.edges.map(({ node }) => (
             <Col xs={3} key={node.id}>
-              <PlainLink to={`/products/${node.slug}`}>
+              <PlainLink
+                to={{
+                  pathname: `/product/${node.slug}`,
+                  state: {
+                    productId: node.id,
+                  },
+                }}
+              >
                 <ProductCard
                   imageSrc={node.thumbnail2x.url}
                   name={node.name}
