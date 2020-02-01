@@ -29,7 +29,9 @@ const Footer = () => {
                       <Text variant="h6">{name}</Text>
                       {children.map(c => (
                         <li key={c.id}>
-                          <a href={c.url || '#'}>{c.name}</a>
+                          <a className="text-sm" href={c.url || '#'}>
+                            {c.name}
+                          </a>
                         </li>
                       ))}
                     </S.FooterList>

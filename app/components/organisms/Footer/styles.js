@@ -34,6 +34,7 @@ export const FooterList = styled.ul`
   li {
     text-align: left;
     a {
+      font-size: 0.9rem;
       color: ${Color.dark.string()};
       font-family: 'Poppins', 'GT Walsheim Pro', Georgia, Times,
         'Times New Roman', serif;

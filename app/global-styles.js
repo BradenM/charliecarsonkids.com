@@ -51,6 +51,7 @@ const GlobalStyle = createGlobalStyle`
   .h4 {
     font-size: calc(1.275rem + 0.3vw);
   }
+
   .display-1 {
     font-size: calc(1.725rem + 5.7vw);
   }
