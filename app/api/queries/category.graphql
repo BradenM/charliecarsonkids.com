@@ -36,6 +36,7 @@ query GetCategoryProducts($id: ID!) {
           category {
             name
           }
+          slug
         }
       }
     }

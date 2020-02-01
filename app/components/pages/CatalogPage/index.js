@@ -7,6 +7,7 @@
 
 import { useQuery } from '@apollo/react-hooks';
 import { GetCategoryProducts } from 'api/queries/category.graphql';
+import PlainLink from 'atoms/PlainLink';
 import Title from 'atoms/Title';
 import ProductCard from 'molecules/ProductCard';
 import React from 'react';
@@ -32,15 +33,17 @@ const CatalogPage = () => {
         <Title size={5} className="text-center h2 font-weight-normal mb-3">
           {data?.category.name}
         </Title>
-        <Row class="my-4">
+        <Row className="my-4">
           {data?.category.products?.edges.map(({ node }) => (
-            <Col xs={3}>
-              <ProductCard
-                imageSrc={node.thumbnail2x.url}
-                name={node.name}
-                price={node.pricing.priceRange.start.net.amount}
-                category={node.category.name}
-              />
+            <Col xs={3} key={node.id}>
+              <PlainLink to={`/products/${node.slug}`}>
+                <ProductCard
+                  imageSrc={node.thumbnail2x.url}
+                  name={node.name}
+                  price={node.pricing.priceRange.start.net.amount}
+                  category={node.category.name}
+                />
+              </PlainLink>
             </Col>
           ))}
         </Row>
