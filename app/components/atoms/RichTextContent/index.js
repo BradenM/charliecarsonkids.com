@@ -6,6 +6,7 @@
  * Atom
  */
 
+import { sanitize } from 'dompurify';
 import draftToHTML from 'draftjs-to-html';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -15,7 +16,7 @@ const RichTextContent = ({ content }) => (
     {content && (
       <div
         dangerouslySetInnerHTML={{
-          __html: draftToHTML(JSON.parse(content)),
+          __html: sanitize(draftToHTML(JSON.parse(content))),
         }}
       />
     )}

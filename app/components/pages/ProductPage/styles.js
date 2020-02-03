@@ -5,7 +5,12 @@
  * Pages
  */
 
+import Container from 'react-bootstrap/Container';
 import styled from 'styled-components';
+
+export const Wrapper = styled(Container)`
+  max-width: 1200px;
+`;
 
 export const ImgWrapper = styled.div`
   display: flex;

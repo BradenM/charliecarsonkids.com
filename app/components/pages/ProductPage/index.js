@@ -9,10 +9,9 @@ import { useQuery } from '@apollo/react-hooks';
 import { ProductDetails } from 'api/queries/products.graphql';
 import RichTextContent from 'atoms/RichTextContent';
 import Text from 'atoms/Text';
+import ProductGallery from 'molecules/ProductGallery';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
@@ -32,23 +31,19 @@ const ProductPage = () => {
   if (loading) return <Spinner animation="grow" />;
   return (
     <section className="product--content-container my-4">
-      <Container>
-        <Row>
-          <Col>
-            <Row>
-              <Col xs={3}>
-                <p>Image Scroller goes here</p>
-              </Col>
-              <Col xs={9}>
-                <S.ImgWrapper>
-                  <Image src={data.product.images[0].url} fluid />
-                </S.ImgWrapper>
-              </Col>
-            </Row>
+      <S.Wrapper fluid>
+        <Row className="no-gutters">
+          <Col xs={8}>
+            <ProductGallery
+              images={data.product.images.map(i => ({
+                original: i.url,
+                thumbnail: i.url,
+              }))}
+            />
           </Col>
 
-          <Col>
-            <Row className="flex-column">
+          <Col xs={4}>
+            <Row className="flex-column justify-content-right align-items-end pl-4">
               <Col>
                 <S.TitleWrapper className="mb-3">
                   <Text
@@ -74,7 +69,7 @@ const ProductPage = () => {
             </Row>
           </Col>
         </Row>
-      </Container>
+      </S.Wrapper>
     </section>
   );
 };
