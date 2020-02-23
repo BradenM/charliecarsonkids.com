@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const HomeLayout = ({ children, bannerOptions }) => (
-  <section className="homepage--wrapper">
+  <section className="homepage--wrapper h-100 w-100">
     {bannerOptions && (
       <Banner>
         <Text className="m-0 p-1" color="body">
@@ -22,7 +22,7 @@ const HomeLayout = ({ children, bannerOptions }) => (
       </Banner>
     )}
     <Header />
-    <section className="homepage--content">{children}</section>
+    {children}
     <Footer />
   </section>
 );

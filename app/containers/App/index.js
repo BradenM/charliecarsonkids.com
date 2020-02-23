@@ -10,6 +10,7 @@
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import CatalogPage from 'pages/CatalogPage/loadable';
 import HomePage from 'pages/HomePage/loadable';
+import Login from 'pages/Login/loadable';
 import ProductPage from 'pages/ProductPage/loadable';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
@@ -25,6 +26,7 @@ export default function App() {
           <Route exact path="/" component={HomePage} />
           <Route path="/category/:slug" component={CatalogPage} />
           <Route path="/product/:slug" component={ProductPage} />
+          <Route path="/account" component={Login} />
           <Route component={NotFoundPage} />
         </Switch>
       </HomeLayout>
