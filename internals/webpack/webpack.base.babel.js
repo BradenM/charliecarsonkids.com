@@ -119,6 +119,7 @@ module.exports = options => ({
     }),
   ]),
   resolve: {
+    symlinks: false,
     modules: ['node_modules', 'app'],
     alias: {
       atoms: path.resolve('app/components/atoms/'),

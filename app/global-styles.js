@@ -23,6 +23,8 @@ const GlobalStyle = createGlobalStyle`
     background-color: #fafafa;
     min-height: 100%;
     min-width: 100%;
+    height: 100%;
+    width: 100%;
   }
 
   p,
@@ -85,6 +87,7 @@ export const CustomColors = {
   nude: '#ffd2bf',
   green: '#82b97a',
   dark: '#343a40',
+  light: '#f2f2f2',
 };
 
 export const BrandColors = {
