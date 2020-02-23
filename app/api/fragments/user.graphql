@@ -1,0 +1,19 @@
+#import "./checkout.graphql"
+
+# User Details
+fragment User on User {
+  id
+  email
+  firstName
+  lastName
+  isStaff
+  defaultShippingAddress {
+    ...Address
+  }
+  defaultBillingAddress {
+    ...Address
+  }
+  addresses {
+    ...Address
+  }
+}
