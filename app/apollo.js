@@ -7,9 +7,9 @@
 import ApolloClient from 'apollo-boost';
 
 // Attempt to retrieve auth token from local Storage
-const getAuthToken = () => {
+export const getAuthToken = () => {
   try {
-    return localStorage.getItem('token');
+    return JSON.parse(localStorage.getItem('token'));
   } catch {
     return null;
   }

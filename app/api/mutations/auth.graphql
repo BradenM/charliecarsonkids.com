@@ -1,0 +1,23 @@
+#import '../fragments/user.graphql'
+
+mutation CreateToken($email: String!, $password: String!) {
+  tokenCreate(email: $email, password: $password) {
+    token
+    user {
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}
+
+mutation VerifyToken($token: String!) {
+  tokenVerify(token: $token) {
+    payload
+    user {
+      ...User
+    }
+  }
+}

@@ -25,6 +25,7 @@ import App from 'containers/App';
 
 // Import Language Provider
 import LanguageProvider from 'containers/LanguageProvider';
+import { StateProvider, mainReducer } from 'store';
 
 // Load the favicon and the .htaccess file
 /* eslint-disable import/no-unresolved, import/extensions */
@@ -53,17 +54,28 @@ const initialState = {};
 const store = configureStore(initialState, history);
 const MOUNT_NODE = document.getElementById('app');
 
+// Initial State
+const InitialState = {
+  apolloClient,
+  user: {
+    token: null,
+    isAuthed: false,
+  },
+};
+
 const render = messages => {
   ReactDOM.render(
     <ApolloProvider client={apolloClient}>
       <Provider store={store}>
-        <LanguageProvider messages={messages}>
-          <ConnectedRouter history={history}>
-            <ThemeProvider theme={Theme}>
-              <App />
-            </ThemeProvider>
-          </ConnectedRouter>
-        </LanguageProvider>
+        <StateProvider initialState={InitialState} reducer={mainReducer}>
+          <LanguageProvider messages={messages}>
+            <ConnectedRouter history={history}>
+              <ThemeProvider theme={Theme}>
+                <App />
+              </ThemeProvider>
+            </ConnectedRouter>
+          </LanguageProvider>
+        </StateProvider>
       </Provider>
     </ApolloProvider>,
     MOUNT_NODE,
