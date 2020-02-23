@@ -21,6 +21,7 @@ import 'typeface-poppins/index.css';
 import 'typeface-roboto/index.css';
 // styles
 import '../app/style/custom.scss';
+import './fonts.scss';
 import './storybook.css';
 
 // Console Config
