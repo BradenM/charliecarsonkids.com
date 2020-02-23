@@ -7,6 +7,7 @@
 
 import { useQuery } from '@apollo/react-hooks';
 import { ProductDetails } from 'api/queries/products.graphql';
+import Button from 'atoms/Button';
 import RichTextContent from 'atoms/RichTextContent';
 import Text from 'atoms/Text';
 import ProductGallery from 'molecules/ProductGallery';
@@ -64,7 +65,15 @@ const ProductPage = () => {
               </Col>
 
               <Col>
-                <p>Product Attrs</p>
+                <Row className="justify-content-start">
+                  {data.product.variants.map(prod => (
+                    <Col xs={3}>
+                      <div className="d-flex justify-content-center">
+                        <Button variant="outline-dark">{prod.name}</Button>
+                      </div>
+                    </Col>
+                  ))}
+                </Row>
               </Col>
             </Row>
           </Col>
