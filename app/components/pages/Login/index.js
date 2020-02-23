@@ -21,7 +21,6 @@ const Login = () => (
     </S.FullRow>
   </S.Wrapper>
 );
-
 Login.propTypes = {};
 
 export default Login;
