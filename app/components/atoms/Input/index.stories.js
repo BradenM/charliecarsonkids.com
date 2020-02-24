@@ -14,4 +14,4 @@ export default {
   component: Input,
 };
 
-export const defaultStory = () => <Input />;
+export const defaultStory = () => <Input placeholder="Email" />;
