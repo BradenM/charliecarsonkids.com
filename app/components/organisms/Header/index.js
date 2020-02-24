@@ -39,7 +39,7 @@ const Header = () => {
         <Col className="d-flex justify-content-end align-items-center">
           <IconGroup>
             <IconButton
-              onClick={() => history.push('/account/login')}
+              onClick={() => history.push('/account')}
               name="user"
               iconSize="50"
               width="32"

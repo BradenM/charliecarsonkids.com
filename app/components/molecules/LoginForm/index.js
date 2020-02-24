@@ -12,6 +12,7 @@ import Input from 'atoms/Input';
 import Text from 'atoms/Text';
 import { Formik } from 'formik';
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import * as yup from 'yup';
 import { useStore } from '../../../store';
 // import PropTypes from 'prop-types';
@@ -33,6 +34,7 @@ const Messages = {
 const LoginForm = () => {
   const [createToken, { data }] = useMutation(CreateToken);
   const [state, dispatch] = useStore();
+  const history = useHistory();
 
   const userLogin = async (values, { setSubmitting }) => {
     console.warn('CURRENT DATA:', data);
@@ -44,6 +46,7 @@ const LoginForm = () => {
     });
     console.warn('UPDATED', state);
     setSubmitting(false);
+    return history.push('/account');
   };
 
   return (

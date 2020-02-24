@@ -9,7 +9,9 @@
 
 import { useMutation } from '@apollo/react-hooks';
 import { VerifyToken } from 'api/mutations/auth.graphql';
+import PrivateRoute from 'atoms/PrivateRoute';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import AccountPage from 'pages/AccountPage/loadable';
 import CatalogPage from 'pages/CatalogPage/loadable';
 import HomePage from 'pages/HomePage/loadable';
 import Login from 'pages/Login/loadable';
@@ -54,7 +56,10 @@ const App = () => {
           <Route exact path="/" component={HomePage} />
           <Route path="/category/:slug" component={CatalogPage} />
           <Route path="/product/:slug" component={ProductPage} />
-          <Route path="/account" component={Login} />
+          <Route path="/login" component={Login} />
+          <PrivateRoute path="/account">
+            <AccountPage />
+          </PrivateRoute>
           <Route component={NotFoundPage} />
         </Switch>
       </HomeLayout>
