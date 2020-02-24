@@ -28,34 +28,32 @@ const CatalogPage = () => {
     },
   });
   return (
-    <section className="catalog--content-container my-4">
-      <Container>
-        <Title size={5} className="text-center h2 font-weight-normal mb-3">
-          {data?.category.name}
-        </Title>
-        <Row className="my-4">
-          {data?.category.products?.edges.map(({ node }) => (
-            <Col xs={3} key={node.id}>
-              <PlainLink
-                to={{
-                  pathname: `/product/${node.slug}`,
-                  state: {
-                    productId: node.id,
-                  },
-                }}
-              >
-                <ProductCard
-                  imageSrc={node.thumbnail2x.url}
-                  name={node.name}
-                  price={node.pricing.priceRange.start.net.amount}
-                  category={node.category.name}
-                />
-              </PlainLink>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-    </section>
+    <Container>
+      <Title size={5} className="text-center h2 font-weight-normal mb-3">
+        {data?.category.name}
+      </Title>
+      <Row className="my-4">
+        {data?.category.products?.edges.map(({ node }) => (
+          <Col xs={3} key={node.id}>
+            <PlainLink
+              to={{
+                pathname: `/product/${node.slug}`,
+                state: {
+                  productId: node.id,
+                },
+              }}
+            >
+              <ProductCard
+                imageSrc={node.thumbnail2x.url}
+                name={node.name}
+                price={node.pricing.priceRange.start.net.amount}
+                category={node.category.name}
+              />
+            </PlainLink>
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
 };
 

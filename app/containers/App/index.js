@@ -13,6 +13,7 @@ import PrivateRoute from 'atoms/PrivateRoute';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import AccountPage from 'pages/AccountPage/loadable';
 import CatalogPage from 'pages/CatalogPage/loadable';
+import ContactPage from 'pages/ContactPage/loadable';
 import HomePage from 'pages/HomePage/loadable';
 import Login from 'pages/Login/loadable';
 import ProductPage from 'pages/ProductPage/loadable';
@@ -56,6 +57,7 @@ const App = () => {
           <Route exact path="/" component={HomePage} />
           <Route path="/category/:slug" component={CatalogPage} />
           <Route path="/product/:slug" component={ProductPage} />
+          <Route path="/contact" component={ContactPage} />
           <Route path="/login" component={Login} />
           <PrivateRoute path="/account">
             <AccountPage />
