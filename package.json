@@ -216,7 +216,8 @@
     "webpack-dev-middleware": "3.7.2",
     "webpack-hot-middleware": "2.25.0",
     "webpack-pwa-manifest": "4.1.1",
-    "whatwg-fetch": "3.0.0"
+    "whatwg-fetch": "3.0.0",
+    "yup": "^0.28.1"
   },
   "config": {
     "commitizen": {

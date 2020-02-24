@@ -10,7 +10,8 @@
       "organisms/*": ["components/organisms/*"],
       "templates/*": ["components/templates/*"],
       "pages/*": ["components/pages/*"],
-      "api/*": ["api/*"]
+      "api/*": ["api/*"],
+      "store/*": ["store/*"]
     }
   },
   "exclude": ["node_modules", "**/node_modules/*"]

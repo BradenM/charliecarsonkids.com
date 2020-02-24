@@ -130,6 +130,7 @@ module.exports = options => ({
       utils: path.resolve('app/utils/'),
       images: path.resolve('app/images/'),
       api: path.resolve('app/api/'),
+      store: path.resolve('app/store/'),
     },
     extensions: ['.js', '.jsx', '.react.js', '.gql', '.graphql'],
     mainFields: ['browser', 'jsnext:main', 'main'],

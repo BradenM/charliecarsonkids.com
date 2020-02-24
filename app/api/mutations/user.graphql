@@ -1,0 +1,11 @@
+#import '../fragments/user.graphql'
+
+# Update Account
+mutation UpdateAccount($input: AccountInput!) {
+  accountUpdate(input: $input) {
+    errors {
+      field
+      message
+    }
+  }
+}

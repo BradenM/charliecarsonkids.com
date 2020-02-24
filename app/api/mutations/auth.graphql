@@ -21,3 +21,20 @@ mutation VerifyToken($token: String!) {
     }
   }
 }
+
+# Create Account
+mutation RegisterAccount(
+  $email: String!
+  $password: String!
+  $redirectUrl: String!
+) {
+  accountRegister(
+    input: { email: $email, password: $password, redirectUrl: $redirectUrl }
+  ) {
+    errors {
+      field
+      message
+    }
+    requiresConfirmation
+  }
+}

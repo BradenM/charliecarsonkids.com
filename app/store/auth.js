@@ -16,12 +16,25 @@ const userLogout = ({ user }) => {
   };
 };
 
+const userSignup = ({ user }, { email, firstName, lastName }) => ({
+  ...user,
+  token: null,
+  isAuthed: null,
+  profile: {
+    email,
+    firstName,
+    lastName,
+  },
+});
+
 const reducer = (state, action) => {
   switch (action.type) {
     case 'userLogin':
       return userLogin(state, action.payload);
     case 'userLogout':
       return userLogout(state, action.payload);
+    case 'userSignup':
+      return userSignup(state, action.payload);
     default:
       return state;
   }
