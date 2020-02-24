@@ -12,6 +12,7 @@ import SocialBar from 'organisms/SocialBar';
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 import * as S from './styles';
 
 const Footer = () => {
@@ -29,9 +30,9 @@ const Footer = () => {
                       <Text variant="h6">{name}</Text>
                       {children.map(c => (
                         <li key={c.id}>
-                          <a className="text-sm" href={c.url || '#'}>
+                          <Link className="text-sm" to={c.url || '/contact'}>
                             {c.name}
-                          </a>
+                          </Link>
                         </li>
                       ))}
                     </S.FooterList>
