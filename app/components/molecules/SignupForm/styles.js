@@ -27,7 +27,10 @@ export const Body = styled.div`
   display: flex;
   flex-direction: column;
   input {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.35rem;
+  }
+
+  button {
+    margin-top: 0.5rem;
   }
 `;
