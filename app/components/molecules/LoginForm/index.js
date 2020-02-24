@@ -12,11 +12,19 @@ import Input from 'atoms/Input';
 import Text from 'atoms/Text';
 import { Formik } from 'formik';
 import React from 'react';
+import * as yup from 'yup';
 import { useStore } from '../../../store';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 import * as S from './styles';
 
+const schema = yup.object().shape({
+  email: yup
+    .string()
+    .email()
+    .required(),
+  password: yup.string().required(),
+});
 const Messages = {
   signInInfo: 'Sign in to view past orders, account information, and more!',
   signIn: 'SIGN IN',
@@ -40,31 +48,51 @@ const LoginForm = () => {
 
   return (
     <Formik
+      validationSchema={schema}
       onSubmit={userLogin}
       initialValues={{
         email: '',
         password: '',
       }}
     >
-      {({ values, handleChange, handleSubmit, isSubmitting }) => (
+      {({
+        values,
+        handleChange,
+        handleSubmit,
+        errors,
+        touched,
+        isSubmitting,
+      }) => (
         <S.Form onSubmit={handleSubmit}>
           <S.Header className=" text-center my-4">
             <Text color="dark">{Messages.signInInfo}</Text>
           </S.Header>
           <S.FormWrapper>
             <Input
-              onChange={handleChange}
-              name="email"
               type="email"
-              placeholder="Email Address"
+              name="email"
+              onChange={handleChange}
               value={values.email}
+              placeholder="Email Address"
+              isInvalid={!!errors.email}
+              feedback={{
+                children:
+                  errors.email && touched.email ? errors.email : undefined,
+              }}
             />
             <Input
-              onChange={handleChange}
-              name="password"
               type="password"
-              placeholder="Password"
+              name="password"
+              onChange={handleChange}
               value={values.password}
+              placeholder="Password"
+              isInvalid={!!errors.password}
+              feedback={{
+                children:
+                  errors.password && touched.password
+                    ? errors.password
+                    : undefined,
+              }}
             />
             <Button
               type="submit"
